@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T14:33:56.720Z",
+  "generated_at": "2026-06-03T16:28:16.893Z",
   "latest_date": "2026-06-03",
   "kpis": {
     "sMes": 80.6,
@@ -119,7 +119,7 @@
           "score": 100
         }
       ],
-      "active": false
+      "active": true
     },
     {
       "nome": "Cases",
@@ -311,7 +311,7 @@
           "score": 49.6
         }
       ],
-      "active": false
+      "active": true
     },
     {
       "nome": "IA no RH",
@@ -807,7 +807,8 @@
       "nome": "GTM - Impulsionamento de Vagas",
       "drive_file": "678.mp4",
       "ext": "mp4",
-      "active": false
+      "img_url": "",
+      "active": true
     },
     {
       "ad": "_679_video_15s_motionvolume_v1_midia-129_03_lplm-01_",
@@ -821,7 +822,8 @@
       "nome": "GTM - Impulsionamento de Vagas",
       "drive_file": "679.mp4",
       "ext": "mp4",
-      "active": false
+      "img_url": "",
+      "active": true
     },
     {
       "ad": "_680_video_15s_motionprecisao_v1_midia-129_03_lplm-01_",
@@ -835,7 +837,8 @@
       "nome": "GTM - Impulsionamento de Vagas",
       "drive_file": "680.mp4",
       "ext": "mp4",
-      "active": false
+      "img_url": "",
+      "active": true
     },
     {
       "ad": "_716_video_10s_vivara_grandesempresas_v1_lplm-01_",
@@ -849,6 +852,7 @@
       "nome": "Contra-ataque Inhire",
       "drive_file": "",
       "ext": "",
+      "img_url": "",
       "active": true
     },
     {
@@ -863,6 +867,7 @@
       "nome": "Cases",
       "drive_file": "618.png",
       "ext": "png",
+      "img_url": "images/618.png",
       "active": false
     },
     {
@@ -877,6 +882,7 @@
       "nome": "Cases",
       "drive_file": "626.mp4",
       "ext": "mp4",
+      "img_url": "",
       "active": false
     },
     {
@@ -891,6 +897,7 @@
       "nome": "Cases",
       "drive_file": "620.mp4",
       "ext": "mp4",
+      "img_url": "",
       "active": false
     },
     {
@@ -905,6 +912,7 @@
       "nome": "Cases",
       "drive_file": "624.png",
       "ext": "png",
+      "img_url": "images/624.png",
       "active": false
     },
     {
@@ -919,6 +927,7 @@
       "nome": "Contra-ataque Inhire",
       "drive_file": "",
       "ext": "",
+      "img_url": "",
       "active": true
     },
     {
@@ -933,6 +942,7 @@
       "nome": "Cases",
       "drive_file": "623.mp4",
       "ext": "mp4",
+      "img_url": "",
       "active": false
     },
     {
@@ -947,6 +957,7 @@
       "nome": "B2B - Institucional Advocacy",
       "drive_file": "472.mp4",
       "ext": "mp4",
+      "img_url": "",
       "active": false
     },
     {
@@ -961,6 +972,7 @@
       "nome": "Cases",
       "drive_file": "622.png",
       "ext": "png",
+      "img_url": "images/622.png",
       "active": false
     },
     {
@@ -975,7 +987,8 @@
       "nome": "Contra-ataque Inhire",
       "drive_file": "691.mp4",
       "ext": "mp4",
-      "active": false
+      "img_url": "",
+      "active": true
     },
     {
       "ad": "_GUPY_473_Video_12s_CampanhaB2B_Depoimento_Decathlon_v1_",
@@ -989,6 +1002,7 @@
       "nome": "B2B - Institucional Advocacy",
       "drive_file": "473.mp4",
       "ext": "mp4",
+      "img_url": "",
       "active": false
     },
     {
@@ -1003,6 +1017,7 @@
       "nome": "Cases V2",
       "drive_file": "654.mp4",
       "ext": "mp4",
+      "img_url": "",
       "active": false
     },
     {
@@ -1017,6 +1032,7 @@
       "nome": "Cases V2",
       "drive_file": "655.mp4",
       "ext": "mp4",
+      "img_url": "",
       "active": false
     },
     {
@@ -1031,6 +1047,7 @@
       "nome": "B2B - Institucional Advocacy",
       "drive_file": "477.mp4",
       "ext": "mp4",
+      "img_url": "",
       "active": false
     },
     {
@@ -1045,6 +1062,7 @@
       "nome": "Cases V2",
       "drive_file": "656.mp4",
       "ext": "mp4",
+      "img_url": "",
       "active": false
     },
     {
@@ -1059,6 +1077,7 @@
       "nome": "Cases V2",
       "drive_file": "657.mp4",
       "ext": "mp4",
+      "img_url": "",
       "active": false
     },
     {
@@ -1073,6 +1092,7 @@
       "nome": "Winners",
       "drive_file": "679.mp4",
       "ext": "mp4",
+      "img_url": "",
       "active": false
     },
     {
@@ -1087,6 +1107,7 @@
       "nome": "Winners",
       "drive_file": "684.mp4",
       "ext": "mp4",
+      "img_url": "",
       "active": false
     },
     {
@@ -1101,6 +1122,7 @@
       "nome": "Winners",
       "drive_file": "680.mp4",
       "ext": "mp4",
+      "img_url": "",
       "active": false
     },
     {
@@ -1115,6 +1137,7 @@
       "nome": "Cases",
       "drive_file": "619",
       "ext": "",
+      "img_url": "",
       "active": false
     },
     {
@@ -1129,6 +1152,7 @@
       "nome": "Winners",
       "drive_file": "685.mp4",
       "ext": "mp4",
+      "img_url": "",
       "active": false
     },
     {
@@ -1143,6 +1167,7 @@
       "nome": "Winners",
       "drive_file": "678.mp4",
       "ext": "mp4",
+      "img_url": "",
       "active": false
     },
     {
@@ -1157,7 +1182,8 @@
       "nome": "Contra-ataque Inhire",
       "drive_file": "690.mp4",
       "ext": "mp4",
-      "active": false
+      "img_url": "",
+      "active": true
     },
     {
       "ad": "_TA_661_Video_18s_DadosAutonomia_v1_",
@@ -1171,6 +1197,7 @@
       "nome": "Dados & Analytics",
       "drive_file": "661.mp4",
       "ext": "mp4",
+      "img_url": "",
       "active": false
     },
     {
@@ -1185,6 +1212,7 @@
       "nome": "Dados & Analytics",
       "drive_file": "662.mp4",
       "ext": "mp4",
+      "img_url": "",
       "active": false
     },
     {
@@ -1199,6 +1227,7 @@
       "nome": "Cases",
       "drive_file": "617.png",
       "ext": "png",
+      "img_url": "images/617.png",
       "active": false
     },
     {
@@ -1213,6 +1242,7 @@
       "nome": "Cases",
       "drive_file": "615.png",
       "ext": "png",
+      "img_url": "images/615.png",
       "active": false
     },
     {
@@ -1227,6 +1257,7 @@
       "nome": "B2B - Institucional Advocacy",
       "drive_file": "476.mp4",
       "ext": "mp4",
+      "img_url": "",
       "active": false
     },
     {
@@ -1241,6 +1272,7 @@
       "nome": "Smart Vagas",
       "drive_file": "460.png",
       "ext": "png",
+      "img_url": "images/460.png",
       "active": false
     },
     {
@@ -1255,6 +1287,7 @@
       "nome": "B2B - Institucional Advocacy",
       "drive_file": "474.mp4",
       "ext": "mp4",
+      "img_url": "",
       "active": false
     },
     {
@@ -1269,6 +1302,7 @@
       "nome": "Atratividade que muda o ponteiro",
       "drive_file": "588.mp4",
       "ext": "mp4",
+      "img_url": "",
       "active": false
     },
     {
@@ -1283,6 +1317,7 @@
       "nome": "Atratividade que muda o ponteiro",
       "drive_file": "587.mp4",
       "ext": "mp4",
+      "img_url": "",
       "active": false
     },
     {
@@ -1297,6 +1332,7 @@
       "nome": "IA com ROI no R&S",
       "drive_file": "591.mp4",
       "ext": "mp4",
+      "img_url": "",
       "active": false
     },
     {
@@ -1311,7 +1347,8 @@
       "nome": "Contra-ataque Inhire",
       "drive_file": "711.mp4",
       "ext": "mp4",
-      "active": false
+      "img_url": "",
+      "active": true
     },
     {
       "ad": "_TA_621_Estatico_CaseMDias_Argumento_v1_",
@@ -1325,6 +1362,7 @@
       "nome": "Cases",
       "drive_file": "621.png",
       "ext": "png",
+      "img_url": "images/621.png",
       "active": false
     },
     {
@@ -1339,6 +1377,7 @@
       "nome": "B2B - Institucional Advocacy",
       "drive_file": "478.mp4",
       "ext": "mp4",
+      "img_url": "",
       "active": false
     },
     {
@@ -1353,6 +1392,7 @@
       "nome": "Atratividade que muda o ponteiro",
       "drive_file": "589.mp4",
       "ext": "mp4",
+      "img_url": "",
       "active": false
     }
   ],
