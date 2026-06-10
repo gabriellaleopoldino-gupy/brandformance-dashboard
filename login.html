@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brandformance Score · Acesso</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:      #0a0a0b;
+  --surface: #111114;
+  --surface2:#18181d;
+  --border:  rgba(255,255,255,0.07);
+  --border2: rgba(255,255,255,0.12);
+  --text:    #f0f0ef;
+  --muted:   #6b6b72;
+  --green:   #2dcc8f;
+  --red:     #e8503a;
+  --mono:    'DM Mono', monospace;
+  --sans:    'Syne', sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  -webkit-font-smoothing: antialiased;
+}
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border2);
+  border-radius: 14px;
+  padding: 48px 40px;
+  width: 100%;
+  max-width: 400px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 36px;
+}
+.logo-mark {
+  width: 36px; height: 36px;
+  border-radius: 8px;
+  background: var(--green);
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--mono); font-size: 13px; font-weight: 500; color: #0a0a0b;
+}
+.logo-text { font-size: 14px; font-weight: 600; letter-spacing: .02em; }
+.logo-sub  { font-size: 11px; color: var(--muted); font-family: var(--mono); margin-top: 1px; }
+h1 { font-size: 20px; font-weight: 600; margin-bottom: 8px; }
+p  { font-size: 13px; color: var(--muted); margin-bottom: 28px; line-height: 1.6; }
+label {
+  display: block;
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+input {
+  width: 100%;
+  padding: 11px 14px;
+  background: var(--surface2);
+  border: 1px solid var(--border2);
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: var(--sans);
+  color: var(--text);
+  outline: none;
+  transition: border-color .15s;
+  margin-bottom: 16px;
+}
+input:focus { border-color: var(--green); }
+input::placeholder { color: var(--muted); }
+button {
+  width: 100%;
+  padding: 12px;
+  background: var(--green);
+  color: #0a0a0b;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: var(--sans);
+  cursor: pointer;
+  letter-spacing: .01em;
+  transition: opacity .15s;
+}
+button:hover  { opacity: .88; }
+button:disabled { opacity: .45; cursor: not-allowed; }
+.msg {
+  margin-top: 14px;
+  padding: 10px 13px;
+  border-radius: 7px;
+  font-size: 12px;
+  font-family: var(--mono);
+  display: none;
+}
+.msg.ok  { background: rgba(45,204,143,.1); color: var(--green); border: 1px solid rgba(45,204,143,.2); display: block; }
+.msg.err { background: rgba(232,80,58,.1);  color: var(--red);   border: 1px solid rgba(232,80,58,.2);  display: block; }
+.footer { margin-top: 32px; text-align: center; font-family: var(--mono); font-size: 11px; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="logo">
+    <div class="logo-mark">bf</div>
+    <div>
+      <div class="logo-text">Brandformance Score</div>
+      <div class="logo-sub">Gupy Mídia</div>
+    </div>
+  </div>
+
+  <h1>Acesso restrito</h1>
+  <p>Insira seu e-mail <strong style="color:var(--text)">@gupy.io</strong> para receber o link de acesso. A sessão permanece ativa por 30 dias.</p>
+
+  <label for="email">E-mail corporativo</label>
+  <input type="email" id="email" placeholder="seu.nome@gupy.io" autocomplete="email">
+  <button id="btn" onclick="send()">Enviar link de acesso →</button>
+  <div class="msg" id="msg"></div>
+
+  <div class="footer">acesso via magic link · gupy.io</div>
+</div>
+
+<script>
+  // Se já tem sessão válida, redireciona pro dashboard
+  (function(){
+    var r = localStorage.getItem('bf_session');
+    if (!r) return;
+    try { var s = JSON.parse(r); if (s.exp && Date.now() < s.exp) window.location.replace('/'); } catch(e){}
+  })();
+
+  async function send() {
+    var email = document.getElementById('email').value.trim();
+    var btn = document.getElementById('btn');
+    var msg = document.getElementById('msg');
+    msg.className = 'msg';
+
+    if (!email.toLowerCase().endsWith('@gupy.io')) {
+      msg.className = 'msg err';
+      msg.textContent = 'use seu e-mail @gupy.io para acessar.';
+      return;
+    }
+
+    btn.disabled = true;
+    btn.textContent = 'enviando...';
+
+    try {
+      var res = await fetch('/api/send-magic-link', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email })
+      });
+      var data = await res.json();
+      if (res.ok) {
+        msg.className = 'msg ok';
+        msg.textContent = '✓ link enviado para ' + email;
+        btn.textContent = 'link enviado';
+      } else {
+        throw new Error(data.error || 'erro desconhecido');
+      }
+    } catch(e) {
+      msg.className = 'msg err';
+      msg.textContent = e.message;
+      btn.disabled = false;
+      btn.textContent = 'Enviar link de acesso →';
+    }
+  }
+
+  document.getElementById('email').addEventListener('keydown', function(e){ if(e.key==='Enter') send(); });
+</script>
+</body>
+</html>
