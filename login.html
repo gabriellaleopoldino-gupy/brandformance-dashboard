@@ -121,14 +121,15 @@ button:disabled { opacity: .45; cursor: not-allowed; }
   </div>
 
   <h1>Acesso restrito</h1>
-  <p>Insira seu e-mail <strong style="color:var(--text)">@gupy.io</strong> para receber o link de acesso. A sessão permanece ativa por 30 dias.</p>
+<p>Insira seu e-mail <strong style="color:var(--text)">@gupy.com.br</strong> para receber o link de acesso. A sessão permanece ativa por 30 dias.</p>
 
   <label for="email">E-mail corporativo</label>
-  <input type="email" id="email" placeholder="seu.nome@gupy.io" autocomplete="email">
+  <input type="email" id="email" placeholder="seu.nome@gupy.com.br"
+ autocomplete="email">
   <button id="btn" onclick="send()">Enviar link de acesso →</button>
   <div class="msg" id="msg"></div>
 
-  <div class="footer">acesso via magic link · gupy.io</div>
+  <div class="footer">acesso via magic link · gupy.com.br </div>
 </div>
 
 <script>
@@ -145,9 +146,9 @@ button:disabled { opacity: .45; cursor: not-allowed; }
     var msg = document.getElementById('msg');
     msg.className = 'msg';
 
-    if (!email.toLowerCase().endsWith('@gupy.io')) {
-      msg.className = 'msg err';
-      msg.textContent = 'use seu e-mail @gupy.io para acessar.';
+    if (!email.toLowerCase().endsWith('@gupy.com.br')) {
+  msg.textContent = 'use seu e-mail @gupy.com.br para acessar.';
+      
       return;
     }
 
