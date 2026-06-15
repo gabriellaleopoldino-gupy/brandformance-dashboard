@@ -17,8 +17,8 @@ export default async function handler(req, res) {
 
   const { email } = req.body || {};
   if (!email || typeof email !== 'string') return res.status(400).json({ error: 'e-mail inválido' });
-  if (!email.toLowerCase().endsWith('@gupy.io')) return res.status(403).json({ error: 'acesso restrito a e-mails @gupy.io' });
-
+if (!email.toLowerCase().endsWith('@gupy.com.br')) return res.status(403).json({ error: 'acesso restrito a e-mails @gupy.com.br' });
+  
   const token = crypto.randomBytes(32).toString('hex');
   // Token do link: expira em 30 minutos
   tokens.set(token, { email: email.toLowerCase(), exp: Date.now() + 30 * 60 * 1000 });
@@ -27,7 +27,7 @@ export default async function handler(req, res) {
 
   try {
     await resend.emails.send({
-      from: 'Brandformance <noreply@gupy.io>',   // troque para onboarding@resend.dev durante testes
+      from: 'Brandformance <noreply@gupy.com.br>',   // troque para onboarding@resend.dev durante testes
       to: email,
       subject: 'Seu acesso ao Brandformance Dashboard',
       html: `
