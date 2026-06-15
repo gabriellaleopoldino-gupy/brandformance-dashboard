@@ -22,7 +22,7 @@ export default async function handler(req, res) {
 
   try {
     await resend.emails.send({
-      from: 'Brandformance <noreply@gupy.com.br>',
+'Brandformance <onboarding@resend.dev>',
       to: email,
       subject: 'Seu acesso ao Brandformance Dashboard',
       html: `
