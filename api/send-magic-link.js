@@ -2,7 +2,14 @@ import { Resend } from 'resend';
 import crypto from 'crypto';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
-export const tokens = new Map();
+
+function makeToken(email) {
+  const header = Buffer.from(JSON.stringify({ alg: 'HS256', typ: 'JWT' })).toString('base64url');
+  const payload = Buffer.from(JSON.stringify({ email, exp: Math.floor(Date.now() / 1000) + 1800 })).toString('base64url');
+  const secret = process.env.JWT_SECRET;
+  const sig = crypto.createHmac('sha256', secret).update(header + '.' + payload).digest('base64url');
+  return header + '.' + payload + '.' + sig;
+}
 
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -15,9 +22,7 @@ export default async function handler(req, res) {
   if (!email || typeof email !== 'string') return res.status(400).json({ error: 'e-mail invalido' });
   if (!email.toLowerCase().endsWith('@gupy.com.br')) return res.status(403).json({ error: 'acesso restrito a e-mails @gupy.com.br' });
 
-  const token = crypto.randomBytes(32).toString('hex');
-  tokens.set(token, { email: email.toLowerCase(), exp: Date.now() + 30 * 60 * 1000 });
-
+  const token = makeToken(email.toLowerCase());
   const link = 'https://brandformance-dashboard.vercel.app/verify.html?token=' + token;
 
   try {
