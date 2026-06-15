@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin · Gerar Link de Acesso</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --navy: #00122F;
+  --blue: #003CFD;
+  --green: #CDFF82;
+  --border: #E5E8EE;
+  --bg: #F4F6FA;
+  --muted: #8A93A8;
+  --red: #D84315;
+  --font: 'Inter', sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--font); background: var(--bg); min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; }
+.card { background: #fff; border: 1px solid var(--border); border-radius: 14px; padding: 40px; width: 100%; max-width: 460px; }
+.logo { display: flex; align-items: center; gap: 12px; margin-bottom: 32px; }
+.logo-mark { width: 36px; height: 36px; border-radius: 8px; background: var(--navy); display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; color: var(--green); }
+.logo-text { font-size: 14px; font-weight: 700; color: var(--navy); }
+.logo-sub  { font-size: 11px; color: var(--muted); margin-top: 1px; }
+h1 { font-size: 18px; font-weight: 700; color: var(--navy); margin-bottom: 6px; }
+.desc { font-size: 13px; color: var(--muted); margin-bottom: 28px; line-height: 1.5; }
+label { display: block; font-size: 11px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .07em; margin-bottom: 7px; }
+input {
+  width: 100%; padding: 11px 14px; border: 1px solid var(--border);
+  border-radius: 8px; font-size: 14px; font-family: var(--font);
+  color: var(--navy); outline: none; transition: border-color .15s; margin-bottom: 14px;
+}
+input:focus { border-color: var(--blue); }
+input::placeholder { color: #CBD2E0; }
+button {
+  width: 100%; padding: 12px; background: var(--navy); color: #fff;
+  border: none; border-radius: 8px; font-size: 14px; font-weight: 600;
+  font-family: var(--font); cursor: pointer; transition: opacity .15s;
+}
+button:hover { opacity: .88; }
+button:disabled { opacity: .45; cursor: not-allowed; }
+.result { margin-top: 20px; display: none; }
+.result-label { font-size: 11px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .07em; margin-bottom: 8px; }
+.link-box {
+  display: flex; align-items: center; gap: 8px;
+  background: var(--bg); border: 1px solid var(--border);
+  border-radius: 8px; padding: 10px 14px;
+}
+.link-text {
+  flex: 1; font-size: 12px; color: var(--navy); font-weight: 500;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  font-family: monospace;
+}
+.copy-btn {
+  flex-shrink: 0; width: auto; padding: 6px 14px;
+  background: var(--blue); font-size: 12px; border-radius: 6px;
+}
+.copy-btn.copied { background: #3B6D11; }
+.info {
+  margin-top: 12px; padding: 10px 13px; background: #EAF3DE;
+  border: 1px solid #C5DFA0; border-radius: 7px;
+  font-size: 12px; color: #3B6D11; line-height: 1.5;
+}
+.err { background: #FDE8E0; border-color: #F5B8A8; color: var(--red); }
+.history { margin-top: 28px; border-top: 1px solid var(--border); padding-top: 20px; display: none; }
+.history-title { font-size: 11px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .07em; margin-bottom: 12px; }
+.history-item {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 8px 0; border-bottom: 1px solid var(--border); gap: 10px;
+}
+.history-item:last-child { border-bottom: none; }
+.history-email { font-size: 12px; font-weight: 600; color: var(--navy); }
+.history-time  { font-size: 11px; color: var(--muted); flex-shrink: 0; }
+.recopy-btn {
+  width: auto; padding: 4px 10px; font-size: 11px;
+  background: transparent; color: var(--blue);
+  border: 1px solid var(--blue); border-radius: 5px; flex-shrink: 0;
+}
+.recopy-btn:hover { background: #E6EDFF; opacity: 1; }
+.admin-note { margin-top: 24px; font-size: 11px; color: var(--muted); text-align: center; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="logo">
+    <div class="logo-mark">BS</div>
+    <div>
+      <div class="logo-text">Brandformance Score</div>
+      <div class="logo-sub">Gerador de acesso · Admin</div>
+    </div>
+  </div>
+
+  <h1>Gerar link de acesso</h1>
+  <p class="desc">Gere um link de acesso para qualquer email <strong>@gupy.com.br</strong> e envie pelo Slack ou WhatsApp. O link expira em 30 dias.</p>
+
+  <label for="email">E-mail corporativo</label>
+  <input type="email" id="email" placeholder="nome.sobrenome@gupy.com.br" autocomplete="off">
+  <button id="btn" onclick="generate()">Gerar link →</button>
+
+  <div class="result" id="result">
+    <div class="result-label">Link gerado</div>
+    <div class="link-box">
+      <div class="link-text" id="link-text">—</div>
+      <button class="copy-btn" id="copy-btn" onclick="copyLink()">Copiar</button>
+    </div>
+    <div class="info" id="info-msg"></div>
+  </div>
+
+  <div class="history" id="history">
+    <div class="history-title">Gerados nesta sessão</div>
+    <div id="history-list"></div>
+  </div>
+
+  <p class="admin-note">⚠️ Não compartilhe esta página — uso exclusivo do admin</p>
+</div>
+
+<script>
+const ADMIN_PASS = 'gupy2026';
+const BASE_URL   = 'https://brandformance-dashboard.vercel.app';
+const JWT_SECRET = null; // gerado client-side com a mesma lógica do servidor
+
+// Proteção simples de admin
+(function() {
+  var p = localStorage.getItem('bf_admin');
+  if (p !== ADMIN_PASS) {
+    var input = prompt('Senha de admin:');
+    if (input !== ADMIN_PASS) {
+      document.body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;min-height:100vh;font-family:Inter,sans-serif;color:#D84315;">Acesso negado.</div>';
+      return;
+    }
+    localStorage.setItem('bf_admin', input);
+  }
+})();
+
+var history = [];
+var currentLink = '';
+
+async function generate() {
+  var email = document.getElementById('email').value.trim().toLowerCase();
+  var btn   = document.getElementById('btn');
+  var result = document.getElementById('result');
+  var info   = document.getElementById('info-msg');
+
+  info.className = 'info';
+
+  if (!email.endsWith('@gupy.com.br')) {
+    info.className = 'info err';
+    info.textContent = 'Use um email @gupy.com.br';
+    result.style.display = 'block';
+    document.getElementById('link-text').textContent = '—';
+    return;
+  }
+
+  btn.disabled = true;
+  btn.textContent = 'Gerando...';
+
+  try {
+    // Gera token via API do próprio dashboard
+    var res = await fetch(BASE_URL + '/api/generate-link', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, admin_key: 'bf_admin_2026' })
+    });
+
+    var data = await res.json();
+
+    if (!res.ok) throw new Error(data.error || 'Erro ao gerar link');
+
+    currentLink = data.link;
+    document.getElementById('link-text').textContent = currentLink;
+    document.getElementById('copy-btn').textContent = 'Copiar';
+    document.getElementById('copy-btn').className = 'copy-btn';
+    result.style.display = 'block';
+
+    info.className = 'info';
+    info.innerHTML = '✓ Link gerado para <strong>' + email + '</strong> · expira em 30 dias<br>Cole no Slack ou WhatsApp e envie direto para a pessoa.';
+
+    // Adiciona ao histórico
+    var now = new Date().toLocaleTimeString('pt-BR', {hour:'2-digit',minute:'2-digit'});
+    history.unshift({ email, link: currentLink, time: now });
+    renderHistory();
+
+  } catch(e) {
+    info.className = 'info err';
+    info.textContent = e.message;
+    result.style.display = 'block';
+  }
+
+  btn.disabled = false;
+  btn.textContent = 'Gerar link →';
+}
+
+function copyLink() {
+  if (!currentLink) return;
+  navigator.clipboard.writeText(currentLink).then(function() {
+    var btn = document.getElementById('copy-btn');
+    btn.textContent = '✓ Copiado';
+    btn.className = 'copy-btn copied';
+    setTimeout(function() {
+      btn.textContent = 'Copiar';
+      btn.className = 'copy-btn';
+    }, 2000);
+  });
+}
+
+function copyItem(link, btn) {
+  navigator.clipboard.writeText(link).then(function() {
+    btn.textContent = '✓';
+    setTimeout(function() { btn.textContent = 'Copiar'; }, 1500);
+  });
+}
+
+function renderHistory() {
+  var el = document.getElementById('history');
+  var list = document.getElementById('history-list');
+  if (history.length === 0) { el.style.display = 'none'; return; }
+  el.style.display = 'block';
+  list.innerHTML = history.map(function(h, i) {
+    return '<div class="history-item">' +
+      '<div>' +
+        '<div class="history-email">' + h.email + '</div>' +
+        '<div class="history-time">' + h.time + '</div>' +
+      '</div>' +
+      '<button class="recopy-btn" onclick="copyItem(\'' + h.link.replace(/'/g, "\\'") + '\', this)">Copiar</button>' +
+    '</div>';
+  }).join('');
+}
+
+document.getElementById('email').addEventListener('keydown', function(e) {
+  if (e.key === 'Enter') generate();
+});
+</script>
+</body>
+</html>
