@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T13:10:58.083Z",
+  "generated_at": "2026-06-15T17:40:09.187Z",
   "latest_date": "2026-06-12",
   "kpis": {
     "sMes": 80.9,
@@ -806,6 +806,7 @@
       "video": true,
       "nome": "GTM - Impulsionamento de Vagas",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -821,6 +822,7 @@
       "video": true,
       "nome": "GTM - Impulsionamento de Vagas",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -836,6 +838,7 @@
       "video": true,
       "nome": "GTM - Impulsionamento de Vagas",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -851,6 +854,7 @@
       "video": false,
       "nome": "Cases",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -866,6 +870,7 @@
       "video": true,
       "nome": "Cases",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -881,6 +886,7 @@
       "video": true,
       "nome": "Cases",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -896,6 +902,7 @@
       "video": false,
       "nome": "Cases",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -911,6 +918,7 @@
       "video": true,
       "nome": "Cases",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -926,6 +934,7 @@
       "video": false,
       "nome": "Cases",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -941,6 +950,7 @@
       "video": true,
       "nome": "Contra-ataque Inhire",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": true
@@ -956,6 +966,7 @@
       "video": true,
       "nome": "B2B - Institucional Advocacy",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -971,6 +982,7 @@
       "video": true,
       "nome": "B2B - Institucional Advocacy",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -986,6 +998,7 @@
       "video": true,
       "nome": "Cases V2",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1001,6 +1014,7 @@
       "video": true,
       "nome": "Cases V2",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1016,6 +1030,7 @@
       "video": true,
       "nome": "Cases V2",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1031,6 +1046,7 @@
       "video": true,
       "nome": "Cases V2",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1046,6 +1062,7 @@
       "video": true,
       "nome": "Winners",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1061,6 +1078,7 @@
       "video": true,
       "nome": "Winners",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1076,6 +1094,7 @@
       "video": true,
       "nome": "Winners",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1091,6 +1110,7 @@
       "video": false,
       "nome": "Cases",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1106,6 +1126,7 @@
       "video": true,
       "nome": "Winners",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1121,6 +1142,7 @@
       "video": true,
       "nome": "Winners",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1136,6 +1158,7 @@
       "video": true,
       "nome": "Dados & Analytics",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1151,6 +1174,7 @@
       "video": true,
       "nome": "Dados & Analytics",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1166,6 +1190,7 @@
       "video": true,
       "nome": "Winners",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1181,6 +1206,7 @@
       "video": false,
       "nome": "Cases",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1196,6 +1222,7 @@
       "video": false,
       "nome": "Cases",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1211,6 +1238,7 @@
       "video": true,
       "nome": "Winners",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1226,6 +1254,7 @@
       "video": false,
       "nome": "Smart Vagas",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1241,6 +1270,7 @@
       "video": true,
       "nome": "B2B - Institucional Advocacy",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1256,6 +1286,7 @@
       "video": true,
       "nome": "B2B - Institucional Advocacy",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1271,6 +1302,7 @@
       "video": true,
       "nome": "B2B - Institucional Advocacy",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1286,6 +1318,7 @@
       "video": false,
       "nome": "Cases",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1301,6 +1334,7 @@
       "video": true,
       "nome": "Atratividade que muda o ponteiro",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1316,6 +1350,7 @@
       "video": true,
       "nome": "Smart Vagas",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1331,6 +1366,7 @@
       "video": true,
       "nome": "IA com ROI no R&S",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1346,6 +1382,7 @@
       "video": false,
       "nome": "Cases",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1361,6 +1398,7 @@
       "video": true,
       "nome": "Atratividade que muda o ponteiro",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1376,6 +1414,7 @@
       "video": true,
       "nome": "Smart Vagas",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
@@ -1391,6 +1430,7 @@
       "video": true,
       "nome": "Atratividade que muda o ponteiro",
       "drive_file": "",
+      "drive_file_id": "",
       "ext": "",
       "img_url": "",
       "active": false
