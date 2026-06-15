@@ -267,10 +267,6 @@ header {
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <script>
-// ── Drive folder ID ──────────────────────────────────────────
-const DRIVE_FOLDER_ID = '1tpMv-EqqE1FK4x4IjdYqaK7xhm58I5s5';
-// ────────────────────────────────────────────────────────────
-
 let D = null, charts = {};
 
 async function init() {
@@ -300,13 +296,10 @@ function go(p) {
 }
 
 function exportPDF() {
-  // Mostra todas as páginas antes de imprimir
   document.querySelectorAll('.page').forEach(el => { el.style.display = 'block'; });
   window.print();
-  // Restaura após impressão
   setTimeout(() => {
     document.querySelectorAll('.page').forEach(el => {
-      const active = document.querySelector('.nb.on');
       const pages = ['ov','in','cr'];
       const idx = Array.from(document.querySelectorAll('.nb')).findIndex(b => b.classList.contains('on'));
       el.style.display = el.id === 'p' + pages[idx] ? 'block' : 'none';
@@ -320,15 +313,8 @@ function sc(s)  { return s >= 80 ? '#cdff82' : s >= 60 ? '#9e88ff' : '#ff5c1d'; 
 function scC(s) { return s >= 80 ? 'go' : s >= 60 ? 'wa' : 'ba'; }
 function fmt(n) { if(n>=1e6) return (n/1e6).toFixed(1)+'M'; if(n>=1e3) return Math.round(n/1e3)+'k'; return Math.round(n); }
 
+// ✅ CORRIGIDO: usa drive_file_id (fileId real do Drive) para thumbnail
 function driveThumb(c) {
-  // Usa o file_id do Drive se disponível no data.json, ou monta a URL pelo nome do arquivo
-  if (c.img_url && c.img_url.startsWith('images/')) {
-    // Tenta buscar do Drive pelo código
-    if (c.code) {
-      return 'https://drive.google.com/thumbnail?id=' + c.code + '&sz=w300';
-    }
-  }
-  // Fallback: tenta thumbnail pelo drive_file como fileId
   if (c.drive_file_id) {
     return 'https://drive.google.com/thumbnail?id=' + c.drive_file_id + '&sz=w300';
   }
@@ -474,42 +460,44 @@ function buildCr() {
   g.innerHTML = '';
   list.forEach(function(c) {
     var card = document.createElement('div'); card.className = 'cc';
-    var ext = c.drive_file ? (c.drive_file.split('.').pop()||'').toUpperCase() : '?';
     var isImg = c.ext && ['png','jpg','jpeg'].includes(c.ext.toLowerCase());
 
-    // Monta URL de thumbnail do Drive usando o img_url que já tem o fileId
-    var imgSrc = '';
-    if (isImg && c.img_url) {
-      // img_url vem como "images/filename.png" — precisamos do fileId do Drive
-      // O Apps Script salva o drive_file como nome do arquivo; usamos a pasta pública
-      imgSrc = 'https://drive.google.com/thumbnail?id=' + DRIVE_FOLDER_ID + '&sz=w300';
-    }
-
+    // ✅ CORRIGIDO: monta URL de thumbnail usando drive_file_id real
+    var thumbUrl = driveThumb(c);
     var imgHtml = '';
-    if (isImg && c.drive_file) {
-      // Link direto de thumbnail pelo nome do arquivo na pasta pública
-      var directUrl = 'https://lh3.googleusercontent.com/d/' + encodeURIComponent(c.drive_file);
-      imgHtml = '<img src="' + directUrl + '" alt="' + (c.code||'') + '" loading="lazy" ' +
+
+    if (isImg && thumbUrl) {
+      imgHtml =
+        '<img src="' + thumbUrl + '" alt="' + (c.code||'') + '" loading="lazy" ' +
         'onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'" />' +
-        '<div style="display:none;width:100%;height:100%;align-items:center;justify-content:center">' + svgIcon(c.video) + '</div>';
+        '<div style="display:none;width:100%;height:100%;align-items:center;justify-content:center">' +
+          svgIcon(false) +
+        '</div>';
     } else {
       imgHtml = svgIcon(c.video);
     }
 
-    card.innerHTML = '<div class="ct">' + imgHtml +
-      '<div class="cbdg">' + ext + ' #' + (c.code||'?') + '</div>' +
-    '</div>' +
-    '<div class="cc-body">' +
-      '<div class="cc-name">' + cleanName(c.ad) + '</div>' +
-      '<div class="cc-row">' +
-        '<span class="cc-score ' + scC(c.score) + '">' + c.score.toFixed(0) + '<span style="font-size:9px;font-weight:400;color:var(--muted)">/100</span></span>' +
-        '<span class="badge-' + c.plat.toLowerCase() + '">' + (c.plat==='Linkedin'?'LI':'Meta') + '</span>' +
+    // Badge: mostra extensão para imagens, ícone de play para vídeos
+    var extLabel = c.ext ? c.ext.toUpperCase() : '?';
+
+    card.innerHTML =
+      '<div class="ct">' + imgHtml +
+        '<div class="cbdg">' + extLabel + ' #' + (c.code||'?') + '</div>' +
       '</div>' +
-      '<div class="cc-sub">R$' + fmt(c.investimento) + ' · ' + fmt(c.impressoes) + ' imp</div>' +
-    '</div>';
+      '<div class="cc-body">' +
+        '<div class="cc-name">' + cleanName(c.ad) + '</div>' +
+        '<div class="cc-row">' +
+          '<span class="cc-score ' + scC(c.score) + '">' + c.score.toFixed(0) +
+            '<span style="font-size:9px;font-weight:400;color:var(--muted)">/100</span></span>' +
+          '<span class="badge-' + c.plat.toLowerCase() + '">' + (c.plat==='Linkedin'?'LI':'Meta') + '</span>' +
+        '</div>' +
+        '<div class="cc-sub">R$' + fmt(c.investimento) + ' · ' + fmt(c.impressoes) + ' imp</div>' +
+      '</div>';
 
     card.onclick = function() {
-      var msg = 'Analise o criativo #' + c.code + ' "' + c.ad + '": score ' + c.score + '/100, ' + c.plat + ', iniciativa "' + c.nome + '", investimento R$' + c.investimento + ', ' + fmt(c.impressoes) + ' impressoes. O que explica essa performance?';
+      var msg = 'Analise o criativo #' + c.code + ' "' + c.ad + '": score ' + c.score + '/100, ' + c.plat +
+        ', iniciativa "' + c.nome + '", investimento R$' + c.investimento + ', ' + fmt(c.impressoes) +
+        ' impressoes. O que explica essa performance?';
       window.open('https://claude.ai/new?q=' + encodeURIComponent(msg), '_blank');
     };
     g.appendChild(card);
