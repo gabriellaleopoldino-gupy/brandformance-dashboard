@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T17:40:09.187Z",
+  "generated_at": "2026-06-15T17:54:13.400Z",
   "latest_date": "2026-06-12",
   "kpis": {
     "sMes": 80.9,
@@ -805,9 +805,9 @@
       "plat": "Linkedin",
       "video": true,
       "nome": "GTM - Impulsionamento de Vagas",
-      "drive_file": "",
-      "drive_file_id": "",
-      "ext": "",
+      "drive_file": "678.mp4",
+      "drive_file_id": "1cvc1--X_2cpo10_tHWmnDTie3ix1Tvrm",
+      "ext": "mp4",
       "img_url": "",
       "active": false
     },
@@ -853,10 +853,10 @@
       "plat": "Meta",
       "video": false,
       "nome": "Cases",
-      "drive_file": "",
-      "drive_file_id": "",
-      "ext": "",
-      "img_url": "",
+      "drive_file": "618.png",
+      "drive_file_id": "1Lrw57010nYa8GvyU2L5FEsLWD3pbMf4V",
+      "ext": "png",
+      "img_url": "images/618.png",
       "active": false
     },
     {
@@ -1141,9 +1141,9 @@
       "plat": "Meta",
       "video": true,
       "nome": "Winners",
-      "drive_file": "",
-      "drive_file_id": "",
-      "ext": "",
+      "drive_file": "678.mp4",
+      "drive_file_id": "1cvc1--X_2cpo10_tHWmnDTie3ix1Tvrm",
+      "ext": "mp4",
       "img_url": "",
       "active": false
     },
