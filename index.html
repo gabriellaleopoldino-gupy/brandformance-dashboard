@@ -331,8 +331,16 @@ function fmt(n)  { if(n>=1e6) return (n/1e6).toFixed(1)+'M'; if(n>=1e3) return M
 function fmtR(n) { return 'R$' + (n>=1000 ? Math.round(n/1000)+'k' : Math.round(n)); }
 
 function driveThumb(c) {
-  if (c.drive_file_id) return 'https://drive.google.com/thumbnail?id=' + c.drive_file_id + '&sz=w300';
-  return null;
+  if (!c.drive_file_id) return null;
+  // vídeos: usar lh3 que respeita o thumbnail gerado pelo Drive
+  // imagens: thumbnail padrão funciona bem
+  if (c.video) return 'https://lh3.googleusercontent.com/d/' + c.drive_file_id + '=w300';
+  return 'https://drive.google.com/thumbnail?id=' + c.drive_file_id + '&sz=w300';
+}
+
+function driveLink(c) {
+  if (!c.drive_file_id) return null;
+  return 'https://drive.google.com/file/d/' + c.drive_file_id + '/view';
 }
 
 function cleanName(ad) {
@@ -519,22 +527,33 @@ function buildCr() {
   g.innerHTML = '';
   list.forEach(function(c) {
     var card = document.createElement('div'); card.className = 'cc';
-    var isImg  = c.ext && ['png','jpg','jpeg'].includes(c.ext.toLowerCase());
     var thumb  = driveThumb(c);
     var extLbl = c.ext ? c.ext.toUpperCase() : '?';
 
     var imgHtml = '';
-    if (isImg && thumb) {
+    if (thumb) {
+      // usa thumb tanto para imagens quanto para vídeos
       imgHtml =
         '<img src="' + thumb + '" alt="' + (c.code||'') + '" loading="lazy" ' +
         'onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'" />' +
-        '<div style="display:none;width:100%;height:100%;align-items:center;justify-content:center">' + svgIcon(false) + '</div>';
+        '<div style="display:none;width:100%;height:100%;align-items:center;justify-content:center">' + svgIcon(c.video) + '</div>';
+      // overlay de play em vídeos
+      if (c.video) {
+        imgHtml += '<div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none">' +
+          '<div style="width:36px;height:36px;border-radius:50%;background:rgba(0,18,47,.6);display:flex;align-items:center;justify-content:center;backdrop-filter:blur(2px)">' +
+          '<svg width="14" height="14" fill="#fff" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg></div></div>';
+      }
     } else {
       imgHtml = svgIcon(c.video);
     }
 
     var scoreColor = scHex(c.score);
-    var scoreBg    = scBg(c.score);
+    var link       = driveLink(c);
+    var linkHtml   = link
+      ? '<a href="' + link + '" target="_blank" onclick="event.stopPropagation()" ' +
+        'style="font-size:9px;color:#003CFD;font-weight:600;text-decoration:none;display:flex;align-items:center;gap:3px;" ' +
+        'title="Ver no Drive">↗ Drive</a>'
+      : '';
 
     card.innerHTML =
       '<div class="ct">' + imgHtml +
@@ -547,7 +566,10 @@ function buildCr() {
             '<span style="font-size:9px;font-weight:500;color:#8A93A8">/100</span></span>' +
           '<span class="badge badge-' + c.plat.toLowerCase() + '">' + (c.plat==='Linkedin'?'LI':'Meta') + '</span>' +
         '</div>' +
-        '<div class="cc-sub">' + fmtR(c.investimento) + ' · ' + fmt(c.impressoes) + ' imp</div>' +
+        '<div style="display:flex;justify-content:space-between;align-items:center;margin-top:3px;">' +
+          '<div class="cc-sub">' + fmtR(c.investimento) + ' · ' + fmt(c.impressoes) + ' imp</div>' +
+          linkHtml +
+        '</div>' +
       '</div>';
 
     card.onclick = function() {
