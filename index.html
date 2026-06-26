@@ -45,8 +45,9 @@ body { font-family: var(--font); background: #F4F6FA; color: var(--text); min-he
 /* ── Header ── */
 header {
   background: var(--navy); border-radius: 0 0 14px 14px;
-  padding: 20px 28px; margin-bottom: 24px;
+  padding: 20px 28px; margin-bottom: 16px;
   display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 12px;
 }
 .logo { display: flex; align-items: center; gap: 14px; }
 .logo-mark {
@@ -57,7 +58,7 @@ header {
 }
 .logo-text { font-size: 15px; font-weight: 700; color: #fff; letter-spacing: -.01em; }
 .logo-sub  { font-size: 11px; color: #A1ACFE; margin-top: 2px; font-weight: 400; }
-.header-right { display: flex; align-items: center; gap: 10px; }
+.header-right { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
 .ts { font-size: 11px; color: #A1ACFE; }
 .ts span { color: var(--green); font-weight: 600; }
 .btn-export {
@@ -67,7 +68,45 @@ header {
 }
 .btn-export:hover { background: rgba(255,255,255,0.15); border-color: var(--green); color: var(--green); }
 
-/* ── Context bar (Q2 style) ── */
+/* ── Date filter bar ── */
+.date-bar {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 12px; padding: 10px 16px;
+  display: flex; align-items: center; gap: 12px;
+  flex-wrap: wrap; margin-bottom: 16px;
+}
+.date-bar-label {
+  font-size: 10px; font-weight: 700; color: var(--muted);
+  text-transform: uppercase; letter-spacing: .08em; white-space: nowrap;
+}
+.date-presets { display: flex; gap: 4px; flex-wrap: wrap; }
+.dp {
+  font-size: 11px; font-weight: 600; padding: 5px 12px; border-radius: 7px;
+  border: 1px solid var(--border); background: transparent;
+  color: var(--muted); cursor: pointer; transition: all .15s;
+}
+.dp:hover { border-color: var(--blue); color: var(--blue); }
+.dp.on { background: var(--navy); border-color: var(--navy); color: #fff; }
+.date-divider { width: 1px; height: 20px; background: var(--border); }
+.date-custom { display: flex; align-items: center; gap: 6px; }
+.date-custom input[type=date] {
+  font-size: 11px; font-family: var(--font); padding: 5px 10px;
+  border: 1px solid var(--border); border-radius: 7px; color: var(--navy);
+  background: var(--bg); cursor: pointer; outline: none;
+}
+.date-custom input[type=date]:focus { border-color: var(--blue); }
+.date-custom span { font-size: 11px; color: var(--muted); }
+.btn-apply-date {
+  font-size: 11px; font-weight: 600; padding: 5px 12px; border-radius: 7px;
+  border: none; background: var(--blue); color: #fff; cursor: pointer; transition: all .15s;
+}
+.btn-apply-date:hover { background: #0030d6; }
+.period-pill {
+  margin-left: auto; font-size: 11px; font-weight: 600; color: var(--blue);
+  background: #E6EDFF; padding: 4px 10px; border-radius: 20px; white-space: nowrap;
+}
+
+/* ── Context bar ── */
 .ctx-bar {
   background: var(--blue); border-radius: 12px;
   padding: 16px 24px; display: grid;
@@ -125,10 +164,13 @@ header {
 .badge { display: inline-block; padding: 2px 7px; border-radius: 5px; font-size: 10px; font-weight: 700; letter-spacing: .02em; }
 .badge-li   { background: #E6EDFF; color: var(--blue); }
 .badge-meta { background: #EEF0FF; color: #4f52b2; }
+.badge-linkedin { background: #E6EDFF; color: var(--blue); }
 .badge-green  { background: #EAF3DE; color: var(--grn-dk); }
 .badge-yellow { background: #FFF8E1; color: var(--ylw-dk); }
 .badge-red    { background: #FDE8E0; color: var(--red-dk); }
 .badge-blue   { background: #E6EDFF; color: var(--blue); }
+.badge-active { background: #EAF3DE; color: var(--grn-dk); }
+.badge-inactive { background: #F4F6FA; color: var(--muted); }
 
 /* ── Nav ── */
 .nav-wrap { margin-bottom: 20px; }
@@ -154,6 +196,7 @@ header {
 .leg { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 12px; }
 .leg-i { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--muted); }
 .ll { width: 16px; height: 2px; border-radius: 1px; }
+.ll-target { width: 16px; height: 3px; border-radius: 1px; background: #22c55e; }
 
 /* ── Initiatives table ── */
 .tbl-wrap { overflow-x: auto; }
@@ -184,6 +227,7 @@ header {
 }
 .fb:hover { border-color: var(--blue); color: var(--blue); }
 .fb.on { background: var(--navy); border-color: var(--navy); color: #fff; }
+.fb-active.on { background: #16a34a; border-color: #16a34a; }
 
 /* ── Creative grid ── */
 .cgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(155px, 1fr)); gap: 10px; }
@@ -207,7 +251,8 @@ header {
   border: 1px solid rgba(255,255,255,0.1); font-weight: 500;
 }
 .cc-body { padding: 10px 12px; border-top: 1px solid var(--border); }
-.cc-name { font-size: 11px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-bottom: 6px; font-weight: 500; }
+.cc-name { font-size: 11px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-bottom: 2px; font-weight: 500; }
+.cc-campaign { font-size: 10px; color: #A1ACFE; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-bottom: 6px; }
 .cc-score { font-size: 17px; font-weight: 700; color: var(--navy); }
 .cc-sub { font-size: 9px; color: var(--muted); margin-top: 3px; }
 .cc-row { display: flex; justify-content: space-between; align-items: center; }
@@ -243,6 +288,8 @@ header {
   .ctx-bar { grid-template-columns: repeat(2, 1fr); gap: 12px; }
   .kval   { font-size: 22px; }
   .pval   { font-size: 30px; }
+  .date-bar { gap: 8px; }
+  .period-pill { margin-left: 0; }
 }
 </style>
 </head>
@@ -269,6 +316,26 @@ header {
   </div>
 
   <div id="app" style="display:none">
+
+    <!-- ── Date filter bar ── -->
+    <div class="date-bar no-print">
+      <div class="date-bar-label">Período</div>
+      <div class="date-presets">
+        <button class="dp" data-p="this_month" onclick="setPreset(this)">Mês atual</button>
+        <button class="dp" data-p="last_month" onclick="setPreset(this)">Mês anterior</button>
+        <button class="dp on" data-p="h1" onclick="setPreset(this)">H1 2026</button>
+        <button class="dp" data-p="all" onclick="setPreset(this)">Tudo</button>
+      </div>
+      <div class="date-divider"></div>
+      <div class="date-custom">
+        <input type="date" id="dt-from" title="Data inicial">
+        <span>→</span>
+        <input type="date" id="dt-to" title="Data final">
+        <button class="btn-apply-date" onclick="applyCustomDate()">Aplicar</button>
+      </div>
+      <div class="period-pill" id="period-label">H1 2026</div>
+    </div>
+
     <div class="nav-wrap no-print">
       <div class="nav">
         <button class="nb on" onclick="go('ov')">Visão geral</button>
@@ -286,6 +353,114 @@ header {
 <script>
 let D = null, charts = {};
 
+// ── Date filter state ──────────────────────────────────────
+var dateFilter = { preset: 'h1', from: null, to: null };
+
+function getPresetRange(preset) {
+  var now = new Date();
+  var y = now.getFullYear();
+  if (preset === 'this_month') {
+    return {
+      from: new Date(y, now.getMonth(), 1),
+      to:   new Date(y, now.getMonth() + 1, 0),
+      label: now.toLocaleString('pt-BR', {month:'long', year:'numeric'})
+    };
+  }
+  if (preset === 'last_month') {
+    var lm = now.getMonth() === 0 ? 11 : now.getMonth() - 1;
+    var ly = now.getMonth() === 0 ? y - 1 : y;
+    return {
+      from: new Date(ly, lm, 1),
+      to:   new Date(ly, lm + 1, 0),
+      label: new Date(ly, lm, 1).toLocaleString('pt-BR', {month:'long', year:'numeric'})
+    };
+  }
+  if (preset === 'h1') {
+    return { from: new Date(y, 0, 1), to: new Date(y, 5, 30), label: 'H1 ' + y };
+  }
+  // all
+  return { from: null, to: null, label: 'Todo o período' };
+}
+
+function setPreset(btn) {
+  document.querySelectorAll('.dp').forEach(b => b.classList.remove('on'));
+  btn.classList.add('on');
+  var preset = btn.dataset.p;
+  dateFilter.preset = preset;
+  var r = getPresetRange(preset);
+  dateFilter.from = r.from;
+  dateFilter.to   = r.to;
+  // atualiza campos custom para refletir o preset
+  if (r.from) document.getElementById('dt-from').value = toInputDate(r.from);
+  if (r.to)   document.getElementById('dt-to').value   = toInputDate(r.to);
+  document.getElementById('period-label').textContent = r.label;
+  redraw();
+}
+
+function applyCustomDate() {
+  var f = document.getElementById('dt-from').value;
+  var t = document.getElementById('dt-to').value;
+  if (!f || !t) return;
+  document.querySelectorAll('.dp').forEach(b => b.classList.remove('on'));
+  dateFilter.preset = 'custom';
+  dateFilter.from = new Date(f);
+  dateFilter.to   = new Date(t);
+  var opts = {day:'2-digit', month:'2-digit', year:'numeric'};
+  document.getElementById('period-label').textContent =
+    dateFilter.from.toLocaleDateString('pt-BR', opts) + ' – ' + dateFilter.to.toLocaleDateString('pt-BR', opts);
+  redraw();
+}
+
+function toInputDate(d) {
+  return d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0');
+}
+
+// Filtra rows do dataset pela janela de datas
+function filterRows(rows) {
+  if (!dateFilter.from && !dateFilter.to) return rows;
+  return rows.filter(function(r) {
+    // tenta campo 'mes' no formato "Jan/26", "Fev/26", etc
+    if (!r.mes && !r.data) return true;
+    var d = parseRowDate(r.mes || r.data);
+    if (!d) return true;
+    if (dateFilter.from && d < dateFilter.from) return false;
+    if (dateFilter.to   && d > dateFilter.to)   return false;
+    return true;
+  });
+}
+
+var MESES_PT = {jan:0,fev:1,mar:2,abr:3,mai:4,jun:5,jul:6,ago:7,set:8,out:9,nov:10,dez:11};
+function parseRowDate(str) {
+  if (!str) return null;
+  var m = String(str).match(/^([a-záéíóú]{3})[\/.\/](\d{2,4})$/i);
+  if (!m) return null;
+  var mon = MESES_PT[m[1].toLowerCase()];
+  if (mon === undefined) return null;
+  var yr = parseInt(m[2]); if (yr < 100) yr += 2000;
+  return new Date(yr, mon, 1);
+}
+
+// Filtra a série monthly pelo intervalo
+function filteredMonthly() {
+  if (!D) return [];
+  return D.monthly.filter(function(m) {
+    var d = parseRowDate(m.mes);
+    if (!d) return true;
+    if (dateFilter.from && d < dateFilter.from) return false;
+    if (dateFilter.to) {
+      var endOfMonth = new Date(dateFilter.to.getFullYear(), dateFilter.to.getMonth() + 1, 0);
+      if (d > endOfMonth) return false;
+    }
+    return true;
+  });
+}
+
+function redraw() {
+  if (!D) return;
+  renderOv(); renderIn(); renderCr();
+}
+
+// ── init ──────────────────────────────────────────────────
 async function init() {
   try {
     const resp = await fetch('/api/data?v=' + Date.now());
@@ -293,6 +468,12 @@ async function init() {
     D = await resp.json();
     document.getElementById('ts-date').textContent =
       D.generated_at ? new Date(D.generated_at).toLocaleDateString('pt-BR') : '—';
+
+    // inicializa campos de data com H1
+    var r = getPresetRange('h1');
+    document.getElementById('dt-from').value = toInputDate(r.from);
+    document.getElementById('dt-to').value   = toInputDate(r.to);
+
     document.getElementById('loading').style.display = 'none';
     document.getElementById('app').style.display    = 'block';
     renderOv(); renderIn(); renderCr();
@@ -332,8 +513,6 @@ function fmtR(n) { return 'R$' + (n>=1000 ? Math.round(n/1000)+'k' : Math.round(
 
 function driveThumb(c) {
   if (!c.drive_file_id) return null;
-  // vídeos: usar lh3 que respeita o thumbnail gerado pelo Drive
-  // imagens: thumbnail padrão funciona bem
   if (c.video) return 'https://lh3.googleusercontent.com/d/' + c.drive_file_id + '=w300';
   return 'https://drive.google.com/thumbnail?id=' + c.drive_file_id + '&sz=w300';
 }
@@ -349,33 +528,60 @@ function cleanName(ad) {
     .slice(0,5).map(p => p[0].toUpperCase()+p.slice(1)).join(' ').slice(0,36);
 }
 
+// Detecta se uma iniciativa/criativo está ativo com base na última data de dados
+function isActive(item) {
+  // considera ativo se tem dado nos últimos 2 meses
+  if (!item.monthly || !item.monthly.length) return false;
+  var now = new Date();
+  var cutoff = new Date(now.getFullYear(), now.getMonth() - 1, 1); // início do mês anterior
+  for (var i = item.monthly.length - 1; i >= 0; i--) {
+    var m = item.monthly[i];
+    if (m.score != null) {
+      var d = parseRowDate(m.mes);
+      if (d && d >= cutoff) return true;
+      break;
+    }
+  }
+  return false;
+}
+
 // ── Overview ────────────────────────────────────────────────
 function renderOv() {
   if (charts.evol) { charts.evol.destroy(); charts.evol = null; }
   if (charts.init) { charts.init.destroy(); charts.init = null; }
 
-  const k = D.kpis, delta = +(k.sMes - k.sPrev).toFixed(1);
-  const li = D.plat['Linkedin'], me = D.plat['Meta'];
+  var monthly = filteredMonthly();
+  var k = D.kpis;
+
+  // recalcula score do período filtrado a partir dos dados mensais disponíveis
+  var scoresNoFilter = monthly.map(m => m.total).filter(v => v != null && v > 0);
+  var filteredScore = scoresNoFilter.length
+    ? (scoresNoFilter.reduce((a,b) => a+b, 0) / scoresNoFilter.length).toFixed(1)
+    : k.sMes.toFixed(1);
+
+  var delta = +(k.sMes - k.sPrev).toFixed(1);
+  var li = D.plat['Linkedin'], me = D.plat['Meta'];
+  var periodLbl = document.getElementById('period-label').textContent;
 
   document.getElementById('pov').innerHTML =
     // Context bar
     '<div class="ctx-bar">' +
-      '<div class="ctx-item"><div class="ctx-val">' + k.sMes.toFixed(1) + '</div><div class="ctx-lbl">Score ' + k.mesLabel + '</div><div class="ctx-sub">meta 80</div></div>' +
+      '<div class="ctx-item"><div class="ctx-val">' + filteredScore + '</div><div class="ctx-lbl">Score · ' + periodLbl + '</div><div class="ctx-sub">meta 80</div></div>' +
       '<div class="ctx-item"><div class="ctx-val">' + k.sQ2.toFixed(1) + '</div><div class="ctx-lbl">Score Q2/26</div><div class="ctx-sub">meta 80</div></div>' +
       '<div class="ctx-item"><div class="ctx-val">' + fmtR(k.investTotal) + '</div><div class="ctx-lbl">Investimento total</div><div class="ctx-sub">' + fmt(k.impMes) + ' imp ' + k.mesLabel + '</div></div>' +
       '<div class="ctx-item"><div class="ctx-val ' + (delta>=0?'':'') + '" style="color:' + (delta>=0?'#CDFF82':'#ff8a65') + '">' + (delta>=0?'▲':'▼') + ' ' + Math.abs(delta).toFixed(1) + '</div><div class="ctx-lbl">vs ' + k.prevLabel + '</div><div class="ctx-sub">Score ' + k.sPrev.toFixed(1) + '</div></div>' +
     '</div>' +
     // KPI strip
     '<div class="kgrid">' +
-      kpiCard('Score mês · ' + k.mesLabel, k.sMes.toFixed(1), null, null) +
+      kpiCard('Score · ' + periodLbl, filteredScore, null, null) +
       kpiCard('Score Q2/26', k.sQ2.toFixed(1), 'meta: 80', k.sQ2 >= 80 ? 'go' : 'ba') +
       kpiCard('Score 2026', k.sYear.toFixed(1), 'meta: 80', k.sYear >= 80 ? 'go' : 'ba') +
       kpiCard('Investimento total', fmtR(k.investTotal), fmt(k.impMes) + ' imp · ' + k.mesLabel, null) +
     '</div>' +
     // Platform
     '<div class="pgrid">' +
-      platCard('Linkedin', li, k.mesLabel) +
-      platCard('Meta', me, k.mesLabel) +
+      platCard('Linkedin', li, periodLbl) +
+      platCard('Meta', me, periodLbl) +
     '</div>' +
     // Evolution chart
     '<div class="card">' +
@@ -384,7 +590,7 @@ function renderOv() {
         '<div class="leg-i"><div class="ll" style="background:#94A3B8"></div>Total</div>' +
         '<div class="leg-i"><div class="ll" style="background:#003CFD"></div>LinkedIn</div>' +
         '<div class="leg-i"><div class="ll" style="background:#9E88FF"></div>Meta</div>' +
-        '<div class="leg-i"><div class="ll" style="background:#CDFF82;opacity:.7"></div>Meta 80</div>' +
+        '<div class="leg-i"><div class="ll-target"></div><span style="font-weight:600;color:#16a34a">Meta 80</span></div>' +
       '</div>' +
       '<div style="position:relative;width:100%;height:220px"><canvas id="cEvol"></canvas></div>' +
     '</div>' +
@@ -396,14 +602,21 @@ function renderOv() {
 
   charts.evol = new Chart(document.getElementById('cEvol').getContext('2d'), {
     type: 'line',
-    data: { labels: D.monthly.map(m=>m.mes), datasets: [
-      {label:'Total',    data:D.monthly.map(m=>m.total),    borderColor:'#94A3B8',borderWidth:2,pointRadius:3,tension:.3,fill:false},
-      {label:'LinkedIn', data:D.monthly.map(m=>m.Linkedin), borderColor:'#003CFD',borderWidth:2,pointRadius:3,tension:.3,fill:false},
-      {label:'Meta',     data:D.monthly.map(m=>m.Meta),     borderColor:'#9E88FF',borderWidth:2,pointRadius:3,tension:.3,fill:false,spanGaps:false},
-      {label:'Meta 80',  data:D.monthly.map(()=>80),        borderColor:'rgba(0,60,253,.25)',borderWidth:1.5,borderDash:[5,4],pointRadius:0,fill:false}
+    data: { labels: monthly.map(m=>m.mes), datasets: [
+      {label:'Total',    data:monthly.map(m=>m.total),    borderColor:'#94A3B8',borderWidth:2,pointRadius:3,tension:.3,fill:false},
+      {label:'LinkedIn', data:monthly.map(m=>m.Linkedin), borderColor:'#003CFD',borderWidth:2,pointRadius:3,tension:.3,fill:false},
+      {label:'Meta',     data:monthly.map(m=>m.Meta),     borderColor:'#9E88FF',borderWidth:2,pointRadius:3,tension:.3,fill:false,spanGaps:false},
+      {label:'Meta 80',  data:monthly.map(()=>80),
+        borderColor:'#22c55e', borderWidth:2.5, borderDash:[6,4],
+        pointRadius:0, fill:false,
+        segment:{ borderColor:'#22c55e' }
+      }
     ]},
     options: { responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return c.dataset.label==='Meta 80'?null:c.dataset.label+': '+c.parsed.y;}}}},
+      plugins:{
+        legend:{display:false},
+        tooltip:{callbacks:{label:function(c){return c.dataset.label==='Meta 80'?null:c.dataset.label+': '+c.parsed.y;}}}
+      },
       scales:{
         x:{grid:{color:'rgba(0,0,0,.04)'},ticks:{color:'#8A93A8',font:{size:10,family:'Inter'},autoSkip:false,maxRotation:0}},
         y:{min:0,max:105,grid:{color:'rgba(0,0,0,.04)'},ticks:{color:'#8A93A8',font:{size:10,family:'Inter'}}}
@@ -449,22 +662,40 @@ function platCard(name, s, mesLabel) {
 }
 
 // ── Iniciativas ──────────────────────────────────────────────
+var activeInF = 'all';
 function renderIn() {
   var months4 = D.months.slice(-4);
   var medals  = ['🥇','🥈','🥉'];
+
+  // filtro ativo
+  var inits = D.inits.filter(function(it) {
+    if (activeInF === 'active')   return isActive(it);
+    if (activeInF === 'inactive') return !isActive(it);
+    return true;
+  });
+
   var html =
     '<div class="card">' +
-      '<div class="stitle">Todas as iniciativas · score ponderado por investimento</div>' +
+      '<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:20px">' +
+        '<div class="stitle" style="margin-bottom:0">Todas as iniciativas · score ponderado por investimento</div>' +
+        '<div class="frow no-print" id="frow-in">' +
+          '<button class="fb' + (activeInF==='all'?' on':'') + '" data-f="all">Todas</button>' +
+          '<button class="fb fb-active' + (activeInF==='active'?' on':'') + '" data-f="active">● Ativas</button>' +
+          '<button class="fb' + (activeInF==='inactive'?' on':'') + '" data-f="inactive">Pausadas</button>' +
+        '</div>' +
+      '</div>' +
       '<div class="tbl-wrap-outer"><div class="tbl-wrap"><table class="tbl">' +
         '<thead><tr>' +
           '<th style="text-align:left;width:28px"></th>' +
           '<th style="text-align:left">Iniciativa</th>' +
+          '<th>Status</th>' +
           '<th>Score</th><th>Investimento</th><th>Share</th>' +
           months4.map(m=>'<th>'+m+'</th>').join('') +
         '</tr></thead><tbody>';
 
-  D.inits.forEach(function(it, i) {
-    var last4 = it.monthly.slice(-4);
+  inits.forEach(function(it, i) {
+    var last4   = it.monthly.slice(-4);
+    var active  = isActive(it);
     html += '<tr>' +
       '<td class="medal">' + (i<3?medals[i]:(i+1)) + '</td>' +
       '<td>' +
@@ -473,6 +704,9 @@ function renderIn() {
           '<span class="badge badge-' + it.plat.toLowerCase() + '">' + it.plat + '</span> ' +
           fmt(it.impressoes) + ' imp · eng ' + it.engajamento.toFixed(1) + '%' +
         '</div>' +
+      '</td>' +
+      '<td style="text-align:center">' +
+        '<span class="badge badge-' + (active?'active':'inactive') + '">' + (active?'● Ativa':'Pausada') + '</span>' +
       '</td>' +
       '<td style="text-align:right">' +
         '<div class="sbar" style="min-width:80px">' +
@@ -488,41 +722,85 @@ function renderIn() {
 
   html += '</tbody></table></div></div></div>';
   document.getElementById('pin').innerHTML = html;
+
+  document.querySelectorAll('#frow-in .fb').forEach(function(b) {
+    b.onclick = function() {
+      document.querySelectorAll('#frow-in .fb').forEach(x => x.classList.remove('on'));
+      b.classList.add('on');
+      activeInF = b.dataset.f;
+      renderIn();
+    };
+  });
 }
 
 // ── Criativos ────────────────────────────────────────────────
-var activeF = 'all';
+var activeCrF  = 'all';
+var activeStatusF = 'all'; // 'all' | 'active' | 'inactive'
+
 function renderCr() {
   document.getElementById('pcr').innerHTML =
     '<div class="card">' +
-      '<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:20px">' +
-        '<div class="stitle" style="margin-bottom:0">' + D.creatives.length + ' criativos rankeados</div>' +
-        '<div class="frow no-print" id="frow">' +
-          '<button class="fb on" data-f="all">Todos</button>' +
-          '<button class="fb" data-f="Linkedin">LinkedIn</button>' +
-          '<button class="fb" data-f="Meta">Meta</button>' +
-          '<button class="fb" data-f="video">Vídeo</button>' +
-          '<button class="fb" data-f="img">Estático</button>' +
+      '<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:16px">' +
+        '<div class="stitle" style="margin-bottom:0" id="cr-count">' + D.creatives.length + ' criativos rankeados</div>' +
+        '<div style="display:flex;gap:8px;flex-wrap:wrap;">' +
+          '<div class="frow no-print" id="frow">' +
+            '<button class="fb on" data-f="all">Todos</button>' +
+            '<button class="fb" data-f="Linkedin">LinkedIn</button>' +
+            '<button class="fb" data-f="Meta">Meta</button>' +
+            '<button class="fb" data-f="video">Vídeo</button>' +
+            '<button class="fb" data-f="img">Estático</button>' +
+          '</div>' +
+          '<div class="frow no-print" id="frow-status">' +
+            '<button class="fb fb-active" data-f="active">● Ativos</button>' +
+            '<button class="fb on" data-f="all" style="display:none"></button>' +
+          '</div>' +
         '</div>' +
       '</div>' +
       '<div class="cgrid" id="cgrid"></div>' +
     '</div>';
+
+  // simplifica: botão toggle ativo
+  var statusBtn = document.querySelector('#frow-status .fb-active');
+  statusBtn.onclick = function() {
+    if (activeStatusF === 'active') {
+      activeStatusF = 'all';
+      statusBtn.classList.remove('on');
+    } else {
+      activeStatusF = 'active';
+      statusBtn.classList.add('on');
+    }
+    buildCr();
+  };
+
   buildCr();
   document.querySelectorAll('#frow .fb').forEach(function(b) {
     b.onclick = function() {
       document.querySelectorAll('#frow .fb').forEach(x=>x.classList.remove('on'));
-      b.classList.add('on'); activeF = b.dataset.f; buildCr();
+      b.classList.add('on'); activeCrF = b.dataset.f; buildCr();
     };
   });
 }
 
 function buildCr() {
   var list = D.creatives.filter(function(c) {
-    if (activeF==='all')   return true;
-    if (activeF==='video') return c.video;
-    if (activeF==='img')   return !c.video;
-    return c.plat === activeF;
+    // filtro canal/tipo
+    var passCanal = true;
+    if (activeCrF==='video') passCanal = c.video;
+    else if (activeCrF==='img') passCanal = !c.video;
+    else if (activeCrF !== 'all') passCanal = c.plat === activeCrF;
+    if (!passCanal) return false;
+
+    // filtro ativo/inativo — usa a iniciativa correspondente
+    if (activeStatusF === 'active') {
+      // criativo ativo = iniciativa correspondente tem dado no último mês
+      var init = D.inits.find(function(it) { return it.nome === c.nome; });
+      if (init && !isActive(init)) return false;
+    }
+    return true;
   });
+
+  document.getElementById('cr-count').textContent = list.length + ' criativos rankeados';
+
   var g = document.getElementById('cgrid');
   g.innerHTML = '';
   list.forEach(function(c) {
@@ -532,12 +810,10 @@ function buildCr() {
 
     var imgHtml = '';
     if (thumb) {
-      // usa thumb tanto para imagens quanto para vídeos
       imgHtml =
         '<img src="' + thumb + '" alt="' + (c.code||'') + '" loading="lazy" ' +
         'onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'" />' +
         '<div style="display:none;width:100%;height:100%;align-items:center;justify-content:center">' + svgIcon(c.video) + '</div>';
-      // overlay de play em vídeos
       if (c.video) {
         imgHtml += '<div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none">' +
           '<div style="width:36px;height:36px;border-radius:50%;background:rgba(0,18,47,.6);display:flex;align-items:center;justify-content:center;backdrop-filter:blur(2px)">' +
@@ -555,12 +831,18 @@ function buildCr() {
         'title="Ver no Drive">↗ Drive</a>'
       : '';
 
+    // nome da campanha/iniciativa
+    var campaignHtml = c.nome
+      ? '<div class="cc-campaign" title="' + c.nome + '">' + c.nome + '</div>'
+      : '';
+
     card.innerHTML =
       '<div class="ct">' + imgHtml +
         '<div class="cbdg">' + extLbl + ' #' + (c.code||'?') + '</div>' +
       '</div>' +
       '<div class="cc-body">' +
         '<div class="cc-name">' + cleanName(c.ad) + '</div>' +
+        campaignHtml +
         '<div class="cc-row">' +
           '<span class="cc-score" style="color:' + scoreColor + '">' + c.score.toFixed(0) +
             '<span style="font-size:9px;font-weight:500;color:#8A93A8">/100</span></span>' +
