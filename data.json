@@ -1,5 +1,6 @@
 {
-  "generated_at": "2026-06-28T11:26:11.756Z",
+  "generated_at": "2026-06-28T11:30:25.992Z",
+  "latest_date": "2026-06-28",
   "kpis": {
     "sMes": 0,
     "sQ2": 0,
@@ -117,7 +118,8 @@
           "mes": "jun/26",
           "score": null
         }
-      ]
+      ],
+      "active": false
     },
     {
       "nome": "Contra-ataque (Inhire)",
@@ -164,7 +166,8 @@
           "mes": "jun/26",
           "score": null
         }
-      ]
+      ],
+      "active": false
     },
     {
       "nome": "Contra-ataque Inhire",
@@ -211,7 +214,8 @@
           "mes": "jun/26",
           "score": null
         }
-      ]
+      ],
+      "active": false
     },
     {
       "nome": "GTM - Impulsionamento de Vagas",
@@ -258,7 +262,8 @@
           "mes": "jun/26",
           "score": null
         }
-      ]
+      ],
+      "active": false
     },
     {
       "nome": "Cases",
@@ -305,7 +310,8 @@
           "mes": "jun/26",
           "score": null
         }
-      ]
+      ],
+      "active": false
     },
     {
       "nome": "Atratividade que muda o ponteiro",
@@ -352,7 +358,8 @@
           "mes": "jun/26",
           "score": null
         }
-      ]
+      ],
+      "active": false
     },
     {
       "nome": "IA com ROI no R&S",
@@ -399,7 +406,8 @@
           "mes": "jun/26",
           "score": null
         }
-      ]
+      ],
+      "active": false
     },
     {
       "nome": "B2B - Institucional Advocacy",
@@ -446,7 +454,8 @@
           "mes": "jun/26",
           "score": null
         }
-      ]
+      ],
+      "active": false
     },
     {
       "nome": "Hunting no Banco",
@@ -493,7 +502,8 @@
           "mes": "jun/26",
           "score": null
         }
-      ]
+      ],
+      "active": false
     },
     {
       "nome": "IA no RH",
@@ -540,7 +550,8 @@
           "mes": "jun/26",
           "score": null
         }
-      ]
+      ],
+      "active": false
     },
     {
       "nome": "Smart Vagas",
@@ -587,7 +598,8 @@
           "mes": "jun/26",
           "score": null
         }
-      ]
+      ],
+      "active": false
     },
     {
       "nome": "B2B - Institucional",
@@ -634,7 +646,8 @@
           "mes": "jun/26",
           "score": null
         }
-      ]
+      ],
+      "active": false
     },
     {
       "nome": "HR4R",
@@ -681,7 +694,8 @@
           "mes": "jun/26",
           "score": null
         }
-      ]
+      ],
+      "active": false
     }
   ],
   "creatives": [],
