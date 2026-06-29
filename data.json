@@ -1,6 +1,5 @@
 {
-  "generated_at": "2026-06-28T11:30:25.992Z",
-  "latest_date": "2026-06-28",
+  "generated_at": "2026-06-29T11:26:45.957Z",
   "kpis": {
     "sMes": 0,
     "sQ2": 0,
@@ -74,59 +73,11 @@
   ],
   "inits": [
     {
-      "nome": "Treinamento",
-      "score": 0,
-      "investimento": 0,
-      "impressoes": 0,
-      "engajamento": 2.05,
-      "plat": "Linkedin",
-      "share": null,
-      "monthly": [
-        {
-          "mes": "out/25",
-          "score": null
-        },
-        {
-          "mes": "nov/25",
-          "score": null
-        },
-        {
-          "mes": "dez/25",
-          "score": null
-        },
-        {
-          "mes": "jan/26",
-          "score": null
-        },
-        {
-          "mes": "fev/26",
-          "score": null
-        },
-        {
-          "mes": "mar/26",
-          "score": null
-        },
-        {
-          "mes": "abr/26",
-          "score": null
-        },
-        {
-          "mes": "mai/26",
-          "score": null
-        },
-        {
-          "mes": "jun/26",
-          "score": null
-        }
-      ],
-      "active": false
-    },
-    {
       "nome": "Contra-ataque (Inhire)",
       "score": 0,
       "investimento": 0,
       "impressoes": 0,
-      "engajamento": 2.2,
+      "engajamento": 2.53,
       "plat": "Linkedin",
       "share": null,
       "monthly": [
@@ -166,8 +117,54 @@
           "mes": "jun/26",
           "score": null
         }
-      ],
-      "active": false
+      ]
+    },
+    {
+      "nome": "Treinamento",
+      "score": 0,
+      "investimento": 0,
+      "impressoes": 0,
+      "engajamento": 2.22,
+      "plat": "Linkedin",
+      "share": null,
+      "monthly": [
+        {
+          "mes": "out/25",
+          "score": null
+        },
+        {
+          "mes": "nov/25",
+          "score": null
+        },
+        {
+          "mes": "dez/25",
+          "score": null
+        },
+        {
+          "mes": "jan/26",
+          "score": null
+        },
+        {
+          "mes": "fev/26",
+          "score": null
+        },
+        {
+          "mes": "mar/26",
+          "score": null
+        },
+        {
+          "mes": "abr/26",
+          "score": null
+        },
+        {
+          "mes": "mai/26",
+          "score": null
+        },
+        {
+          "mes": "jun/26",
+          "score": null
+        }
+      ]
     },
     {
       "nome": "Contra-ataque Inhire",
@@ -214,8 +211,7 @@
           "mes": "jun/26",
           "score": null
         }
-      ],
-      "active": false
+      ]
     },
     {
       "nome": "GTM - Impulsionamento de Vagas",
@@ -262,8 +258,7 @@
           "mes": "jun/26",
           "score": null
         }
-      ],
-      "active": false
+      ]
     },
     {
       "nome": "Cases",
@@ -310,8 +305,7 @@
           "mes": "jun/26",
           "score": null
         }
-      ],
-      "active": false
+      ]
     },
     {
       "nome": "Atratividade que muda o ponteiro",
@@ -358,15 +352,14 @@
           "mes": "jun/26",
           "score": null
         }
-      ],
-      "active": false
+      ]
     },
     {
       "nome": "IA com ROI no R&S",
       "score": 0,
       "investimento": 0,
       "impressoes": 0,
-      "engajamento": 1.41,
+      "engajamento": 1.38,
       "plat": "Linkedin",
       "share": null,
       "monthly": [
@@ -406,8 +399,7 @@
           "mes": "jun/26",
           "score": null
         }
-      ],
-      "active": false
+      ]
     },
     {
       "nome": "B2B - Institucional Advocacy",
@@ -454,8 +446,7 @@
           "mes": "jun/26",
           "score": null
         }
-      ],
-      "active": false
+      ]
     },
     {
       "nome": "Hunting no Banco",
@@ -502,8 +493,7 @@
           "mes": "jun/26",
           "score": null
         }
-      ],
-      "active": false
+      ]
     },
     {
       "nome": "IA no RH",
@@ -550,15 +540,14 @@
           "mes": "jun/26",
           "score": null
         }
-      ],
-      "active": false
+      ]
     },
     {
       "nome": "Smart Vagas",
       "score": 0,
       "investimento": 0,
       "impressoes": 0,
-      "engajamento": 0.76,
+      "engajamento": 0.7,
       "plat": "Linkedin",
       "share": null,
       "monthly": [
@@ -598,8 +587,7 @@
           "mes": "jun/26",
           "score": null
         }
-      ],
-      "active": false
+      ]
     },
     {
       "nome": "B2B - Institucional",
@@ -646,8 +634,7 @@
           "mes": "jun/26",
           "score": null
         }
-      ],
-      "active": false
+      ]
     },
     {
       "nome": "HR4R",
@@ -694,8 +681,7 @@
           "mes": "jun/26",
           "score": null
         }
-      ],
-      "active": false
+      ]
     }
   ],
   "creatives": [],
