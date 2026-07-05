@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-04T11:26:28.811Z",
+  "generated_at": "2026-07-05T11:26:15.743Z",
   "kpis": {
     "sMes": 87.5,
     "sQ2": 89.2,
-    "sYear": 67.8,
+    "sYear": 68.3,
     "sPrev": 89.3,
-    "investTotal": 180721,
+    "investTotal": 187283,
     "investMes": 15329,
     "impMes": 2136940,
     "mesLabel": "jun/26",
@@ -42,14 +42,14 @@
     },
     {
       "mes": "fev/26",
-      "total": 65.8,
-      "Linkedin": 65.8,
+      "total": 65.7,
+      "Linkedin": 65.7,
       "Meta": null
     },
     {
       "mes": "mar/26",
-      "total": 60,
-      "Linkedin": 83,
+      "total": 61.6,
+      "Linkedin": 84.1,
       "Meta": 44.8
     },
     {
@@ -79,7 +79,7 @@
       "impressoes": 64147,
       "engajamento": 10.8,
       "plat": "Linkedin",
-      "share": 3.8,
+      "share": 3.6,
       "monthly": [
         {
           "mes": "out/25",
@@ -220,7 +220,7 @@
       "impressoes": 30585,
       "engajamento": 2.11,
       "plat": "Linkedin",
-      "share": 0.9,
+      "share": 0.8,
       "monthly": [
         {
           "mes": "out/25",
@@ -267,7 +267,7 @@
       "impressoes": 490549,
       "engajamento": 10.13,
       "plat": "Linkedin",
-      "share": 5.9,
+      "share": 5.7,
       "monthly": [
         {
           "mes": "out/25",
@@ -361,7 +361,7 @@
       "impressoes": 516168,
       "engajamento": 16.07,
       "plat": "Meta",
-      "share": 9.4,
+      "share": 9.1,
       "monthly": [
         {
           "mes": "out/25",
@@ -408,7 +408,7 @@
       "impressoes": 458990,
       "engajamento": 12.69,
       "plat": "Linkedin",
-      "share": 10.6,
+      "share": 10.2,
       "monthly": [
         {
           "mes": "out/25",
@@ -455,7 +455,7 @@
       "impressoes": 2284167,
       "engajamento": 3.6,
       "plat": "Meta",
-      "share": 1.9,
+      "share": 1.8,
       "monthly": [
         {
           "mes": "out/25",
@@ -496,13 +496,60 @@
       ]
     },
     {
+      "nome": "IA com ROI no R&S",
+      "score": 63.3,
+      "investimento": 31407,
+      "impressoes": 7222865,
+      "engajamento": 1.31,
+      "plat": "Meta",
+      "share": 16.8,
+      "monthly": [
+        {
+          "mes": "out/25",
+          "score": null
+        },
+        {
+          "mes": "nov/25",
+          "score": null
+        },
+        {
+          "mes": "dez/25",
+          "score": null
+        },
+        {
+          "mes": "jan/26",
+          "score": null
+        },
+        {
+          "mes": "fev/26",
+          "score": 61.8
+        },
+        {
+          "mes": "mar/26",
+          "score": 64.4
+        },
+        {
+          "mes": "abr/26",
+          "score": null
+        },
+        {
+          "mes": "mai/26",
+          "score": null
+        },
+        {
+          "mes": "jun/26",
+          "score": null
+        }
+      ]
+    },
+    {
       "nome": "Atratividade que muda o ponteiro",
       "score": 62.9,
       "investimento": 27055,
       "impressoes": 6894242,
       "engajamento": 1.28,
       "plat": "Meta",
-      "share": 15,
+      "share": 14.4,
       "monthly": [
         {
           "mes": "out/25",
@@ -549,7 +596,7 @@
       "impressoes": 116530,
       "engajamento": 0.76,
       "plat": "Linkedin",
-      "share": 7.3,
+      "share": 7.1,
       "monthly": [
         {
           "mes": "out/25",
@@ -574,53 +621,6 @@
         {
           "mes": "mar/26",
           "score": null
-        },
-        {
-          "mes": "abr/26",
-          "score": null
-        },
-        {
-          "mes": "mai/26",
-          "score": null
-        },
-        {
-          "mes": "jun/26",
-          "score": null
-        }
-      ]
-    },
-    {
-      "nome": "IA com ROI no R&S",
-      "score": 59.5,
-      "investimento": 24844,
-      "impressoes": 7098747,
-      "engajamento": 1.31,
-      "plat": "Meta",
-      "share": 13.7,
-      "monthly": [
-        {
-          "mes": "out/25",
-          "score": null
-        },
-        {
-          "mes": "nov/25",
-          "score": null
-        },
-        {
-          "mes": "dez/25",
-          "score": null
-        },
-        {
-          "mes": "jan/26",
-          "score": null
-        },
-        {
-          "mes": "fev/26",
-          "score": 60.8
-        },
-        {
-          "mes": "mar/26",
-          "score": 58.6
         },
         {
           "mes": "abr/26",
@@ -690,7 +690,7 @@
       "impressoes": 180372,
       "engajamento": 0.46,
       "plat": "Linkedin",
-      "share": 7.2,
+      "share": 6.9,
       "monthly": [
         {
           "mes": "out/25",
@@ -737,7 +737,7 @@
       "impressoes": 308903,
       "engajamento": 0.23,
       "plat": "Linkedin",
-      "share": 4.6,
+      "share": 4.4,
       "monthly": [
         {
           "mes": "out/25",
@@ -784,7 +784,7 @@
       "impressoes": 579728,
       "engajamento": 0.21,
       "plat": "Linkedin",
-      "share": 7.8,
+      "share": 7.5,
       "monthly": [
         {
           "mes": "out/25",
@@ -831,7 +831,7 @@
       "impressoes": 3104509,
       "engajamento": 0.11,
       "plat": "Meta",
-      "share": 2.5,
+      "share": 2.4,
       "monthly": [
         {
           "mes": "out/25",
@@ -878,7 +878,7 @@
       "impressoes": 3965357,
       "engajamento": 0.11,
       "plat": "Meta",
-      "share": 3.4,
+      "share": 3.3,
       "monthly": [
         {
           "mes": "out/25",
