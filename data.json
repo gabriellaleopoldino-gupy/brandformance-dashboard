@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-06T11:26:41.453Z",
+  "generated_at": "2026-07-07T11:26:39.383Z",
   "kpis": {
     "sMes": 87.5,
-    "sQ2": 74.6,
-    "sYear": 62.8,
+    "sQ2": 81,
+    "sYear": 64.1,
     "sPrev": 80.2,
-    "investTotal": 242309,
+    "investTotal": 233735,
     "investMes": 15329,
     "impMes": 2136940,
     "mesLabel": "jun/26",
@@ -54,9 +54,9 @@
     },
     {
       "mes": "abr/26",
-      "total": 61,
+      "total": 75.7,
       "Linkedin": 96.7,
-      "Meta": 55
+      "Meta": 69.6
     },
     {
       "mes": "mai/26",
@@ -79,7 +79,7 @@
       "impressoes": 64147,
       "engajamento": 10.8,
       "plat": "Linkedin",
-      "share": 2.8,
+      "share": 2.9,
       "monthly": [
         {
           "mes": "out/25",
@@ -173,7 +173,7 @@
       "impressoes": 147218,
       "engajamento": 27.3,
       "plat": "Meta",
-      "share": 1,
+      "share": 1.1,
       "monthly": [
         {
           "mes": "out/25",
@@ -220,7 +220,7 @@
       "impressoes": 30585,
       "engajamento": 2.11,
       "plat": "Linkedin",
-      "share": 0.6,
+      "share": 0.7,
       "monthly": [
         {
           "mes": "out/25",
@@ -262,12 +262,12 @@
     },
     {
       "nome": "Cases",
-      "score": 93.2,
-      "investimento": 16505,
-      "impressoes": 704476,
-      "engajamento": 17.47,
+      "score": 92.3,
+      "investimento": 15082,
+      "impressoes": 580520,
+      "engajamento": 17.43,
       "plat": "Meta",
-      "share": 6.8,
+      "share": 6.5,
       "monthly": [
         {
           "mes": "out/25",
@@ -295,7 +295,7 @@
         },
         {
           "mes": "abr/26",
-          "score": 97.8
+          "score": 96.6
         },
         {
           "mes": "mai/26",
@@ -356,10 +356,10 @@
     },
     {
       "nome": "Contra-ataque Inhire",
-      "score": 85.5,
-      "investimento": 17663,
-      "impressoes": 572626,
-      "engajamento": 17.28,
+      "score": 85.4,
+      "investimento": 17033,
+      "impressoes": 516168,
+      "engajamento": 16.07,
       "plat": "Meta",
       "share": 7.3,
       "monthly": [
@@ -389,7 +389,7 @@
         },
         {
           "mes": "abr/26",
-          "score": 96.2
+          "score": 98.3
         },
         {
           "mes": "mai/26",
@@ -455,7 +455,7 @@
       "impressoes": 849738,
       "engajamento": 23.3,
       "plat": "Linkedin",
-      "share": 10.1,
+      "share": 10.4,
       "monthly": [
         {
           "mes": "out/25",
@@ -502,7 +502,7 @@
       "impressoes": 28225,
       "engajamento": 0.82,
       "plat": "Linkedin",
-      "share": 1.4,
+      "share": 1.5,
       "monthly": [
         {
           "mes": "out/25",
@@ -549,7 +549,7 @@
       "impressoes": 15913484,
       "engajamento": 1.36,
       "plat": "Meta",
-      "share": 16.4,
+      "share": 17,
       "monthly": [
         {
           "mes": "out/25",
@@ -596,7 +596,7 @@
       "impressoes": 14777632,
       "engajamento": 1.37,
       "plat": "Meta",
-      "share": 14.8,
+      "share": 15.4,
       "monthly": [
         {
           "mes": "out/25",
@@ -638,12 +638,12 @@
     },
     {
       "nome": "Winners",
-      "score": 54.8,
-      "investimento": 7353,
-      "impressoes": 5043305,
-      "engajamento": 3,
+      "score": 54.1,
+      "investimento": 7159,
+      "impressoes": 4907599,
+      "engajamento": 2.99,
       "plat": "Meta",
-      "share": 3,
+      "share": 3.1,
       "monthly": [
         {
           "mes": "out/25",
@@ -671,7 +671,7 @@
         },
         {
           "mes": "abr/26",
-          "score": 82.2
+          "score": null
         },
         {
           "mes": "mai/26",
@@ -690,7 +690,7 @@
       "impressoes": 369450,
       "engajamento": 0.7,
       "plat": "Linkedin",
-      "share": 7.1,
+      "share": 7.4,
       "monthly": [
         {
           "mes": "out/25",
@@ -737,7 +737,7 @@
       "impressoes": 180372,
       "engajamento": 0.46,
       "plat": "Linkedin",
-      "share": 5.4,
+      "share": 5.6,
       "monthly": [
         {
           "mes": "out/25",
@@ -784,7 +784,7 @@
       "impressoes": 4110873,
       "engajamento": 0.16,
       "plat": "Meta",
-      "share": 5.2,
+      "share": 5.4,
       "monthly": [
         {
           "mes": "out/25",
@@ -831,7 +831,7 @@
       "impressoes": 579728,
       "engajamento": 0.21,
       "plat": "Linkedin",
-      "share": 5.8,
+      "share": 6,
       "monthly": [
         {
           "mes": "out/25",
@@ -878,7 +878,7 @@
       "impressoes": 7084173,
       "engajamento": 0.45,
       "plat": "Meta",
-      "share": 4.2,
+      "share": 4.4,
       "monthly": [
         {
           "mes": "out/25",
@@ -920,12 +920,12 @@
     },
     {
       "nome": "NR1",
-      "score": 13.4,
-      "investimento": 10903,
-      "impressoes": 8340969,
-      "engajamento": 0.1,
+      "score": 14.1,
+      "investimento": 4577,
+      "impressoes": 3104509,
+      "engajamento": 0.11,
       "plat": "Meta",
-      "share": 4.5,
+      "share": 2,
       "monthly": [
         {
           "mes": "out/25",
@@ -953,7 +953,7 @@
         },
         {
           "mes": "abr/26",
-          "score": 12.9
+          "score": null
         },
         {
           "mes": "mai/26",
@@ -1054,26 +1054,14 @@
     {
       "ad": "_TA_618_Estatico_CaseDecathlon_AntesDepois_v1_",
       "code": "618",
-      "score": 99.3,
-      "investimento": 2460,
-      "impressoes": 170844,
+      "score": 99.8,
+      "investimento": 1700,
+      "impressoes": 121980,
       "plat": "Meta",
       "video": false,
       "nome": "Cases",
       "obj": "Engajamento",
       "drive_file": "618.png"
-    },
-    {
-      "ad": "_TA_626_Video_17s_CaseYpe_v1_",
-      "code": "626",
-      "score": 99.1,
-      "investimento": 2562,
-      "impressoes": 28731,
-      "plat": "Meta",
-      "video": true,
-      "nome": "Cases",
-      "obj": "Engajamento",
-      "drive_file": "626.mp4"
     },
     {
       "ad": "_TA_620_Video_17s_CaseDecathlon_v1_",
@@ -1098,6 +1086,18 @@
       "nome": "Treinamento",
       "obj": "Engajamento",
       "drive_file": ""
+    },
+    {
+      "ad": "_TA_626_Video_17s_CaseYpe_v1_",
+      "code": "626",
+      "score": 96.1,
+      "investimento": 2403,
+      "impressoes": 26087,
+      "plat": "Meta",
+      "video": true,
+      "nome": "Cases",
+      "obj": "Engajamento",
+      "drive_file": "626.mp4"
     },
     {
       "ad": "_TA_624_Estatico_CaseYpe_Argumento_v1_",
@@ -1174,9 +1174,9 @@
     {
       "ad": "_691_video_69s_estilopodcast_chro_v1_lplm-01_",
       "code": "691",
-      "score": 91.4,
-      "investimento": 6446,
-      "impressoes": 330423,
+      "score": 91.3,
+      "investimento": 5977,
+      "impressoes": 292637,
       "plat": "Linkedin",
       "video": true,
       "nome": "Contra-ataque (Inhire)",
@@ -1199,8 +1199,8 @@
       "ad": "_693_video_65s_estilopodcast_ctoecio_v1_lplm-01_",
       "code": "693",
       "score": 90.8,
-      "investimento": 3974,
-      "impressoes": 57982,
+      "investimento": 3913,
+      "impressoes": 50304,
       "plat": "Linkedin",
       "video": true,
       "nome": "Contra-ataque (Inhire)",
@@ -1271,8 +1271,8 @@
       "ad": "_690_video_65s_estilopodcast_liderancata_v1_lplm-01_",
       "code": "690",
       "score": 86.2,
-      "investimento": 3527,
-      "impressoes": 243810,
+      "investimento": 3458,
+      "impressoes": 236126,
       "plat": "Meta",
       "video": true,
       "nome": "Contra-ataque (Inhire)",
@@ -1355,8 +1355,8 @@
       "ad": "_692_video_73s_estilopodcast_cfo_v1_lplm-01_",
       "code": "692",
       "score": 84.2,
-      "investimento": 4048,
-      "impressoes": 63510,
+      "investimento": 4016,
+      "impressoes": 60200,
       "plat": "Meta",
       "video": true,
       "nome": "Contra-ataque (Inhire)",
@@ -1379,8 +1379,8 @@
       "ad": "_679_video_15s_motionvolume_v1_lplm-01_",
       "code": "679",
       "score": 83.3,
-      "investimento": 896,
-      "impressoes": 555041,
+      "investimento": 886,
+      "impressoes": 548409,
       "plat": "Meta",
       "video": true,
       "nome": "Winners",
@@ -1390,9 +1390,9 @@
     {
       "ad": "_684_video_13s_educativo_aindanaocontrata_v1_lplm-01_",
       "code": "684",
-      "score": 82.8,
-      "investimento": 336,
-      "impressoes": 227857,
+      "score": 82.9,
+      "investimento": 261,
+      "impressoes": 179358,
       "plat": "Meta",
       "video": true,
       "nome": "Winners",
@@ -1403,8 +1403,8 @@
       "ad": "_680_video_15s_motionprecisao_v1_lplm-01_",
       "code": "680",
       "score": 82.5,
-      "investimento": 203,
-      "impressoes": 131950,
+      "investimento": 181,
+      "impressoes": 116388,
       "plat": "Meta",
       "video": true,
       "nome": "Winners",
@@ -1412,23 +1412,11 @@
       "drive_file": "680.mp4"
     },
     {
-      "ad": "_TA_619_Carrossel_CaseDecathlon_AntesDepois_v1_",
-      "code": "619",
-      "score": 82.3,
-      "investimento": 1451,
-      "impressoes": 105148,
-      "plat": "Meta",
-      "video": false,
-      "nome": "Cases",
-      "obj": "Engajamento",
-      "drive_file": "619"
-    },
-    {
       "ad": "_685_video_15s_autoridade_reactnoticias_v1_lplm-01_",
       "code": "685",
       "score": 82.2,
-      "investimento": 163,
-      "impressoes": 109903,
+      "investimento": 152,
+      "impressoes": 101404,
       "plat": "Meta",
       "video": true,
       "nome": "Winners",
@@ -1438,14 +1426,26 @@
     {
       "ad": "_678_video_15s_motionescala_v1_lplm-01_",
       "code": "678",
-      "score": 82,
-      "investimento": 232,
-      "impressoes": 158173,
+      "score": 81.9,
+      "investimento": 156,
+      "impressoes": 101659,
       "plat": "Meta",
       "video": true,
       "nome": "Winners",
       "obj": "Alcance",
       "drive_file": "678.mp4"
+    },
+    {
+      "ad": "_733_estatico_roisaude_treinamentonr_v1_lplm-05_",
+      "code": "733",
+      "score": 81.5,
+      "investimento": 62,
+      "impressoes": 2909,
+      "plat": "Linkedin",
+      "video": false,
+      "nome": "Treinamento",
+      "obj": "Engajamento",
+      "drive_file": ""
     }
   ],
   "months": [
