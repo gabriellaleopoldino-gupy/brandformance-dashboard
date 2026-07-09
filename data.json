@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-07-08T11:26:28.372Z",
+  "generated_at": "2026-07-09T11:26:49.587Z",
   "kpis": {
-    "sMes": 87.5,
-    "sQ2": 74.6,
-    "sYear": 62.3,
-    "sPrev": 80.2,
-    "investTotal": 235747,
-    "investMes": 15329,
-    "impMes": 2136940,
+    "sMes": 90,
+    "sQ2": 71.7,
+    "sYear": 63.7,
+    "sPrev": 78.4,
+    "investTotal": 192625,
+    "investMes": 10083,
+    "impMes": 2085260,
     "mesLabel": "jun/26",
     "prevLabel": "mai/26"
   },
   "plat": {
-    "Linkedin": 83.2,
+    "Linkedin": 89.3,
     "Meta": 90
   },
   "monthly": [
     {
       "mes": "out/25",
-      "total": 36.2,
-      "Linkedin": 36.2,
+      "total": 41.2,
+      "Linkedin": 41.2,
       "Meta": null
     },
     {
       "mes": "nov/25",
-      "total": 45,
-      "Linkedin": 45,
+      "total": 45.2,
+      "Linkedin": 45.2,
       "Meta": null
     },
     {
@@ -36,15 +36,15 @@
     },
     {
       "mes": "jan/26",
-      "total": 32.9,
+      "total": 41,
       "Linkedin": 41,
-      "Meta": 12.4
+      "Meta": null
     },
     {
       "mes": "fev/26",
-      "total": 58.2,
+      "total": 65.8,
       "Linkedin": 65.8,
-      "Meta": 49
+      "Meta": null
     },
     {
       "mes": "mar/26",
@@ -54,20 +54,20 @@
     },
     {
       "mes": "abr/26",
-      "total": 61,
-      "Linkedin": 96.7,
+      "total": 58.2,
+      "Linkedin": 95.2,
       "Meta": 55
     },
     {
       "mes": "mai/26",
-      "total": 80.2,
-      "Linkedin": 87.8,
+      "total": 78.4,
+      "Linkedin": 89.3,
       "Meta": 70.3
     },
     {
       "mes": "jun/26",
-      "total": 87.5,
-      "Linkedin": 83.2,
+      "total": 90,
+      "Linkedin": 89.3,
       "Meta": 90
     }
   ],
@@ -79,7 +79,7 @@
       "impressoes": 64147,
       "engajamento": 10.8,
       "plat": "Linkedin",
-      "share": 2.9,
+      "share": 3.5,
       "monthly": [
         {
           "mes": "out/25",
@@ -126,7 +126,7 @@
       "impressoes": 34366,
       "engajamento": 46.19,
       "plat": "Meta",
-      "share": 0.7,
+      "share": 0.9,
       "monthly": [
         {
           "mes": "out/25",
@@ -173,7 +173,7 @@
       "impressoes": 147218,
       "engajamento": 27.3,
       "plat": "Meta",
-      "share": 1.1,
+      "share": 1.3,
       "monthly": [
         {
           "mes": "out/25",
@@ -214,60 +214,13 @@
       ]
     },
     {
-      "nome": "Treinamento",
-      "score": 96.4,
-      "investimento": 1572,
-      "impressoes": 30585,
-      "engajamento": 2.11,
-      "plat": "Linkedin",
-      "share": 0.7,
-      "monthly": [
-        {
-          "mes": "out/25",
-          "score": null
-        },
-        {
-          "mes": "nov/25",
-          "score": null
-        },
-        {
-          "mes": "dez/25",
-          "score": null
-        },
-        {
-          "mes": "jan/26",
-          "score": null
-        },
-        {
-          "mes": "fev/26",
-          "score": null
-        },
-        {
-          "mes": "mar/26",
-          "score": null
-        },
-        {
-          "mes": "abr/26",
-          "score": null
-        },
-        {
-          "mes": "mai/26",
-          "score": null
-        },
-        {
-          "mes": "jun/26",
-          "score": 96.4
-        }
-      ]
-    },
-    {
       "nome": "Cases",
       "score": 93.2,
       "investimento": 16505,
       "impressoes": 704476,
       "engajamento": 17.47,
       "plat": "Meta",
-      "share": 7,
+      "share": 8.6,
       "monthly": [
         {
           "mes": "out/25",
@@ -308,13 +261,13 @@
       ]
     },
     {
-      "nome": "Contra-ataque (Inhire)",
-      "score": 89.2,
-      "investimento": 3100,
-      "impressoes": 204230,
-      "engajamento": 16.1,
+      "nome": "Contra-ataque Inhire",
+      "score": 87.7,
+      "investimento": 8633,
+      "impressoes": 512556,
+      "engajamento": 45.3,
       "plat": "Meta",
-      "share": 1.3,
+      "share": 4.5,
       "monthly": [
         {
           "mes": "out/25",
@@ -342,26 +295,26 @@
         },
         {
           "mes": "abr/26",
-          "score": null
+          "score": 90.6
         },
         {
           "mes": "mai/26",
-          "score": null
+          "score": 85.3
         },
         {
           "mes": "jun/26",
-          "score": 89.2
+          "score": 94.4
         }
       ]
     },
     {
-      "nome": "Contra-ataque Inhire",
-      "score": 85.5,
-      "investimento": 17663,
-      "impressoes": 572626,
-      "engajamento": 17.28,
+      "nome": "Contra-ataque (Inhire)",
+      "score": 86.7,
+      "investimento": 1517,
+      "impressoes": 197493,
+      "engajamento": 24.23,
       "plat": "Meta",
-      "share": 7.5,
+      "share": 0.8,
       "monthly": [
         {
           "mes": "out/25",
@@ -389,15 +342,15 @@
         },
         {
           "mes": "abr/26",
-          "score": 96.2
+          "score": null
         },
         {
           "mes": "mai/26",
-          "score": 85.5
+          "score": null
         },
         {
           "mes": "jun/26",
-          "score": 79.4
+          "score": 86.7
         }
       ]
     },
@@ -408,7 +361,7 @@
       "impressoes": 3045362,
       "engajamento": 8.53,
       "plat": "Meta",
-      "share": 1.4,
+      "share": 1.7,
       "monthly": [
         {
           "mes": "out/25",
@@ -450,12 +403,12 @@
     },
     {
       "nome": "B2B - Institucional Advocacy",
-      "score": 83.6,
-      "investimento": 24418,
-      "impressoes": 849738,
-      "engajamento": 23.3,
+      "score": 79.2,
+      "investimento": 19180,
+      "impressoes": 458990,
+      "engajamento": 12.69,
       "plat": "Linkedin",
-      "share": 10.4,
+      "share": 10,
       "monthly": [
         {
           "mes": "out/25",
@@ -475,11 +428,152 @@
         },
         {
           "mes": "fev/26",
-          "score": 88.1
+          "score": 78.1
         },
         {
           "mes": "mar/26",
           "score": 84.1
+        },
+        {
+          "mes": "abr/26",
+          "score": null
+        },
+        {
+          "mes": "mai/26",
+          "score": null
+        },
+        {
+          "mes": "jun/26",
+          "score": null
+        }
+      ]
+    },
+    {
+      "nome": "Atratividade que muda o ponteiro",
+      "score": 62.9,
+      "investimento": 27055,
+      "impressoes": 6894242,
+      "engajamento": 1.28,
+      "plat": "Meta",
+      "share": 14,
+      "monthly": [
+        {
+          "mes": "out/25",
+          "score": null
+        },
+        {
+          "mes": "nov/25",
+          "score": null
+        },
+        {
+          "mes": "dez/25",
+          "score": null
+        },
+        {
+          "mes": "jan/26",
+          "score": null
+        },
+        {
+          "mes": "fev/26",
+          "score": 66.4
+        },
+        {
+          "mes": "mar/26",
+          "score": 60.6
+        },
+        {
+          "mes": "abr/26",
+          "score": null
+        },
+        {
+          "mes": "mai/26",
+          "score": null
+        },
+        {
+          "mes": "jun/26",
+          "score": null
+        }
+      ]
+    },
+    {
+      "nome": "Smart Vagas",
+      "score": 61.4,
+      "investimento": 13267,
+      "impressoes": 116530,
+      "engajamento": 0.76,
+      "plat": "Linkedin",
+      "share": 6.9,
+      "monthly": [
+        {
+          "mes": "out/25",
+          "score": 63.3
+        },
+        {
+          "mes": "nov/25",
+          "score": 59
+        },
+        {
+          "mes": "dez/25",
+          "score": 63.7
+        },
+        {
+          "mes": "jan/26",
+          "score": null
+        },
+        {
+          "mes": "fev/26",
+          "score": null
+        },
+        {
+          "mes": "mar/26",
+          "score": null
+        },
+        {
+          "mes": "abr/26",
+          "score": null
+        },
+        {
+          "mes": "mai/26",
+          "score": null
+        },
+        {
+          "mes": "jun/26",
+          "score": null
+        }
+      ]
+    },
+    {
+      "nome": "IA com ROI no R&S",
+      "score": 59.5,
+      "investimento": 24844,
+      "impressoes": 7098747,
+      "engajamento": 1.31,
+      "plat": "Meta",
+      "share": 12.9,
+      "monthly": [
+        {
+          "mes": "out/25",
+          "score": null
+        },
+        {
+          "mes": "nov/25",
+          "score": null
+        },
+        {
+          "mes": "dez/25",
+          "score": null
+        },
+        {
+          "mes": "jan/26",
+          "score": null
+        },
+        {
+          "mes": "fev/26",
+          "score": 60.8
+        },
+        {
+          "mes": "mar/26",
+          "score": 58.6
         },
         {
           "mes": "abr/26",
@@ -502,7 +596,7 @@
       "impressoes": 28225,
       "engajamento": 0.82,
       "plat": "Linkedin",
-      "share": 1.5,
+      "share": 1.8,
       "monthly": [
         {
           "mes": "out/25",
@@ -543,60 +637,13 @@
       ]
     },
     {
-      "nome": "Atratividade que muda o ponteiro",
-      "score": 55.7,
-      "investimento": 35948,
-      "impressoes": 14777632,
-      "engajamento": 1.37,
-      "plat": "Meta",
-      "share": 15.2,
-      "monthly": [
-        {
-          "mes": "out/25",
-          "score": null
-        },
-        {
-          "mes": "nov/25",
-          "score": null
-        },
-        {
-          "mes": "dez/25",
-          "score": null
-        },
-        {
-          "mes": "jan/26",
-          "score": null
-        },
-        {
-          "mes": "fev/26",
-          "score": 51.7
-        },
-        {
-          "mes": "mar/26",
-          "score": 60.6
-        },
-        {
-          "mes": "abr/26",
-          "score": null
-        },
-        {
-          "mes": "mai/26",
-          "score": null
-        },
-        {
-          "mes": "jun/26",
-          "score": null
-        }
-      ]
-    },
-    {
       "nome": "Winners",
       "score": 54.8,
       "investimento": 7353,
       "impressoes": 5043305,
       "engajamento": 3,
       "plat": "Meta",
-      "share": 3.1,
+      "share": 3.8,
       "monthly": [
         {
           "mes": "out/25",
@@ -637,107 +684,13 @@
       ]
     },
     {
-      "nome": "IA com ROI no R&S",
-      "score": 53.4,
-      "investimento": 33283,
-      "impressoes": 15789366,
-      "engajamento": 1.38,
-      "plat": "Meta",
-      "share": 14.1,
-      "monthly": [
-        {
-          "mes": "out/25",
-          "score": null
-        },
-        {
-          "mes": "nov/25",
-          "score": null
-        },
-        {
-          "mes": "dez/25",
-          "score": null
-        },
-        {
-          "mes": "jan/26",
-          "score": null
-        },
-        {
-          "mes": "fev/26",
-          "score": 48.9
-        },
-        {
-          "mes": "mar/26",
-          "score": 58.6
-        },
-        {
-          "mes": "abr/26",
-          "score": null
-        },
-        {
-          "mes": "mai/26",
-          "score": null
-        },
-        {
-          "mes": "jun/26",
-          "score": null
-        }
-      ]
-    },
-    {
-      "nome": "Smart Vagas",
-      "score": 50.5,
-      "investimento": 17235,
-      "impressoes": 369450,
-      "engajamento": 0.7,
-      "plat": "Linkedin",
-      "share": 7.3,
-      "monthly": [
-        {
-          "mes": "out/25",
-          "score": 42.4
-        },
-        {
-          "mes": "nov/25",
-          "score": 57.6
-        },
-        {
-          "mes": "dez/25",
-          "score": 63.7
-        },
-        {
-          "mes": "jan/26",
-          "score": null
-        },
-        {
-          "mes": "fev/26",
-          "score": null
-        },
-        {
-          "mes": "mar/26",
-          "score": null
-        },
-        {
-          "mes": "abr/26",
-          "score": null
-        },
-        {
-          "mes": "mai/26",
-          "score": null
-        },
-        {
-          "mes": "jun/26",
-          "score": null
-        }
-      ]
-    },
-    {
       "nome": "B2B - Institucional",
       "score": 48.3,
       "investimento": 13015,
       "impressoes": 180372,
       "engajamento": 0.46,
       "plat": "Linkedin",
-      "share": 5.5,
+      "share": 6.8,
       "monthly": [
         {
           "mes": "out/25",
@@ -779,12 +732,12 @@
     },
     {
       "nome": "Hunting no Banco",
-      "score": 26.5,
-      "investimento": 12623,
-      "impressoes": 4110873,
-      "engajamento": 0.16,
-      "plat": "Meta",
-      "share": 5.4,
+      "score": 34.1,
+      "investimento": 8223,
+      "impressoes": 308903,
+      "engajamento": 0.23,
+      "plat": "Linkedin",
+      "share": 4.3,
       "monthly": [
         {
           "mes": "out/25",
@@ -800,11 +753,11 @@
         },
         {
           "mes": "jan/26",
-          "score": 25.2
+          "score": 32.5
         },
         {
           "mes": "fev/26",
-          "score": 35.2
+          "score": 42.5
         },
         {
           "mes": "mar/26",
@@ -831,7 +784,7 @@
       "impressoes": 579728,
       "engajamento": 0.21,
       "plat": "Linkedin",
-      "share": 5.9,
+      "share": 7.3,
       "monthly": [
         {
           "mes": "out/25",
@@ -878,7 +831,7 @@
       "impressoes": 7084173,
       "engajamento": 0.45,
       "plat": "Meta",
-      "share": 4.4,
+      "share": 5.3,
       "monthly": [
         {
           "mes": "out/25",
@@ -925,7 +878,7 @@
       "impressoes": 8340969,
       "engajamento": 0.1,
       "plat": "Meta",
-      "share": 4.6,
+      "share": 5.7,
       "monthly": [
         {
           "mes": "out/25",
@@ -976,42 +929,6 @@
       "plat": "Meta",
       "video": true,
       "nome": "_tm_facebook_trafego_brandformance_social_campanhatreinamento_",
-      "obj": "Engajamento",
-      "drive_file": ""
-    },
-    {
-      "ad": "_731_estatico_roisaude_timecapacitado_v1_lplm-05_",
-      "code": "731",
-      "score": 100,
-      "investimento": 399,
-      "impressoes": 5086,
-      "plat": "Linkedin",
-      "video": false,
-      "nome": "Treinamento",
-      "obj": "Engajamento",
-      "drive_file": ""
-    },
-    {
-      "ad": "_735_estatico_roitelecom_atendimentoruim_v1_lplm-05_",
-      "code": "735",
-      "score": 100,
-      "investimento": 358,
-      "impressoes": 5386,
-      "plat": "Linkedin",
-      "video": false,
-      "nome": "Treinamento",
-      "obj": "Engajamento",
-      "drive_file": ""
-    },
-    {
-      "ad": "_730_estatico_roivarejo_altarotatividade_v1_lplm-05_",
-      "code": "730",
-      "score": 100,
-      "investimento": 340,
-      "impressoes": 3941,
-      "plat": "Linkedin",
-      "video": false,
-      "nome": "Treinamento",
       "obj": "Engajamento",
       "drive_file": ""
     },
@@ -1088,18 +1005,6 @@
       "drive_file": "620.mp4"
     },
     {
-      "ad": "_732_estatico_roisaude_treinamentofunciona_v1_lplm-05_",
-      "code": "732",
-      "score": 96.2,
-      "investimento": 63,
-      "impressoes": 2578,
-      "plat": "Linkedin",
-      "video": false,
-      "nome": "Treinamento",
-      "obj": "Engajamento",
-      "drive_file": ""
-    },
-    {
       "ad": "_TA_624_Estatico_CaseYpe_Argumento_v1_",
       "code": "624",
       "score": 95.9,
@@ -1112,16 +1017,16 @@
       "drive_file": "624.png"
     },
     {
-      "ad": "_729_estatico_roivarejo_onboardingfraco_v1_lplm-05_",
-      "code": "729",
-      "score": 95.2,
-      "investimento": 102,
-      "impressoes": 2024,
-      "plat": "Linkedin",
-      "video": false,
-      "nome": "Treinamento",
+      "ad": "_722_video_30s_advocacy_usandoagupy_v1_lplm-01_",
+      "code": "722",
+      "score": 95.1,
+      "investimento": 1928,
+      "impressoes": 425455,
+      "plat": "Meta",
+      "video": true,
+      "nome": "Winners (Geral)",
       "obj": "Engajamento",
-      "drive_file": ""
+      "drive_file": "722.mp4"
     },
     {
       "ad": "_TA_623_Video_13s_CaseMDias_v1_",
@@ -1136,28 +1041,40 @@
       "drive_file": "623.mp4"
     },
     {
-      "ad": "_722_video_30s_advocacy_usandoagupy_v1_lplm-01_",
-      "code": "722",
-      "score": 94.1,
-      "investimento": 1980,
-      "impressoes": 425862,
+      "ad": "_715_video_10s_vivara_comogestora_v1_lplm-01_",
+      "code": "715",
+      "score": 93.5,
+      "investimento": 228,
+      "impressoes": 67182,
       "plat": "Meta",
       "video": true,
       "nome": "Winners (Geral)",
       "obj": "Engajamento",
-      "drive_file": "722.mp4"
+      "drive_file": "715"
     },
     {
-      "ad": "_GUPY_472_Video_12s_CampanhaB2B_Depoimento_Cruzeiro_v1_",
-      "code": "472",
-      "score": 93.8,
-      "investimento": 5279,
-      "impressoes": 355901,
+      "ad": "_717_video_10s_hypera_osentimento_v1_lplm-01_",
+      "code": "717",
+      "score": 93.3,
+      "investimento": 123,
+      "impressoes": 37897,
       "plat": "Meta",
       "video": true,
-      "nome": "B2B - Institucional Advocacy",
+      "nome": "Winners (Geral)",
       "obj": "Engajamento",
-      "drive_file": "472.mp4"
+      "drive_file": "717.mp4"
+    },
+    {
+      "ad": "_693_video_65s_estilopodcast_ctoecio_v1_lplm-01_",
+      "code": "693",
+      "score": 93.2,
+      "investimento": 506,
+      "impressoes": 42112,
+      "plat": "Meta",
+      "video": true,
+      "nome": "Contra-ataque (Inhire)",
+      "obj": "Engajamento",
+      "drive_file": "693.mp4"
     },
     {
       "ad": "_TA_601_Estatico_Integracoes_JobBoards_v1_",
@@ -1172,14 +1089,26 @@
       "drive_file": "601.jpg"
     },
     {
+      "ad": "_716_video_10s_vivara_grandesempresas_v1_lplm-01_",
+      "code": "716",
+      "score": 92.1,
+      "investimento": 149,
+      "impressoes": 46628,
+      "plat": "Meta",
+      "video": true,
+      "nome": "Winners (Geral)",
+      "obj": "Engajamento",
+      "drive_file": "716.mp4"
+    },
+    {
       "ad": "_691_video_69s_estilopodcast_chro_v1_lplm-01_",
       "code": "691",
-      "score": 91.4,
-      "investimento": 6446,
-      "impressoes": 330423,
+      "score": 91.2,
+      "investimento": 5597,
+      "impressoes": 324928,
       "plat": "Linkedin",
       "video": true,
-      "nome": "Contra-ataque (Inhire)",
+      "nome": "Contra-ataque Inhire",
       "obj": "Engajamento",
       "drive_file": "691.mp4"
     },
@@ -1196,18 +1125,6 @@
       "drive_file": "622.png"
     },
     {
-      "ad": "_693_video_65s_estilopodcast_ctoecio_v1_lplm-01_",
-      "code": "693",
-      "score": 90.8,
-      "investimento": 3974,
-      "impressoes": 57982,
-      "plat": "Linkedin",
-      "video": true,
-      "nome": "Contra-ataque (Inhire)",
-      "obj": "Engajamento",
-      "drive_file": "693.mp4"
-    },
-    {
       "ad": "_738_video_21s_treinamento_corte2_v1_lplm-05_",
       "code": "738",
       "score": 90.7,
@@ -1220,64 +1137,16 @@
       "drive_file": ""
     },
     {
-      "ad": "_715_video_10s_vivara_comogestora_v1_lplm-01_",
-      "code": "715",
-      "score": 89.8,
-      "investimento": 269,
-      "impressoes": 67557,
-      "plat": "Meta",
-      "video": true,
-      "nome": "Winners (Geral)",
-      "obj": "Engajamento",
-      "drive_file": "715"
-    },
-    {
-      "ad": "_736_estatico_roitelecom_faltatreinamento_v1_lplm-05_",
-      "code": "736",
-      "score": 88.7,
-      "investimento": 115,
-      "impressoes": 3195,
-      "plat": "Linkedin",
-      "video": false,
-      "nome": "Treinamento",
-      "obj": "Engajamento",
-      "drive_file": ""
-    },
-    {
-      "ad": "_734_estatico_roitelecom_semtreinamentoeficaz_v1_lplm-05_",
-      "code": "734",
-      "score": 88.5,
-      "investimento": 54,
-      "impressoes": 2683,
-      "plat": "Linkedin",
-      "video": false,
-      "nome": "Treinamento",
-      "obj": "Engajamento",
-      "drive_file": ""
-    },
-    {
-      "ad": "_GUPY_473_Video_12s_CampanhaB2B_Depoimento_Decathlon_v1_",
-      "code": "473",
-      "score": 87.3,
-      "investimento": 6929,
-      "impressoes": 129044,
+      "ad": "_GUPY_472_Video_12s_CampanhaB2B_Depoimento_Cruzeiro_v1_",
+      "code": "472",
+      "score": 90.5,
+      "investimento": 3406,
+      "impressoes": 223037,
       "plat": "Meta",
       "video": true,
       "nome": "B2B - Institucional Advocacy",
       "obj": "Engajamento",
-      "drive_file": "473.mp4"
-    },
-    {
-      "ad": "_690_video_65s_estilopodcast_liderancata_v1_lplm-01_",
-      "code": "690",
-      "score": 86.2,
-      "investimento": 3527,
-      "impressoes": 243810,
-      "plat": "Meta",
-      "video": true,
-      "nome": "Contra-ataque (Inhire)",
-      "obj": "Engajamento",
-      "drive_file": "690.mp4"
+      "drive_file": "472.mp4"
     },
     {
       "ad": "_691_video_69s_estilopodcast_chro_v1_pglm-15_",
@@ -1292,6 +1161,18 @@
       "drive_file": "691.mp4"
     },
     {
+      "ad": "_GUPY_473_Video_12s_CampanhaB2B_Depoimento_Decathlon_v1_",
+      "code": "473",
+      "score": 85.8,
+      "investimento": 6231,
+      "impressoes": 70889,
+      "plat": "Meta",
+      "video": true,
+      "nome": "B2B - Institucional Advocacy",
+      "obj": "Engajamento",
+      "drive_file": "473.mp4"
+    },
+    {
       "ad": "_TA_654_Video_15s_Depoimento1_v1_",
       "code": "654",
       "score": 85.3,
@@ -1302,6 +1183,18 @@
       "nome": "Cases V2",
       "obj": "Alcance",
       "drive_file": "654.mp4"
+    },
+    {
+      "ad": "_718_video_10s_olx_agupyouve_v1_lplm-01_",
+      "code": "718",
+      "score": 85.2,
+      "investimento": 157,
+      "impressoes": 94664,
+      "plat": "Meta",
+      "video": true,
+      "nome": "Winners (Geral)",
+      "obj": "Engajamento",
+      "drive_file": "718"
     },
     {
       "ad": "_TA_655_Video_15s_Depoimento2_v1_",
@@ -1316,16 +1209,16 @@
       "drive_file": "655.mp4"
     },
     {
-      "ad": "_GUPY_477_Video_12s_CampanhaB2B_Depoimento_Cruzeiro_v2_",
-      "code": "477",
-      "score": 84.8,
-      "investimento": 3258,
-      "impressoes": 158630,
+      "ad": "_690_video_65s_estilopodcast_liderancata_v1_lplm-01_",
+      "code": "690",
+      "score": 84.4,
+      "investimento": 2631,
+      "impressoes": 237513,
       "plat": "Meta",
       "video": true,
-      "nome": "B2B - Institucional Advocacy",
+      "nome": "Contra-ataque (Inhire)",
       "obj": "Engajamento",
-      "drive_file": "477.mp4"
+      "drive_file": "690.mp4"
     },
     {
       "ad": "_TA_656_Video_15s_Depoimento3_v1_",
@@ -1350,18 +1243,6 @@
       "nome": "Cases V2",
       "obj": "Alcance",
       "drive_file": "657.mp4"
-    },
-    {
-      "ad": "_692_video_73s_estilopodcast_cfo_v1_lplm-01_",
-      "code": "692",
-      "score": 84.2,
-      "investimento": 4048,
-      "impressoes": 63510,
-      "plat": "Meta",
-      "video": true,
-      "nome": "Contra-ataque (Inhire)",
-      "obj": "Engajamento",
-      "drive_file": "692.mp4"
     },
     {
       "ad": "_739_video_22s_treinamento_corte3_v1_lplm-05_",
@@ -1436,6 +1317,18 @@
       "drive_file": "685.mp4"
     },
     {
+      "ad": "_719_video_15s_advocacy_confianca_v1_lplm-01_",
+      "code": "719",
+      "score": 82.1,
+      "investimento": 79,
+      "impressoes": 54530,
+      "plat": "Meta",
+      "video": true,
+      "nome": "Winners",
+      "obj": "Alcance",
+      "drive_file": "719.mp4"
+    },
+    {
       "ad": "_678_video_15s_motionescala_v1_lplm-01_",
       "code": "678",
       "score": 82,
@@ -1446,6 +1339,66 @@
       "nome": "Winners",
       "obj": "Alcance",
       "drive_file": "678.mp4"
+    },
+    {
+      "ad": "_720_video_15s_advocacy_nossatrajetoria_v1_lplm-01_",
+      "code": "720",
+      "score": 81.4,
+      "investimento": 68,
+      "impressoes": 43454,
+      "plat": "Meta",
+      "video": true,
+      "nome": "Winners",
+      "obj": "Alcance",
+      "drive_file": "720.mp4"
+    },
+    {
+      "ad": "_TA_661_Video_18s_DadosAutonomia_v1_",
+      "code": "661",
+      "score": 81.4,
+      "investimento": 680,
+      "impressoes": 485585,
+      "plat": "Meta",
+      "video": true,
+      "nome": "Dados & Analytics",
+      "obj": "Alcance",
+      "drive_file": "661.mp4"
+    },
+    {
+      "ad": "_TA_662_Video_19s_DadosConexao_v1_",
+      "code": "662",
+      "score": 81.2,
+      "investimento": 107,
+      "impressoes": 77644,
+      "plat": "Meta",
+      "video": true,
+      "nome": "Dados & Analytics",
+      "obj": "Alcance",
+      "drive_file": "662.mp4"
+    },
+    {
+      "ad": "_710_video_jornadacompleta_conversa_v1_lplm-01_",
+      "code": "710",
+      "score": 80.7,
+      "investimento": 384,
+      "impressoes": 245447,
+      "plat": "Meta",
+      "video": true,
+      "nome": "Winners (Geral)",
+      "obj": "Engajamento",
+      "drive_file": "710.mp4"
+    },
+    {
+      "ad": "_721_video_30s_advocacy_comoerasemagupy_v1_lplm-01_",
+      "code": "721",
+      "score": 80.7,
+      "investimento": 72,
+      "impressoes": 49613,
+      "plat": "Meta",
+      "video": true,
+      "nome": "Winners",
+      "obj": "Alcance",
+      "drive_file": ""
     }
   ],
   "months": [
