@@ -4,11 +4,12 @@
 // Envia data.json para o GitHub (lido pelo dashboard via Vercel)
 // ============================================================
 
-const SHEET_ID     = '1GyDGcHimpNX7lksj6CLcMC7GJKUJB2PKZURLFcIN3Y8';
-const GITHUB_OWNER = 'SEU_USUARIO_GITHUB';   // ex: gupy-marketing
-const GITHUB_REPO  = 'brandformance-dashboard';
-const GITHUB_TOKEN = 'SEU_GITHUB_TOKEN';     // Personal Access Token (escopo: repo)
-const DATA_FILE    = 'data.json';
+const SHEET_ID        = '1GyDGcHimpNX7lksj6CLcMC7GJKUJB2PKZURLFcIN3Y8';
+const GITHUB_OWNER    = 'SEU_USUARIO_GITHUB';   // ex: gupy-marketing
+const GITHUB_REPO     = 'brandformance-dashboard';
+const GITHUB_TOKEN    = 'SEU_GITHUB_TOKEN';     // Personal Access Token (escopo: repo)
+const DATA_FILE       = 'data.json';
+const DRIVE_FOLDER_ID = '1tpMv-EqqE1FK4x4IjdYqaK7xhm58I5s5'; // Pasta "Peças H1/2026"
 
 // ── Ponto de entrada ────────────────────────────────────────
 function updateDashboard() {
@@ -39,7 +40,7 @@ function buildDashboardData() {
   const iAd = col('Ad name'),       iV  = col('Video');
   const iO  = col('Objetivo');
 
-  const fileMap = buildFileMap(ss);
+  const fileMap = buildFileMap();
 
   const rows = raw.slice(1)
     .filter(r => r[iT] === 'Brandformance' && r[iM])
@@ -111,6 +112,7 @@ function buildDashboardData() {
       const cost = g.rows.reduce((s, r) => s + r.cost, 0);
       const m    = g.ad.match(/_(\d{3,4})_/);
       const code = m ? m[1] : null;
+      const file = code ? fileMap[code] : null;
       return {
         ad:           g.ad,
         code,
@@ -121,7 +123,8 @@ function buildDashboardData() {
         video:        g.video,
         nome:         g.nome,
         obj:          g.obj,
-        drive_file:   code ? (fileMap[code] || '') : ''
+        drive_file:   file ? file.name : '',
+        fileId:       file ? file.id   : ''
       };
     })
     .sort((a, b) => b.score - a.score)
@@ -151,21 +154,25 @@ function buildDashboardData() {
   };
 }
 
-// ── Lê Arquivo de Criativos → { código: 'arquivo.png' } ─────
-function buildFileMap(ss) {
-  const ws2 = ss.getSheetByName('Arquivo de Criativos');
-  const map  = {};
-  ws2.getDataRange().getValues().forEach(row => {
-    const code  = row[3];
-    const fname = row[5];
-    if (!code || !fname) return;
-    try {
-      const c = String(Math.round(parseFloat(String(code))));
-      const f = String(fname).trim();
-      if (f && f !== 'não encontrado' && !isNaN(c)) map[c] = f;
-    } catch(_) {}
-  });
+// ── Varre a pasta do Drive recursivamente ────────────────────
+// Retorna { código: { id: fileId, name: nomeDoArquivo } }
+// Pega peças novas automaticamente a cada execução
+function buildFileMap() {
+  const map = {};
+  scanFolder(DriveApp.getFolderById(DRIVE_FOLDER_ID), map);
+  Logger.log('📁 ' + Object.keys(map).length + ' arquivos mapeados no Drive');
   return map;
+}
+
+function scanFolder(folder, map) {
+  const files = folder.getFiles();
+  while (files.hasNext()) {
+    const f = files.next();
+    const m = f.getName().match(/(\d{3,4})/);
+    if (m && !map[m[1]]) map[m[1]] = { id: f.getId(), name: f.getName() };
+  }
+  const subs = folder.getFolders();
+  while (subs.hasNext()) scanFolder(subs.next(), map);
 }
 
 // ── Faz push do data.json para o GitHub ─────────────────────
