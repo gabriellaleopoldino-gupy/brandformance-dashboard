@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T14:17:32.562Z",
+  "generated_at": "2026-09-02T18:17:09.399Z",
   "kpis": {
     "sMes": 98.5,
     "sQ2": 90.8,
@@ -680,7 +680,9 @@
       "video": true,
       "nome": "Treinamento",
       "obj": "Engajamento",
-      "drive_file": ""
+      "drive_file": "737.mp4",
+      "drive_file_id": "1fO85o_xmrsvlojcow9q7B6USisGcb2Cx",
+      "ext": "mp4"
     },
     {
       "ad": "_678_video_15s_motionescala_v1_midia-129_03_lplm-01_",
@@ -692,7 +694,9 @@
       "video": true,
       "nome": "GTM - Impulsionamento de Vagas",
       "obj": "Engajamento",
-      "drive_file": "678.mp4"
+      "drive_file": "678.mp4",
+      "drive_file_id": "1cvc1--X_2cpo10_tHWmnDTie3ix1Tvrm",
+      "ext": "mp4"
     },
     {
       "ad": "_679_video_15s_motionvolume_v1_midia-129_03_lplm-01_",
@@ -704,7 +708,9 @@
       "video": true,
       "nome": "GTM - Impulsionamento de Vagas",
       "obj": "Engajamento",
-      "drive_file": "679.mp4"
+      "drive_file": "679.mp4",
+      "drive_file_id": "1zn0SeZNwEL2qlquoCZx85ECLe_fm0Zq_",
+      "ext": "mp4"
     },
     {
       "ad": "_680_video_15s_motionprecisao_v1_midia-129_03_lplm-01_",
@@ -716,7 +722,9 @@
       "video": true,
       "nome": "GTM - Impulsionamento de Vagas",
       "obj": "Engajamento",
-      "drive_file": "680.mp4"
+      "drive_file": "680.mp4",
+      "drive_file_id": "1GZbXUSuTvteeyQAF7-x0FoWef5nXeSV7",
+      "ext": "mp4"
     },
     {
       "ad": "_735_estatico_roitelecom_atendimentoruim_v1_lplm-05_",
@@ -728,7 +736,9 @@
       "video": false,
       "nome": "Treinamento",
       "obj": "Engajamento",
-      "drive_file": ""
+      "drive_file": "735.png",
+      "drive_file_id": "1zlP8Vk0gNuZOEYySH4FvJZrh8sWuzj0m",
+      "ext": "png"
     },
     {
       "ad": "_TA_618_Estatico_CaseDecathlon_AntesDepois_v1_",
@@ -740,7 +750,9 @@
       "video": false,
       "nome": "Cases",
       "obj": "Engajamento",
-      "drive_file": "618.png"
+      "drive_file": "618.png",
+      "drive_file_id": "1Lrw57010nYa8GvyU2L5FEsLWD3pbMf4V",
+      "ext": "png"
     },
     {
       "ad": "_731_estatico_roisaude_timecapacitado_v1_lplm-05_",
@@ -752,7 +764,9 @@
       "video": false,
       "nome": "Treinamento",
       "obj": "Engajamento",
-      "drive_file": ""
+      "drive_file": "731.png",
+      "drive_file_id": "1--24PE7tAcodEBAMnoE3av_uIEdzpKT4",
+      "ext": "png"
     },
     {
       "ad": "_TA_626_Video_17s_CaseYpe_v1_",
@@ -764,7 +778,9 @@
       "video": true,
       "nome": "Cases",
       "obj": "Engajamento",
-      "drive_file": "626.mp4"
+      "drive_file": "626.mp4",
+      "drive_file_id": "17vIAuMjji_i0_dCLAH2ux_PxUdd4uwnN",
+      "ext": "mp4"
     },
     {
       "ad": "_730_estatico_roivarejo_altarotatividade_v1_lplm-05_",
@@ -776,7 +792,9 @@
       "video": false,
       "nome": "Treinamento",
       "obj": "Engajamento",
-      "drive_file": ""
+      "drive_file": "730.png",
+      "drive_file_id": "1D39hSXEzb2ZSqk8dbwjjsbudqnB2E9Wc",
+      "ext": "png"
     },
     {
       "ad": "_TA_624_Estatico_CaseYpe_Argumento_v1_",
@@ -788,7 +806,9 @@
       "video": false,
       "nome": "Cases",
       "obj": "Engajamento",
-      "drive_file": "624.png"
+      "drive_file": "624.png",
+      "drive_file_id": "10YlMPNwN0hcI4_l3EFx-4zKSTy9eFhkD",
+      "ext": "png"
     },
     {
       "ad": "_728_estatico_roivarejo_treinamentodeficiente_v1_lplm-05_",
@@ -800,7 +820,9 @@
       "video": false,
       "nome": "Treinamento",
       "obj": "Engajamento",
-      "drive_file": ""
+      "drive_file": "728.png",
+      "drive_file_id": "1tcYuK9XvF124neXD2zfCCSRaG7ALo381",
+      "ext": "png"
     },
     {
       "ad": "_GUPY_472_Video_12s_CampanhaB2B_Depoimento_Cruzeiro_v1_",
@@ -812,7 +834,9 @@
       "video": true,
       "nome": "B2B - Institucional Advocacy",
       "obj": "Engajamento",
-      "drive_file": "472.mp4"
+      "drive_file": "472.mp4",
+      "drive_file_id": "1_x8ymMYKXQsdBTKfqH4jSEPRGBFzdSzL",
+      "ext": "mp4"
     },
     {
       "ad": "_TA_620_Video_17s_CaseDecathlon_v1_",
@@ -824,7 +848,9 @@
       "video": true,
       "nome": "Cases",
       "obj": "Engajamento",
-      "drive_file": "620.mp4"
+      "drive_file": "620",
+      "drive_file_id": "1T9H-Un1yuPw_ZKqt684OOcMXfERTuIb9EYDBVDJfIi4",
+      "ext": ""
     },
     {
       "ad": "_722_video_30s_advocacy_usandoagupy_v1_lplm-01_",
@@ -836,7 +862,9 @@
       "video": true,
       "nome": "Winners (Geral)",
       "obj": "Engajamento",
-      "drive_file": "722.mp4"
+      "drive_file": "722.mp4",
+      "drive_file_id": "1rhOK769sero8S9Z17volodqGtMDt9fja",
+      "ext": "mp4"
     },
     {
       "ad": "_TA_601_Estatico_Integracoes_JobBoards_v1_",
@@ -848,7 +876,9 @@
       "video": false,
       "nome": "Winners (Geral)",
       "obj": "Engajamento",
-      "drive_file": "601.jpg"
+      "drive_file": "",
+      "drive_file_id": "",
+      "ext": ""
     },
     {
       "ad": "_734_estatico_roitelecom_semtreinamentoeficaz_v1_lplm-05_",
@@ -860,7 +890,9 @@
       "video": false,
       "nome": "Treinamento",
       "obj": "Engajamento",
-      "drive_file": ""
+      "drive_file": "734.png",
+      "drive_file_id": "1jqIZw4hCaDuLXD40l4ZPE-BQWxQmd5Sc",
+      "ext": "png"
     },
     {
       "ad": "_729_estatico_roivarejo_onboardingfraco_v1_lplm-05_",
@@ -872,7 +904,9 @@
       "video": false,
       "nome": "Treinamento",
       "obj": "Engajamento",
-      "drive_file": ""
+      "drive_file": "729.png",
+      "drive_file_id": "1tVmkxZkBDzeYGIsZDmHcHZSsE4CPLOj9",
+      "ext": "png"
     },
     {
       "ad": "_693_video_65s_estilopodcast_ctoecio_v1_lplm-01_",
@@ -884,7 +918,9 @@
       "video": true,
       "nome": "Contra-ataque (Inhire)",
       "obj": "Engajamento",
-      "drive_file": "693.mp4"
+      "drive_file": "693.mp4",
+      "drive_file_id": "1683h8zW-Pxxcu4OidrAhPflRH7snqSCM",
+      "ext": "mp4"
     },
     {
       "ad": "_691_video_69s_estilopodcast_chro_v1_lplm-01_",
@@ -896,7 +932,9 @@
       "video": true,
       "nome": "Contra-ataque (Inhire)",
       "obj": "Engajamento",
-      "drive_file": "691.mp4"
+      "drive_file": "691.mp4",
+      "drive_file_id": "1KmqSAqdmTDHY-DRC8JyQDuX5Fyy-n2DJ",
+      "ext": "mp4"
     },
     {
       "ad": "_738_video_21s_treinamento_corte2_v1_lplm-05_",
@@ -908,7 +946,9 @@
       "video": true,
       "nome": "Treinamento",
       "obj": "Engajamento",
-      "drive_file": ""
+      "drive_file": "738.mp4",
+      "drive_file_id": "1bN5hZVbokRAwkSozFJVCyESi3v375l66",
+      "ext": "mp4"
     },
     {
       "ad": "_TA_622_Estatico_CaseMDias_BigNumber_v1_",
@@ -920,7 +960,9 @@
       "video": false,
       "nome": "Cases",
       "obj": "Engajamento",
-      "drive_file": "622.png"
+      "drive_file": "622.png",
+      "drive_file_id": "1S6YycvelH_678O4RNQEeXKlwbm7BXj8A",
+      "ext": "png"
     },
     {
       "ad": "_715_video_10s_vivara_comogestora_v1_lplm-01_",
@@ -932,7 +974,9 @@
       "video": true,
       "nome": "Winners (Geral)",
       "obj": "Engajamento",
-      "drive_file": "715"
+      "drive_file": "715.mp4",
+      "drive_file_id": "1LLpm4GpWDOPD5VG9gSVm0qkU6B-1FQgz",
+      "ext": "mp4"
     },
     {
       "ad": "_TA_623_Video_13s_CaseMDias_v1_",
@@ -944,7 +988,9 @@
       "video": true,
       "nome": "Cases",
       "obj": "Engajamento",
-      "drive_file": "623.mp4"
+      "drive_file": "623.mp4",
+      "drive_file_id": "19QJ2Si7bk1z0vzLtXv9wvkH_e0kC1qCd",
+      "ext": "mp4"
     },
     {
       "ad": "_732_estatico_roisaude_treinamentofunciona_v1_lplm-05_",
@@ -956,7 +1002,9 @@
       "video": false,
       "nome": "Treinamento",
       "obj": "Engajamento",
-      "drive_file": ""
+      "drive_file": "732.png",
+      "drive_file_id": "1CNqAus5G7N40LTE_E4IITuTm1BydyU5A",
+      "ext": "png"
     },
     {
       "ad": "_GUPY_473_Video_12s_CampanhaB2B_Depoimento_Decathlon_v1_",
@@ -968,7 +1016,9 @@
       "video": true,
       "nome": "B2B - Institucional Advocacy",
       "obj": "Engajamento",
-      "drive_file": "473.mp4"
+      "drive_file": "473.mp4",
+      "drive_file_id": "17KjxgUZn-Pz4P2k3ZPiAQNJ1Q_dPFPvm",
+      "ext": "mp4"
     },
     {
       "ad": "_690_video_65s_estilopodcast_liderancata_v1_lplm-01_",
@@ -980,7 +1030,9 @@
       "video": true,
       "nome": "Contra-ataque (Inhire)",
       "obj": "Engajamento",
-      "drive_file": "690.mp4"
+      "drive_file": "690.mp4",
+      "drive_file_id": "1ICEBHWfhNKgkcBfdxI8XcUcPOdPQG9gD",
+      "ext": "mp4"
     },
     {
       "ad": "_691_video_69s_estilopodcast_chro_v1_pglm-15_",
@@ -992,7 +1044,9 @@
       "video": true,
       "nome": "Contra-ataque (Inhire)",
       "obj": "Engajamento",
-      "drive_file": "691.mp4"
+      "drive_file": "691.mp4",
+      "drive_file_id": "1KmqSAqdmTDHY-DRC8JyQDuX5Fyy-n2DJ",
+      "ext": "mp4"
     },
     {
       "ad": "_733_estatico_roisaude_treinamentonr_v1_lplm-05_",
@@ -1004,7 +1058,9 @@
       "video": false,
       "nome": "Treinamento",
       "obj": "Engajamento",
-      "drive_file": ""
+      "drive_file": "733.png",
+      "drive_file_id": "1R_mP-XAv6AMQmTjIlG2KG9tFF3K4INSp",
+      "ext": "png"
     },
     {
       "ad": "_736_estatico_roitelecom_faltatreinamento_v1_lplm-05_",
@@ -1016,7 +1072,9 @@
       "video": false,
       "nome": "Treinamento",
       "obj": "Engajamento",
-      "drive_file": ""
+      "drive_file": "736.png",
+      "drive_file_id": "1pUo3oTA3WZUcBSQFs6k6-l9KkFNWED8V",
+      "ext": "png"
     },
     {
       "ad": "_692_video_73s_estilopodcast_cfo_v1_lplm-01_",
@@ -1028,7 +1086,9 @@
       "video": true,
       "nome": "Contra-ataque (Inhire)",
       "obj": "Engajamento",
-      "drive_file": "692.mp4"
+      "drive_file": "692.mp4",
+      "drive_file_id": "1BZEp4MM7wrpo63cBaR6P3tQ7wBNZckoL",
+      "ext": "mp4"
     },
     {
       "ad": "_739_video_22s_treinamento_corte3_v1_lplm-05_",
@@ -1040,7 +1100,9 @@
       "video": true,
       "nome": "Treinamento",
       "obj": "Engajamento",
-      "drive_file": ""
+      "drive_file": "739.png",
+      "drive_file_id": "1eWXPugYQe6v11kG6DBHktNmg7C60whNr",
+      "ext": "png"
     },
     {
       "ad": "_679_video_15s_motionvolume_v1_lplm-01_",
@@ -1052,7 +1114,9 @@
       "video": true,
       "nome": "Winners",
       "obj": "Alcance",
-      "drive_file": "679.mp4"
+      "drive_file": "679.mp4",
+      "drive_file_id": "1zn0SeZNwEL2qlquoCZx85ECLe_fm0Zq_",
+      "ext": "mp4"
     },
     {
       "ad": "_684_video_13s_educativo_aindanaocontrata_v1_lplm-01_",
@@ -1064,7 +1128,9 @@
       "video": true,
       "nome": "Winners",
       "obj": "Alcance",
-      "drive_file": "684.mp4"
+      "drive_file": "684.mp4",
+      "drive_file_id": "1KoPpTt9hMZsbT0XJV1uJLuuyH3-0Jc0p",
+      "ext": "mp4"
     },
     {
       "ad": "_680_video_15s_motionprecisao_v1_lplm-01_",
@@ -1076,7 +1142,9 @@
       "video": true,
       "nome": "Winners",
       "obj": "Alcance",
-      "drive_file": "680.mp4"
+      "drive_file": "680.mp4",
+      "drive_file_id": "1GZbXUSuTvteeyQAF7-x0FoWef5nXeSV7",
+      "ext": "mp4"
     },
     {
       "ad": "_685_video_15s_autoridade_reactnoticias_v1_lplm-01_",
@@ -1088,7 +1156,9 @@
       "video": true,
       "nome": "Winners",
       "obj": "Alcance",
-      "drive_file": "685.mp4"
+      "drive_file": "685.mp4",
+      "drive_file_id": "1-7sK9QKPHDuQMiYTcNX1HZz6QVaJfm32",
+      "ext": "mp4"
     },
     {
       "ad": "_678_video_15s_motionescala_v1_lplm-01_",
@@ -1100,7 +1170,9 @@
       "video": true,
       "nome": "Winners",
       "obj": "Alcance",
-      "drive_file": "678.mp4"
+      "drive_file": "678.mp4",
+      "drive_file_id": "1cvc1--X_2cpo10_tHWmnDTie3ix1Tvrm",
+      "ext": "mp4"
     },
     {
       "ad": "_TA_615_Estatico_CaseDecathlon_Argumento_v1_",
@@ -1112,7 +1184,9 @@
       "video": false,
       "nome": "Cases",
       "obj": "Engajamento",
-      "drive_file": "615.png"
+      "drive_file": "615.png",
+      "drive_file_id": "1u6zDfMvBnn9FxJwE54qyG6oFj4PDexHs",
+      "ext": "png"
     },
     {
       "ad": "_GUPY_476_Video_15s_CampanhaB2B_Depoimento_Petz_v1_",
@@ -1124,7 +1198,9 @@
       "video": true,
       "nome": "B2B - Institucional Advocacy",
       "obj": "Engajamento",
-      "drive_file": "476.mp4"
+      "drive_file": "476.mp4",
+      "drive_file_id": "1Rs9LjFQDgqPHtMyywRpOWE56Y9wc0kQQ",
+      "ext": "mp4"
     },
     {
       "ad": "_GUPY_477_Video_12s_CampanhaB2B_Depoimento_Cruzeiro_v2_",
@@ -1136,7 +1212,9 @@
       "video": true,
       "nome": "B2B - Institucional Advocacy",
       "obj": "Engajamento",
-      "drive_file": "477.mp4"
+      "drive_file": "477.mp4",
+      "drive_file_id": "1C4jfKKsuuyLMaIH6BYRxjU8tm7swmKQI",
+      "ext": "mp4"
     },
     {
       "ad": "_711_video_jornadacompleta_narrativo_v1_lplm-01_",
@@ -1148,7 +1226,9 @@
       "video": true,
       "nome": "Contra-ataque Inhire",
       "obj": "Engajamento",
-      "drive_file": "711.mp4"
+      "drive_file": "711.mp4",
+      "drive_file_id": "1X9IFhFZMtdQS6mqRO0au1pQ9y25iX1Oe",
+      "ext": "mp4"
     }
   ],
   "months": [
