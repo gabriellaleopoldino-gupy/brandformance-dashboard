@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-12T11:30:51.230Z",
-  "latest_date": "2026-09-12",
+  "generated_at": "2026-09-13T11:30:16.502Z",
+  "latest_date": "2026-09-13",
   "kpis": {
-    "sMes": 97.8,
-    "sQ2": 90.9,
-    "sYear": 70.3,
+    "sMes": 99.1,
+    "sQ2": 91.1,
+    "sYear": 70.5,
     "sPrev": 98.5,
-    "investTotal": 153461,
-    "investMes": 799,
-    "impMes": 16116,
+    "investTotal": 154549,
+    "investMes": 1886,
+    "impMes": 32018,
     "mesLabel": "set/26",
     "prevLabel": "ago/26"
   },
   "plat": {
-    "Linkedin": 97.8,
+    "Linkedin": 99.1,
     "Meta": 0
   },
   "monthly": [
@@ -67,8 +67,8 @@
     },
     {
       "mes": "set/26",
-      "total": 97.8,
-      "Linkedin": 97.8,
+      "total": 99.1,
+      "Linkedin": 99.1,
       "Meta": null
     }
   ],
@@ -122,13 +122,61 @@
       "active": false
     },
     {
+      "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
+      "score": 99.1,
+      "investimento": 1886,
+      "impressoes": 32018,
+      "engajamento": 4.24,
+      "plat": "Linkedin",
+      "share": 1.2,
+      "monthly": [
+        {
+          "mes": "jan/26",
+          "score": null
+        },
+        {
+          "mes": "fev/26",
+          "score": null
+        },
+        {
+          "mes": "mar/26",
+          "score": null
+        },
+        {
+          "mes": "abr/26",
+          "score": null
+        },
+        {
+          "mes": "mai/26",
+          "score": null
+        },
+        {
+          "mes": "jun/26",
+          "score": null
+        },
+        {
+          "mes": "jul/26",
+          "score": null
+        },
+        {
+          "mes": "ago/26",
+          "score": null
+        },
+        {
+          "mes": "set/26",
+          "score": 99.1
+        }
+      ],
+      "active": true
+    },
+    {
       "nome": "Winners (Geral)",
       "score": 97.9,
       "investimento": 2534,
       "impressoes": 147218,
       "engajamento": 27.3,
       "plat": "Meta",
-      "share": 1.7,
+      "share": 1.6,
       "monthly": [
         {
           "mes": "jan/26",
@@ -168,54 +216,6 @@
         }
       ],
       "active": false
-    },
-    {
-      "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
-      "score": 97.8,
-      "investimento": 799,
-      "impressoes": 16116,
-      "engajamento": 3.98,
-      "plat": "Linkedin",
-      "share": 0.5,
-      "monthly": [
-        {
-          "mes": "jan/26",
-          "score": null
-        },
-        {
-          "mes": "fev/26",
-          "score": null
-        },
-        {
-          "mes": "mar/26",
-          "score": null
-        },
-        {
-          "mes": "abr/26",
-          "score": null
-        },
-        {
-          "mes": "mai/26",
-          "score": null
-        },
-        {
-          "mes": "jun/26",
-          "score": null
-        },
-        {
-          "mes": "jul/26",
-          "score": null
-        },
-        {
-          "mes": "ago/26",
-          "score": null
-        },
-        {
-          "mes": "set/26",
-          "score": 97.8
-        }
-      ],
-      "active": true
     },
     {
       "nome": "Treinamento",
@@ -320,7 +320,7 @@
       "impressoes": 490549,
       "engajamento": 10.13,
       "plat": "Meta",
-      "share": 7,
+      "share": 6.9,
       "monthly": [
         {
           "mes": "jan/26",
@@ -368,7 +368,7 @@
       "impressoes": 516168,
       "engajamento": 16.07,
       "plat": "Linkedin",
-      "share": 11.1,
+      "share": 11,
       "monthly": [
         {
           "mes": "jan/26",
@@ -416,7 +416,7 @@
       "impressoes": 422536,
       "engajamento": 19.63,
       "plat": "Linkedin",
-      "share": 9.6,
+      "share": 9.5,
       "monthly": [
         {
           "mes": "jan/26",
@@ -512,7 +512,7 @@
       "impressoes": 7222865,
       "engajamento": 1.31,
       "plat": "Linkedin",
-      "share": 20.5,
+      "share": 20.3,
       "monthly": [
         {
           "mes": "jan/26",
@@ -560,7 +560,7 @@
       "impressoes": 6894242,
       "engajamento": 1.28,
       "plat": "Linkedin",
-      "share": 17.6,
+      "share": 17.5,
       "monthly": [
         {
           "mes": "jan/26",
@@ -656,7 +656,7 @@
       "impressoes": 308903,
       "engajamento": 0.23,
       "plat": "Linkedin",
-      "share": 5.4,
+      "share": 5.3,
       "monthly": [
         {
           "mes": "jan/26",
@@ -752,7 +752,7 @@
       "impressoes": 3965357,
       "engajamento": 0.11,
       "plat": "Meta",
-      "share": 4.1,
+      "share": 4,
       "monthly": [
         {
           "mes": "jan/26",
@@ -800,8 +800,8 @@
       "code": "784",
       "name": "Estático · Herowhatsapp · Feed",
       "score": 100,
-      "investimento": 90,
-      "impressoes": 2208,
+      "investimento": 166,
+      "impressoes": 3773,
       "plat": "Linkedin",
       "video": false,
       "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
@@ -816,8 +816,8 @@
       "code": "786",
       "name": "Estático · Herotm · Climaengajamento",
       "score": 100,
-      "investimento": 82,
-      "impressoes": 2360,
+      "investimento": 172,
+      "impressoes": 4159,
       "plat": "Linkedin",
       "video": false,
       "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
@@ -832,8 +832,8 @@
       "code": "787",
       "name": "Estático · Herotm · Performance",
       "score": 100,
-      "investimento": 89,
-      "impressoes": 2545,
+      "investimento": 167,
+      "impressoes": 4192,
       "plat": "Linkedin",
       "video": false,
       "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
@@ -848,8 +848,8 @@
       "code": "788",
       "name": "Estático · Herotm · Treinamento",
       "score": 100,
-      "investimento": 91,
-      "impressoes": 2711,
+      "investimento": 179,
+      "impressoes": 4394,
       "plat": "Linkedin",
       "video": false,
       "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
@@ -864,8 +864,8 @@
       "code": "782",
       "name": "Vídeo · Jornadaunificada15s",
       "score": 100,
-      "investimento": 191,
-      "impressoes": 2857,
+      "investimento": 488,
+      "impressoes": 7396,
       "plat": "Linkedin",
       "video": true,
       "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
@@ -880,8 +880,8 @@
       "code": "783",
       "name": "Vídeo · Laurajornadacompleta30s",
       "score": 100,
-      "investimento": 171,
-      "impressoes": 918,
+      "investimento": 520,
+      "impressoes": 3745,
       "plat": "Linkedin",
       "video": true,
       "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
@@ -1196,6 +1196,22 @@
       "active": false
     },
     {
+      "ad": "_785_estatico_herojornada_v1_lplm-02_",
+      "code": "785",
+      "name": "Estático · Herojornada",
+      "score": 90.8,
+      "investimento": 194,
+      "impressoes": 4359,
+      "plat": "Linkedin",
+      "video": false,
+      "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
+      "drive_file": "",
+      "drive_file_id": "",
+      "ext": "",
+      "img_url": "",
+      "active": true
+    },
+    {
       "ad": "_738_video_21s_treinamento_corte2_v1_lplm-05_",
       "code": "738",
       "name": "Vídeo · 21s · Treinamento · Corte2",
@@ -1415,22 +1431,6 @@
       "nome": "Winners",
       "drive_file": "684.mp4",
       "drive_file_id": "1KoPpTt9hMZsbT0XJV1uJLuuyH3-0Jc0p",
-      "ext": "mp4",
-      "img_url": "",
-      "active": false
-    },
-    {
-      "ad": "_680_video_15s_motionprecisao_v1_lplm-01_",
-      "code": "680",
-      "name": "Vídeo · 15s · Motion · Precisão",
-      "score": 82.4,
-      "investimento": 128,
-      "impressoes": 79943,
-      "plat": "Meta",
-      "video": true,
-      "nome": "Winners",
-      "drive_file": "680.mp4",
-      "drive_file_id": "1GZbXUSuTvteeyQAF7-x0FoWef5nXeSV7",
       "ext": "mp4",
       "img_url": "",
       "active": false
