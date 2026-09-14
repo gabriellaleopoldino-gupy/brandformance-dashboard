@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-13T11:30:57.133Z",
+  "generated_at": "2026-09-14T11:27:28.386Z",
   "kpis": {
-    "sMes": 99.1,
-    "sQ2": 91.1,
-    "sYear": 70.5,
+    "sMes": 99.3,
+    "sQ2": 91.3,
+    "sYear": 70.7,
     "sPrev": 98.5,
-    "investTotal": 154549,
-    "investMes": 1886,
-    "impMes": 32018,
+    "investTotal": 155329,
+    "investMes": 2666,
+    "impMes": 42568,
     "mesLabel": "set/26",
     "prevLabel": "ago/26"
   },
   "plat": {
-    "Linkedin": 99.1,
+    "Linkedin": 99.3,
     "Meta": 0
   },
   "monthly": [
@@ -66,8 +66,8 @@
     },
     {
       "mes": "set/26",
-      "total": 99.1,
-      "Linkedin": 99.1,
+      "total": 99.3,
+      "Linkedin": 99.3,
       "Meta": null
     }
   ],
@@ -121,12 +121,12 @@
     },
     {
       "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
-      "score": 99.1,
-      "investimento": 1886,
-      "impressoes": 32018,
-      "engajamento": 4.24,
+      "score": 99.3,
+      "investimento": 2666,
+      "impressoes": 42568,
+      "engajamento": 4.61,
       "plat": "Linkedin",
-      "share": 1.2,
+      "share": 1.7,
       "monthly": [
         {
           "mes": "jan/26",
@@ -162,7 +162,7 @@
         },
         {
           "mes": "set/26",
-          "score": 99.1
+          "score": 99.3
         }
       ]
     },
@@ -220,7 +220,7 @@
       "impressoes": 405547,
       "engajamento": 3.22,
       "plat": "Linkedin",
-      "share": 8.4,
+      "share": 8.3,
       "monthly": [
         {
           "mes": "jan/26",
@@ -502,7 +502,7 @@
       "impressoes": 7222865,
       "engajamento": 1.31,
       "plat": "Meta",
-      "share": 20.3,
+      "share": 20.2,
       "monthly": [
         {
           "mes": "jan/26",
@@ -549,7 +549,7 @@
       "impressoes": 6894242,
       "engajamento": 1.28,
       "plat": "Meta",
-      "share": 17.5,
+      "share": 17.4,
       "monthly": [
         {
           "mes": "jan/26",
@@ -596,7 +596,7 @@
       "impressoes": 28225,
       "engajamento": 0.82,
       "plat": "Linkedin",
-      "share": 2.3,
+      "share": 2.2,
       "monthly": [
         {
           "mes": "jan/26",
@@ -690,7 +690,7 @@
       "impressoes": 3104509,
       "engajamento": 0.11,
       "plat": "Meta",
-      "share": 3,
+      "share": 2.9,
       "monthly": [
         {
           "mes": "jan/26",
@@ -783,8 +783,8 @@
       "ad": "_784_estatico_herowhatsapp_feed",
       "code": "784",
       "score": 100,
-      "investimento": 166,
-      "impressoes": 3773,
+      "investimento": 238,
+      "impressoes": 5106,
       "plat": "Linkedin",
       "video": false,
       "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
@@ -797,8 +797,8 @@
       "ad": "_786_estatico_herotm_climaengajamento_v1_lplm-02_",
       "code": "786",
       "score": 100,
-      "investimento": 172,
-      "impressoes": 4159,
+      "investimento": 231,
+      "impressoes": 5187,
       "plat": "Linkedin",
       "video": false,
       "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
@@ -811,8 +811,8 @@
       "ad": "_787_estatico_herotm_performance_v1_lplm-02_",
       "code": "787",
       "score": 100,
-      "investimento": 167,
-      "impressoes": 4192,
+      "investimento": 232,
+      "impressoes": 5311,
       "plat": "Linkedin",
       "video": false,
       "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
@@ -825,8 +825,8 @@
       "ad": "_788_estatico_herotm_treinamento_v1_lplm-02_",
       "code": "788",
       "score": 100,
-      "investimento": 179,
-      "impressoes": 4394,
+      "investimento": 248,
+      "impressoes": 5684,
       "plat": "Linkedin",
       "video": false,
       "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
@@ -839,8 +839,8 @@
       "ad": "_782_video_jornadaunificada15s_v1_lplm-02_",
       "code": "782",
       "score": 100,
-      "investimento": 488,
-      "impressoes": 7396,
+      "investimento": 716,
+      "impressoes": 10189,
       "plat": "Linkedin",
       "video": true,
       "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
@@ -853,8 +853,8 @@
       "ad": "_783_video_laurajornadacompleta30s_v1_lplm-02_",
       "code": "783",
       "score": 100,
-      "investimento": 520,
-      "impressoes": 3745,
+      "investimento": 742,
+      "impressoes": 5501,
       "plat": "Linkedin",
       "video": true,
       "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
@@ -1060,6 +1060,20 @@
       "ext": "mp4"
     },
     {
+      "ad": "_785_estatico_herojornada_v1_lplm-02_",
+      "code": "785",
+      "score": 93.2,
+      "investimento": 260,
+      "impressoes": 5590,
+      "plat": "Linkedin",
+      "video": false,
+      "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
+      "obj": "Alcance",
+      "drive_file": "",
+      "drive_file_id": "",
+      "ext": ""
+    },
+    {
       "ad": "_TA_601_Estatico_Integracoes_JobBoards_v1_",
       "code": "601",
       "score": 92.3,
@@ -1128,20 +1142,6 @@
       "drive_file": "691.mp4",
       "drive_file_id": "1KmqSAqdmTDHY-DRC8JyQDuX5Fyy-n2DJ",
       "ext": "mp4"
-    },
-    {
-      "ad": "_785_estatico_herojornada_v1_lplm-02_",
-      "code": "785",
-      "score": 90.8,
-      "investimento": 194,
-      "impressoes": 4359,
-      "plat": "Linkedin",
-      "video": false,
-      "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
-      "obj": "Alcance",
-      "drive_file": "",
-      "drive_file_id": "",
-      "ext": ""
     },
     {
       "ad": "_738_video_21s_treinamento_corte2_v1_lplm-05_",
