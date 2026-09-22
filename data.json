@@ -1,6 +1,5 @@
 {
-  "generated_at": "2026-09-21T11:35:02.802Z",
-  "latest_date": "2026-09-21",
+  "generated_at": "2026-09-22T11:27:42.772Z",
   "kpis": {
     "sMes": 0,
     "sQ2": 0,
@@ -78,7 +77,7 @@
       "score": 0,
       "investimento": 0,
       "impressoes": 0,
-      "engajamento": 4.83,
+      "engajamento": 4.8,
       "plat": "Linkedin",
       "share": null,
       "monthly": [
@@ -118,8 +117,7 @@
           "mes": "set/26",
           "score": null
         }
-      ],
-      "active": false
+      ]
     },
     {
       "nome": "Treinamento",
@@ -166,8 +164,7 @@
           "mes": "set/26",
           "score": null
         }
-      ],
-      "active": false
+      ]
     },
     {
       "nome": "Contra-ataque (Inhire)",
@@ -214,8 +211,7 @@
           "mes": "set/26",
           "score": null
         }
-      ],
-      "active": false
+      ]
     },
     {
       "nome": "Contra-ataque Inhire",
@@ -262,8 +258,7 @@
           "mes": "set/26",
           "score": null
         }
-      ],
-      "active": false
+      ]
     },
     {
       "nome": "GTM - Impulsionamento de Vagas",
@@ -310,8 +305,7 @@
           "mes": "set/26",
           "score": null
         }
-      ],
-      "active": false
+      ]
     },
     {
       "nome": "Cases",
@@ -358,8 +352,7 @@
           "mes": "set/26",
           "score": null
         }
-      ],
-      "active": false
+      ]
     },
     {
       "nome": "Atratividade que muda o ponteiro",
@@ -406,8 +399,7 @@
           "mes": "set/26",
           "score": null
         }
-      ],
-      "active": false
+      ]
     },
     {
       "nome": "IA com ROI no R&S",
@@ -454,8 +446,7 @@
           "mes": "set/26",
           "score": null
         }
-      ],
-      "active": false
+      ]
     },
     {
       "nome": "B2B - Institucional Advocacy",
@@ -502,8 +493,7 @@
           "mes": "set/26",
           "score": null
         }
-      ],
-      "active": false
+      ]
     },
     {
       "nome": "Hunting no Banco",
@@ -550,8 +540,7 @@
           "mes": "set/26",
           "score": null
         }
-      ],
-      "active": false
+      ]
     },
     {
       "nome": "IA no RH",
@@ -598,8 +587,7 @@
           "mes": "set/26",
           "score": null
         }
-      ],
-      "active": false
+      ]
     }
   ],
   "creatives": [],
