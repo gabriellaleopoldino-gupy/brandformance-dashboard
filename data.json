@@ -1,5 +1,6 @@
 {
-  "generated_at": "2026-09-25T11:30:08.561Z",
+  "generated_at": "2026-09-25T11:33:39.396Z",
+  "latest_date": "2026-09-25",
   "kpis": {
     "sMes": 0,
     "sQ2": 0,
@@ -117,7 +118,8 @@
           "mes": "set/26",
           "score": null
         }
-      ]
+      ],
+      "active": false
     },
     {
       "nome": "_ta_linkedin_alcance_brandformance_social_winnerstopo_",
@@ -164,7 +166,8 @@
           "mes": "set/26",
           "score": null
         }
-      ]
+      ],
+      "active": false
     },
     {
       "nome": "_ta_linkedin_trafego_brandformance_social_clientealcance_",
@@ -211,7 +214,8 @@
           "mes": "set/26",
           "score": null
         }
-      ]
+      ],
+      "active": false
     },
     {
       "nome": "Treinamento",
@@ -258,7 +262,8 @@
           "mes": "set/26",
           "score": null
         }
-      ]
+      ],
+      "active": false
     },
     {
       "nome": "Contra-ataque (Inhire)",
@@ -305,7 +310,8 @@
           "mes": "set/26",
           "score": null
         }
-      ]
+      ],
+      "active": false
     },
     {
       "nome": "Contra-ataque Inhire",
@@ -352,7 +358,8 @@
           "mes": "set/26",
           "score": null
         }
-      ]
+      ],
+      "active": false
     },
     {
       "nome": "GTM - Impulsionamento de Vagas",
@@ -399,7 +406,8 @@
           "mes": "set/26",
           "score": null
         }
-      ]
+      ],
+      "active": false
     },
     {
       "nome": "Cases",
@@ -446,7 +454,8 @@
           "mes": "set/26",
           "score": null
         }
-      ]
+      ],
+      "active": false
     },
     {
       "nome": "Atratividade que muda o ponteiro",
@@ -493,7 +502,8 @@
           "mes": "set/26",
           "score": null
         }
-      ]
+      ],
+      "active": false
     },
     {
       "nome": "IA com ROI no R&S",
@@ -540,7 +550,8 @@
           "mes": "set/26",
           "score": null
         }
-      ]
+      ],
+      "active": false
     },
     {
       "nome": "B2B - Institucional Advocacy",
@@ -587,7 +598,8 @@
           "mes": "set/26",
           "score": null
         }
-      ]
+      ],
+      "active": false
     },
     {
       "nome": "Hunting no Banco",
@@ -634,7 +646,8 @@
           "mes": "set/26",
           "score": null
         }
-      ]
+      ],
+      "active": false
     },
     {
       "nome": "IA no RH",
@@ -681,7 +694,8 @@
           "mes": "set/26",
           "score": null
         }
-      ]
+      ],
+      "active": false
     }
   ],
   "creatives": [],
