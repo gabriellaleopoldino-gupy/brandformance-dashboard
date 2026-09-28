@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-27T11:31:27.678Z",
+  "generated_at": "2026-09-28T11:29:26.321Z",
   "kpis": {
-    "sMes": 94.9,
+    "sMes": 94.5,
     "sQ2": 88.3,
-    "sYear": 74.4,
+    "sYear": 74.3,
     "sPrev": 98.1,
-    "investTotal": 293406,
-    "investMes": 38007,
-    "impMes": 2223613,
+    "investTotal": 293977,
+    "investMes": 38578,
+    "impMes": 2236104,
     "mesLabel": "set/26",
     "prevLabel": "ago/26"
   },
   "plat": {
-    "Linkedin": 94.2,
+    "Linkedin": 92.9,
     "Meta": 95.1
   },
   "monthly": [
@@ -66,59 +66,12 @@
     },
     {
       "mes": "set/26",
-      "total": 94.9,
-      "Linkedin": 94.2,
+      "total": 94.5,
+      "Linkedin": 92.9,
       "Meta": 95.1
     }
   ],
   "inits": [
-    {
-      "nome": "_ta_linkedin_alcance_brandformance_social_winnerstopo_",
-      "score": 100,
-      "investimento": 2239,
-      "impressoes": 22022,
-      "engajamento": 8.94,
-      "plat": "Linkedin",
-      "share": 0.8,
-      "monthly": [
-        {
-          "mes": "jan/26",
-          "score": null
-        },
-        {
-          "mes": "fev/26",
-          "score": null
-        },
-        {
-          "mes": "mar/26",
-          "score": null
-        },
-        {
-          "mes": "abr/26",
-          "score": null
-        },
-        {
-          "mes": "mai/26",
-          "score": null
-        },
-        {
-          "mes": "jun/26",
-          "score": null
-        },
-        {
-          "mes": "jul/26",
-          "score": null
-        },
-        {
-          "mes": "ago/26",
-          "score": null
-        },
-        {
-          "mes": "set/26",
-          "score": 100
-        }
-      ]
-    },
     {
       "nome": "GTM - Impulsionamento de Vagas",
       "score": 100,
@@ -163,6 +116,100 @@
         {
           "mes": "set/26",
           "score": null
+        }
+      ]
+    },
+    {
+      "nome": "_ta_linkedin_trafego_brandformance_social_winnerstopo_",
+      "score": 99.9,
+      "investimento": 3032,
+      "impressoes": 22215,
+      "engajamento": 8.51,
+      "plat": "Linkedin",
+      "share": 1,
+      "monthly": [
+        {
+          "mes": "jan/26",
+          "score": null
+        },
+        {
+          "mes": "fev/26",
+          "score": null
+        },
+        {
+          "mes": "mar/26",
+          "score": null
+        },
+        {
+          "mes": "abr/26",
+          "score": null
+        },
+        {
+          "mes": "mai/26",
+          "score": null
+        },
+        {
+          "mes": "jun/26",
+          "score": null
+        },
+        {
+          "mes": "jul/26",
+          "score": null
+        },
+        {
+          "mes": "ago/26",
+          "score": null
+        },
+        {
+          "mes": "set/26",
+          "score": 99.9
+        }
+      ]
+    },
+    {
+      "nome": "_ta_linkedin_trafego_brandformance_social_clientealcance_",
+      "score": 99.8,
+      "investimento": 7119,
+      "impressoes": 90776,
+      "engajamento": 4.55,
+      "plat": "Linkedin",
+      "share": 2.4,
+      "monthly": [
+        {
+          "mes": "jan/26",
+          "score": null
+        },
+        {
+          "mes": "fev/26",
+          "score": null
+        },
+        {
+          "mes": "mar/26",
+          "score": null
+        },
+        {
+          "mes": "abr/26",
+          "score": null
+        },
+        {
+          "mes": "mai/26",
+          "score": null
+        },
+        {
+          "mes": "jun/26",
+          "score": null
+        },
+        {
+          "mes": "jul/26",
+          "score": null
+        },
+        {
+          "mes": "ago/26",
+          "score": null
+        },
+        {
+          "mes": "set/26",
+          "score": 99.8
         }
       ]
     },
@@ -216,11 +263,11 @@
     {
       "nome": "Winners (Geral)",
       "score": 96.9,
-      "investimento": 70430,
-      "impressoes": 5093396,
-      "engajamento": 31.66,
+      "investimento": 70708,
+      "impressoes": 5104734,
+      "engajamento": 31.8,
       "plat": "Meta",
-      "share": 24,
+      "share": 24.1,
       "monthly": [
         {
           "mes": "jan/26",
@@ -304,53 +351,6 @@
         {
           "mes": "set/26",
           "score": null
-        }
-      ]
-    },
-    {
-      "nome": "_ta_linkedin_trafego_brandformance_social_clientealcance_",
-      "score": 92.7,
-      "investimento": 8668,
-      "impressoes": 143118,
-      "engajamento": 4.39,
-      "plat": "Linkedin",
-      "share": 3,
-      "monthly": [
-        {
-          "mes": "jan/26",
-          "score": null
-        },
-        {
-          "mes": "fev/26",
-          "score": null
-        },
-        {
-          "mes": "mar/26",
-          "score": null
-        },
-        {
-          "mes": "abr/26",
-          "score": null
-        },
-        {
-          "mes": "mai/26",
-          "score": null
-        },
-        {
-          "mes": "jun/26",
-          "score": null
-        },
-        {
-          "mes": "jul/26",
-          "score": null
-        },
-        {
-          "mes": "ago/26",
-          "score": null
-        },
-        {
-          "mes": "set/26",
-          "score": 92.7
         }
       ]
     },
@@ -643,7 +643,7 @@
       "impressoes": 14777632,
       "engajamento": 1.37,
       "plat": "Meta",
-      "share": 12.3,
+      "share": 12.2,
       "monthly": [
         {
           "mes": "jan/26",
@@ -731,6 +731,53 @@
       ]
     },
     {
+      "nome": "_ta_linkedin_alcance_brandformance_social_winnerstopo_",
+      "score": 26.5,
+      "investimento": 36,
+      "impressoes": 4653,
+      "engajamento": 0.06,
+      "plat": "Linkedin",
+      "share": 0,
+      "monthly": [
+        {
+          "mes": "jan/26",
+          "score": null
+        },
+        {
+          "mes": "fev/26",
+          "score": null
+        },
+        {
+          "mes": "mar/26",
+          "score": null
+        },
+        {
+          "mes": "abr/26",
+          "score": null
+        },
+        {
+          "mes": "mai/26",
+          "score": null
+        },
+        {
+          "mes": "jun/26",
+          "score": null
+        },
+        {
+          "mes": "jul/26",
+          "score": null
+        },
+        {
+          "mes": "ago/26",
+          "score": null
+        },
+        {
+          "mes": "set/26",
+          "score": 26.5
+        }
+      ]
+    },
+    {
       "nome": "Hunting no Banco",
       "score": 26.5,
       "investimento": 12623,
@@ -774,6 +821,53 @@
         {
           "mes": "set/26",
           "score": null
+        }
+      ]
+    },
+    {
+      "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
+      "score": 26.2,
+      "investimento": 1012,
+      "impressoes": 48649,
+      "engajamento": 0.11,
+      "plat": "Linkedin",
+      "share": 0.3,
+      "monthly": [
+        {
+          "mes": "jan/26",
+          "score": null
+        },
+        {
+          "mes": "fev/26",
+          "score": null
+        },
+        {
+          "mes": "mar/26",
+          "score": null
+        },
+        {
+          "mes": "abr/26",
+          "score": null
+        },
+        {
+          "mes": "mai/26",
+          "score": null
+        },
+        {
+          "mes": "jun/26",
+          "score": null
+        },
+        {
+          "mes": "jul/26",
+          "score": null
+        },
+        {
+          "mes": "ago/26",
+          "score": null
+        },
+        {
+          "mes": "set/26",
+          "score": 26.2
         }
       ]
     },
@@ -877,8 +971,8 @@
       "ad": "_767_video_case_brasalmudarpragupy_v1_lplm-02_",
       "code": "767",
       "score": 100,
-      "investimento": 5147,
-      "impressoes": 90617,
+      "investimento": 5212,
+      "impressoes": 91864,
       "plat": "Meta",
       "video": true,
       "nome": "Winners (Geral)",
@@ -891,14 +985,28 @@
       "ad": "_745_video_video_51s_guidiaswhatsapp_v1_",
       "code": "745",
       "score": 100,
-      "investimento": 30694,
-      "impressoes": 693503,
+      "investimento": 30841,
+      "impressoes": 696312,
       "plat": "Meta",
       "video": true,
       "nome": "Winners (Geral)",
       "obj": "Engajamento",
       "drive_file": "745.mp4",
       "drive_file_id": "1qFIShRvXjGaCyJBcNwonQM1eepm4PKv6",
+      "ext": "mp4"
+    },
+    {
+      "ad": "_766_video_case_brasal_nossoprocessoseletivo_v1_lplm-02_",
+      "code": "766",
+      "score": 100,
+      "investimento": 133,
+      "impressoes": 2944,
+      "plat": "Meta",
+      "video": true,
+      "nome": "Winners (Geral)",
+      "obj": "Engajamento",
+      "drive_file": "766_Corte Brasal 2_16x9.mp4",
+      "drive_file_id": "1tjF0mCz1XrspsYN40WQ1LzP_lq0-CrZw",
       "ext": "mp4"
     },
     {
@@ -913,20 +1021,6 @@
       "obj": "Engajamento",
       "drive_file": "768_Corte 1_AltaMogiana_9x16.mp4",
       "drive_file_id": "1nqwIPDggUsnNEs9rvPeI-TMGXJIlry2m",
-      "ext": "mp4"
-    },
-    {
-      "ad": "_766_video_case_brasal_nossoprocessoseletivo_v1_lplm-02_",
-      "code": "766",
-      "score": 100,
-      "investimento": 132,
-      "impressoes": 2910,
-      "plat": "Meta",
-      "video": true,
-      "nome": "Winners (Geral)",
-      "obj": "Engajamento",
-      "drive_file": "766_Corte Brasal 2_16x9.mp4",
-      "drive_file_id": "1tjF0mCz1XrspsYN40WQ1LzP_lq0-CrZw",
       "ext": "mp4"
     },
     {
@@ -986,20 +1080,6 @@
       "ext": "mp4"
     },
     {
-      "ad": "_780_video_bignumbers_maisconversaonowhatsapp_v1_lplm-02_",
-      "code": "780",
-      "score": 99.9,
-      "investimento": 2622,
-      "impressoes": 48365,
-      "plat": "Linkedin",
-      "video": true,
-      "nome": "_ta_linkedin_alcance_brandformance_social_winnerstopo_",
-      "obj": "Alcance",
-      "drive_file": "",
-      "drive_file_id": "",
-      "ext": ""
-    },
-    {
       "ad": "_735_estatico_roitelecom_atendimentoruim_v1_lplm-05_",
       "code": "735",
       "score": 99.9,
@@ -1014,15 +1094,29 @@
       "ext": "png"
     },
     {
-      "ad": "_781_video_generico_jornadacompletanowhatsapp_v1_lplm-02_",
-      "code": "781",
+      "ad": "_790_video_generico_mandaporemailenaopelowhatsapp_v1_",
+      "code": "790",
       "score": 99.8,
-      "investimento": 957,
-      "impressoes": 23743,
+      "investimento": 747,
+      "impressoes": 5110,
       "plat": "Linkedin",
       "video": true,
-      "nome": "_ta_linkedin_alcance_brandformance_social_winnerstopo_",
-      "obj": "Alcance",
+      "nome": "_ta_linkedin_trafego_brandformance_social_winnerstopo_",
+      "obj": "Engajamento",
+      "drive_file": "",
+      "drive_file_id": "",
+      "ext": ""
+    },
+    {
+      "ad": "_780_video_bignumbers_maisconversaonowhatsapp_v1_lplm-02_",
+      "code": "780",
+      "score": 99.6,
+      "investimento": 2893,
+      "impressoes": 50148,
+      "plat": "Linkedin",
+      "video": true,
+      "nome": "_ta_linkedin_trafego_brandformance_social_winnerstopo_",
+      "obj": "Engajamento",
       "drive_file": "",
       "drive_file_id": "",
       "ext": ""
@@ -1040,20 +1134,6 @@
       "drive_file": "618.png",
       "drive_file_id": "1Lrw57010nYa8GvyU2L5FEsLWD3pbMf4V",
       "ext": "png"
-    },
-    {
-      "ad": "_790_video_generico_mandaporemailenaopelowhatsapp_v1_",
-      "code": "790",
-      "score": 99.2,
-      "investimento": 157,
-      "impressoes": 1341,
-      "plat": "Linkedin",
-      "video": true,
-      "nome": "_ta_linkedin_alcance_brandformance_social_winnerstopo_",
-      "obj": "Alcance",
-      "drive_file": "",
-      "drive_file_id": "",
-      "ext": ""
     },
     {
       "ad": "_TA_626_Video_17s_CaseYpe_v1_",
@@ -1074,7 +1154,7 @@
       "code": "601",
       "score": 99,
       "investimento": 4379,
-      "impressoes": 381897,
+      "impressoes": 381904,
       "plat": "Meta",
       "video": false,
       "nome": "Winners (Geral)",
@@ -1086,9 +1166,9 @@
     {
       "ad": "_769_video_case_altamogiana_umecossistema_v1_lplm-02_",
       "code": "769",
-      "score": 98.3,
-      "investimento": 99,
-      "impressoes": 2862,
+      "score": 98.4,
+      "investimento": 108,
+      "impressoes": 2990,
       "plat": "Meta",
       "video": true,
       "nome": "Winners (Geral)",
@@ -1124,6 +1204,20 @@
       "drive_file": "722.mp4",
       "drive_file_id": "1rhOK769sero8S9Z17volodqGtMDt9fja",
       "ext": "mp4"
+    },
+    {
+      "ad": "_781_video_generico_jornadacompletanowhatsapp_v1_lplm-02_",
+      "code": "781",
+      "score": 97.8,
+      "investimento": 939,
+      "impressoes": 23399,
+      "plat": "Linkedin",
+      "video": true,
+      "nome": "_ta_linkedin_trafego_brandformance_social_winnerstopo_",
+      "obj": "Engajamento",
+      "drive_file": "",
+      "drive_file_id": "",
+      "ext": ""
     },
     {
       "ad": "_715_video_10s_vivara_comogestora_v1_lplm-01_",
@@ -1165,20 +1259,6 @@
       "obj": "Engajamento",
       "drive_file": "620",
       "drive_file_id": "1T9H-Un1yuPw_ZKqt684OOcMXfERTuIb9EYDBVDJfIi4",
-      "ext": ""
-    },
-    {
-      "ad": "_783_video_laurajornadacompleta30s_v1_lplm-02_",
-      "code": "783",
-      "score": 96.6,
-      "investimento": 2749,
-      "impressoes": 20899,
-      "plat": "Linkedin",
-      "video": true,
-      "nome": "_ta_linkedin_trafego_brandformance_social_clientealcance_",
-      "obj": "Alcance",
-      "drive_file": "",
-      "drive_file_id": "",
       "ext": ""
     },
     {
@@ -1224,14 +1304,14 @@
       "ext": "png"
     },
     {
-      "ad": "_788_estatico_herotm_treinamento_v1_lplm-02_",
-      "code": "788",
-      "score": 95.5,
-      "investimento": 810,
-      "impressoes": 17361,
+      "ad": "_783_video_laurajornadacompleta30s_v1_lplm-02_",
+      "code": "783",
+      "score": 94.6,
+      "investimento": 2527,
+      "impressoes": 20218,
       "plat": "Linkedin",
-      "video": false,
-      "nome": "_ta_linkedin_trafego_brandformance_social_clientealcance_",
+      "video": true,
+      "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
       "obj": "Alcance",
       "drive_file": "",
       "drive_file_id": "",
@@ -1252,14 +1332,14 @@
       "ext": "mp4"
     },
     {
-      "ad": "_782_video_jornadaunificada15s_v1_lplm-02_",
-      "code": "782",
-      "score": 92.9,
-      "investimento": 2032,
-      "impressoes": 25756,
+      "ad": "_788_estatico_herotm_treinamento_v1_lplm-02_",
+      "code": "788",
+      "score": 93.2,
+      "investimento": 748,
+      "impressoes": 16582,
       "plat": "Linkedin",
-      "video": true,
-      "nome": "_ta_linkedin_trafego_brandformance_social_clientealcance_",
+      "video": false,
+      "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
       "obj": "Alcance",
       "drive_file": "",
       "drive_file_id": "",
@@ -1308,20 +1388,6 @@
       "ext": "mp4"
     },
     {
-      "ad": "_784_estatico_herowhatsapp_feed",
-      "code": "784",
-      "score": 91.4,
-      "investimento": 788,
-      "impressoes": 19537,
-      "plat": "Linkedin",
-      "video": false,
-      "nome": "_ta_linkedin_trafego_brandformance_social_clientealcance_",
-      "obj": "Alcance",
-      "drive_file": "",
-      "drive_file_id": "",
-      "ext": ""
-    },
-    {
       "ad": "_691_video_69s_estilopodcast_chro_v1_lplm-01_",
       "code": "691",
       "score": 91.3,
@@ -1350,6 +1416,20 @@
       "ext": "png"
     },
     {
+      "ad": "_782_video_jornadaunificada15s_v1_lplm-02_",
+      "code": "782",
+      "score": 90.7,
+      "investimento": 1958,
+      "impressoes": 26184,
+      "plat": "Linkedin",
+      "video": true,
+      "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
+      "obj": "Alcance",
+      "drive_file": "",
+      "drive_file_id": "",
+      "ext": ""
+    },
+    {
       "ad": "_738_video_21s_treinamento_corte2_v1_lplm-05_",
       "code": "738",
       "score": 90.5,
@@ -1368,7 +1448,7 @@
       "code": "718",
       "score": 89.9,
       "investimento": 934,
-      "impressoes": 190227,
+      "impressoes": 190243,
       "plat": "Meta",
       "video": true,
       "nome": "Winners (Geral)",
@@ -1392,14 +1472,14 @@
       "ext": "mp4"
     },
     {
-      "ad": "_787_estatico_herotm_performance_v1_lplm-02_",
-      "code": "787",
+      "ad": "_784_estatico_herowhatsapp_feed",
+      "code": "784",
       "score": 88.4,
-      "investimento": 777,
-      "impressoes": 19995,
+      "investimento": 751,
+      "impressoes": 19042,
       "plat": "Linkedin",
       "video": false,
-      "nome": "_ta_linkedin_trafego_brandformance_social_clientealcance_",
+      "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
       "obj": "Alcance",
       "drive_file": "",
       "drive_file_id": "",
@@ -1432,6 +1512,20 @@
       "drive_file": "477.mp4",
       "drive_file_id": "1C4jfKKsuuyLMaIH6BYRxjU8tm7swmKQI",
       "ext": "mp4"
+    },
+    {
+      "ad": "_787_estatico_herotm_performance_v1_lplm-02_",
+      "code": "787",
+      "score": 88,
+      "investimento": 735,
+      "impressoes": 19262,
+      "plat": "Linkedin",
+      "video": false,
+      "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
+      "obj": "Alcance",
+      "drive_file": "",
+      "drive_file_id": "",
+      "ext": ""
     }
   ],
   "months": [
