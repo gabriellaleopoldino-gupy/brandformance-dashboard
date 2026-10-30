@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T11:30:36.748Z",
+  "generated_at": "2026-10-30T11:28:16.140Z",
   "kpis": {
     "sMes": 93.6,
     "sQ2": 88.3,
@@ -731,7 +731,7 @@
       ]
     },
     {
-      "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
+      "nome": "_ta_linkedin_alcance_brandformance_social_clientesalcance_",
       "score": 51.6,
       "investimento": 3098,
       "impressoes": 68121,
@@ -1311,7 +1311,7 @@
       "impressoes": 25425,
       "plat": "Linkedin",
       "video": true,
-      "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
+      "nome": "_ta_linkedin_alcance_brandformance_social_clientesalcance_",
       "obj": "Alcance",
       "drive_file": "",
       "drive_file_id": "",
@@ -1437,7 +1437,7 @@
       "impressoes": 24048,
       "plat": "Linkedin",
       "video": false,
-      "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
+      "nome": "_ta_linkedin_alcance_brandformance_social_clientesalcance_",
       "obj": "Alcance",
       "drive_file": "",
       "drive_file_id": "",
@@ -1521,7 +1521,7 @@
       "impressoes": 20386,
       "plat": "Linkedin",
       "video": false,
-      "nome": "_ta_linkedin_alcance_brandformance_social_clientealcance_",
+      "nome": "_ta_linkedin_alcance_brandformance_social_clientesalcance_",
       "obj": "Alcance",
       "drive_file": "",
       "drive_file_id": "",
