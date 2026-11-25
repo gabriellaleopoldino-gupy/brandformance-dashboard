@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-24T11:35:44.197Z",
+  "generated_at": "2026-11-25T11:29:03.749Z",
   "kpis": {
-    "sMes": 93.6,
-    "sQ2": 88.3,
-    "sYear": 74.8,
-    "sPrev": 98.1,
-    "investTotal": 302596,
-    "investMes": 47197,
-    "impMes": 2439268,
-    "mesLabel": "set/26",
-    "prevLabel": "ago/26"
+    "sMes": 70.2,
+    "sQ2": 84.2,
+    "sYear": 75.4,
+    "sPrev": 82.1,
+    "investTotal": 406454,
+    "investMes": 41444,
+    "impMes": 12167461,
+    "mesLabel": "nov/26",
+    "prevLabel": "out/26"
   },
   "plat": {
-    "Linkedin": 90.2,
-    "Meta": 95.4
+    "Linkedin": 76,
+    "Meta": 63.2
   },
   "monthly": [
     {
@@ -69,56 +69,21 @@
       "total": 93.6,
       "Linkedin": 90.2,
       "Meta": 95.4
+    },
+    {
+      "mes": "out/26",
+      "total": 82.1,
+      "Linkedin": 75.7,
+      "Meta": 92.6
+    },
+    {
+      "mes": "nov/26",
+      "total": 70.2,
+      "Linkedin": 76,
+      "Meta": 63.2
     }
   ],
   "inits": [
-    {
-      "nome": "_ta_linkedin_trafego_brandformance_social_winnerstopo_",
-      "score": 100,
-      "investimento": 4467,
-      "impressoes": 32571,
-      "engajamento": 9.27,
-      "plat": "Linkedin",
-      "share": 1.5,
-      "monthly": [
-        {
-          "mes": "jan/26",
-          "score": null
-        },
-        {
-          "mes": "fev/26",
-          "score": null
-        },
-        {
-          "mes": "mar/26",
-          "score": null
-        },
-        {
-          "mes": "abr/26",
-          "score": null
-        },
-        {
-          "mes": "mai/26",
-          "score": null
-        },
-        {
-          "mes": "jun/26",
-          "score": null
-        },
-        {
-          "mes": "jul/26",
-          "score": null
-        },
-        {
-          "mes": "ago/26",
-          "score": null
-        },
-        {
-          "mes": "set/26",
-          "score": 100
-        }
-      ]
-    },
     {
       "nome": "GTM - Impulsionamento de Vagas",
       "score": 100,
@@ -126,7 +91,7 @@
       "impressoes": 64147,
       "engajamento": 10.8,
       "plat": "Linkedin",
-      "share": 2.3,
+      "share": 1.7,
       "monthly": [
         {
           "mes": "jan/26",
@@ -162,6 +127,14 @@
         },
         {
           "mes": "set/26",
+          "score": null
+        },
+        {
+          "mes": "out/26",
+          "score": null
+        },
+        {
+          "mes": "nov/26",
           "score": null
         }
       ]
@@ -173,7 +146,7 @@
       "impressoes": 102248,
       "engajamento": 4.79,
       "plat": "Linkedin",
-      "share": 2.7,
+      "share": 2,
       "monthly": [
         {
           "mes": "jan/26",
@@ -210,6 +183,69 @@
         {
           "mes": "set/26",
           "score": 99.8
+        },
+        {
+          "mes": "out/26",
+          "score": null
+        },
+        {
+          "mes": "nov/26",
+          "score": null
+        }
+      ]
+    },
+    {
+      "nome": "_ta_linkedin_trafego_brandformance_social_winnerstopo_",
+      "score": 99.2,
+      "investimento": 34394,
+      "impressoes": 414055,
+      "engajamento": 6.56,
+      "plat": "Linkedin",
+      "share": 8.5,
+      "monthly": [
+        {
+          "mes": "jan/26",
+          "score": null
+        },
+        {
+          "mes": "fev/26",
+          "score": null
+        },
+        {
+          "mes": "mar/26",
+          "score": null
+        },
+        {
+          "mes": "abr/26",
+          "score": null
+        },
+        {
+          "mes": "mai/26",
+          "score": null
+        },
+        {
+          "mes": "jun/26",
+          "score": null
+        },
+        {
+          "mes": "jul/26",
+          "score": null
+        },
+        {
+          "mes": "ago/26",
+          "score": null
+        },
+        {
+          "mes": "set/26",
+          "score": 100
+        },
+        {
+          "mes": "out/26",
+          "score": 99.4
+        },
+        {
+          "mes": "nov/26",
+          "score": 98.5
         }
       ]
     },
@@ -220,7 +256,7 @@
       "impressoes": 573718,
       "engajamento": 9.67,
       "plat": "Linkedin",
-      "share": 7.7,
+      "share": 5.7,
       "monthly": [
         {
           "mes": "jan/26",
@@ -257,53 +293,14 @@
         {
           "mes": "set/26",
           "score": null
-        }
-      ]
-    },
-    {
-      "nome": "Winners (Geral)",
-      "score": 96.9,
-      "investimento": 74709,
-      "impressoes": 5266598,
-      "engajamento": 32.01,
-      "plat": "Meta",
-      "share": 24.7,
-      "monthly": [
+        },
         {
-          "mes": "jan/26",
+          "mes": "out/26",
           "score": null
         },
         {
-          "mes": "fev/26",
+          "mes": "nov/26",
           "score": null
-        },
-        {
-          "mes": "mar/26",
-          "score": null
-        },
-        {
-          "mes": "abr/26",
-          "score": null
-        },
-        {
-          "mes": "mai/26",
-          "score": null
-        },
-        {
-          "mes": "jun/26",
-          "score": 97.9
-        },
-        {
-          "mes": "jul/26",
-          "score": 98
-        },
-        {
-          "mes": "ago/26",
-          "score": 98.1
-        },
-        {
-          "mes": "set/26",
-          "score": 95.4
         }
       ]
     },
@@ -314,7 +311,7 @@
       "impressoes": 704476,
       "engajamento": 17.47,
       "plat": "Meta",
-      "share": 5.5,
+      "share": 4.1,
       "monthly": [
         {
           "mes": "jan/26",
@@ -351,6 +348,69 @@
         {
           "mes": "set/26",
           "score": null
+        },
+        {
+          "mes": "out/26",
+          "score": null
+        },
+        {
+          "mes": "nov/26",
+          "score": null
+        }
+      ]
+    },
+    {
+      "nome": "Winners (Geral)",
+      "score": 91.2,
+      "investimento": 116070,
+      "impressoes": 20297650,
+      "engajamento": 30.1,
+      "plat": "Meta",
+      "share": 28.6,
+      "monthly": [
+        {
+          "mes": "jan/26",
+          "score": null
+        },
+        {
+          "mes": "fev/26",
+          "score": null
+        },
+        {
+          "mes": "mar/26",
+          "score": null
+        },
+        {
+          "mes": "abr/26",
+          "score": null
+        },
+        {
+          "mes": "mai/26",
+          "score": null
+        },
+        {
+          "mes": "jun/26",
+          "score": 97.9
+        },
+        {
+          "mes": "jul/26",
+          "score": 98
+        },
+        {
+          "mes": "ago/26",
+          "score": 98.1
+        },
+        {
+          "mes": "set/26",
+          "score": 95.4
+        },
+        {
+          "mes": "out/26",
+          "score": 92.6
+        },
+        {
+          "mes": "nov/26",
+          "score": 65
         }
       ]
     },
@@ -361,7 +421,7 @@
       "impressoes": 274501,
       "engajamento": 16.68,
       "plat": "Meta",
-      "share": 1.3,
+      "share": 1,
       "monthly": [
         {
           "mes": "jan/26",
@@ -398,6 +458,14 @@
         {
           "mes": "set/26",
           "score": null
+        },
+        {
+          "mes": "out/26",
+          "score": null
+        },
+        {
+          "mes": "nov/26",
+          "score": null
         }
       ]
     },
@@ -408,7 +476,7 @@
       "impressoes": 813284,
       "engajamento": 33.33,
       "plat": "Linkedin",
-      "share": 6.6,
+      "share": 4.9,
       "monthly": [
         {
           "mes": "jan/26",
@@ -445,6 +513,14 @@
         {
           "mes": "set/26",
           "score": null
+        },
+        {
+          "mes": "out/26",
+          "score": null
+        },
+        {
+          "mes": "nov/26",
+          "score": null
         }
       ]
     },
@@ -455,7 +531,7 @@
       "impressoes": 572626,
       "engajamento": 17.28,
       "plat": "Meta",
-      "share": 5.8,
+      "share": 4.3,
       "monthly": [
         {
           "mes": "jan/26",
@@ -492,6 +568,14 @@
         {
           "mes": "set/26",
           "score": null
+        },
+        {
+          "mes": "out/26",
+          "score": null
+        },
+        {
+          "mes": "nov/26",
+          "score": null
         }
       ]
     },
@@ -502,7 +586,7 @@
       "impressoes": 3045362,
       "engajamento": 8.53,
       "plat": "Meta",
-      "share": 1.1,
+      "share": 0.8,
       "monthly": [
         {
           "mes": "jan/26",
@@ -539,6 +623,124 @@
         {
           "mes": "set/26",
           "score": null
+        },
+        {
+          "mes": "out/26",
+          "score": null
+        },
+        {
+          "mes": "nov/26",
+          "score": null
+        }
+      ]
+    },
+    {
+      "nome": "_exp_linkedin_videoview_brandformance_social_clientesalcancePanvel_",
+      "score": 82.6,
+      "investimento": 818,
+      "impressoes": 20329,
+      "engajamento": 0.15,
+      "plat": "Linkedin",
+      "share": 0.2,
+      "monthly": [
+        {
+          "mes": "jan/26",
+          "score": null
+        },
+        {
+          "mes": "fev/26",
+          "score": null
+        },
+        {
+          "mes": "mar/26",
+          "score": null
+        },
+        {
+          "mes": "abr/26",
+          "score": null
+        },
+        {
+          "mes": "mai/26",
+          "score": null
+        },
+        {
+          "mes": "jun/26",
+          "score": null
+        },
+        {
+          "mes": "jul/26",
+          "score": null
+        },
+        {
+          "mes": "ago/26",
+          "score": null
+        },
+        {
+          "mes": "set/26",
+          "score": null
+        },
+        {
+          "mes": "out/26",
+          "score": 82.6
+        },
+        {
+          "mes": "nov/26",
+          "score": null
+        }
+      ]
+    },
+    {
+      "nome": "_exp_linkedin_videoview_brandformance_social_clientes_",
+      "score": 82.4,
+      "investimento": 12411,
+      "impressoes": 317556,
+      "engajamento": 0.12,
+      "plat": "Linkedin",
+      "share": 3.1,
+      "monthly": [
+        {
+          "mes": "jan/26",
+          "score": null
+        },
+        {
+          "mes": "fev/26",
+          "score": null
+        },
+        {
+          "mes": "mar/26",
+          "score": null
+        },
+        {
+          "mes": "abr/26",
+          "score": null
+        },
+        {
+          "mes": "mai/26",
+          "score": null
+        },
+        {
+          "mes": "jun/26",
+          "score": null
+        },
+        {
+          "mes": "jul/26",
+          "score": null
+        },
+        {
+          "mes": "ago/26",
+          "score": null
+        },
+        {
+          "mes": "set/26",
+          "score": null
+        },
+        {
+          "mes": "out/26",
+          "score": 82.6
+        },
+        {
+          "mes": "nov/26",
+          "score": 82.2
         }
       ]
     },
@@ -549,7 +751,7 @@
       "impressoes": 28225,
       "engajamento": 0.82,
       "plat": "Linkedin",
-      "share": 1.2,
+      "share": 0.9,
       "monthly": [
         {
           "mes": "jan/26",
@@ -586,6 +788,14 @@
         {
           "mes": "set/26",
           "score": null
+        },
+        {
+          "mes": "out/26",
+          "score": null
+        },
+        {
+          "mes": "nov/26",
+          "score": null
         }
       ]
     },
@@ -596,7 +806,7 @@
       "impressoes": 15913484,
       "engajamento": 1.36,
       "plat": "Meta",
-      "share": 13.2,
+      "share": 9.8,
       "monthly": [
         {
           "mes": "jan/26",
@@ -633,6 +843,14 @@
         {
           "mes": "set/26",
           "score": null
+        },
+        {
+          "mes": "out/26",
+          "score": null
+        },
+        {
+          "mes": "nov/26",
+          "score": null
         }
       ]
     },
@@ -643,7 +861,7 @@
       "impressoes": 14777632,
       "engajamento": 1.37,
       "plat": "Meta",
-      "share": 11.9,
+      "share": 8.8,
       "monthly": [
         {
           "mes": "jan/26",
@@ -680,6 +898,14 @@
         {
           "mes": "set/26",
           "score": null
+        },
+        {
+          "mes": "out/26",
+          "score": null
+        },
+        {
+          "mes": "nov/26",
+          "score": null
         }
       ]
     },
@@ -690,7 +916,7 @@
       "impressoes": 5043305,
       "engajamento": 3,
       "plat": "Meta",
-      "share": 2.4,
+      "share": 1.8,
       "monthly": [
         {
           "mes": "jan/26",
@@ -727,17 +953,80 @@
         {
           "mes": "set/26",
           "score": null
+        },
+        {
+          "mes": "out/26",
+          "score": null
+        },
+        {
+          "mes": "nov/26",
+          "score": null
+        }
+      ]
+    },
+    {
+      "nome": "_exp_facebook_alcance_brandformance_social_saianafrente2027",
+      "score": 36.2,
+      "investimento": 1217,
+      "impressoes": 135541,
+      "engajamento": 0.31,
+      "plat": "Meta",
+      "share": 0.3,
+      "monthly": [
+        {
+          "mes": "jan/26",
+          "score": null
+        },
+        {
+          "mes": "fev/26",
+          "score": null
+        },
+        {
+          "mes": "mar/26",
+          "score": null
+        },
+        {
+          "mes": "abr/26",
+          "score": null
+        },
+        {
+          "mes": "mai/26",
+          "score": null
+        },
+        {
+          "mes": "jun/26",
+          "score": null
+        },
+        {
+          "mes": "jul/26",
+          "score": null
+        },
+        {
+          "mes": "ago/26",
+          "score": null
+        },
+        {
+          "mes": "set/26",
+          "score": null
+        },
+        {
+          "mes": "out/26",
+          "score": null
+        },
+        {
+          "mes": "nov/26",
+          "score": 36.2
         }
       ]
     },
     {
       "nome": "_exp_linkedin_alcance_brandformance_social_clientes_",
-      "score": 51.6,
-      "investimento": 3098,
-      "impressoes": 68121,
-      "engajamento": 0.22,
+      "score": 35.3,
+      "investimento": 21222,
+      "impressoes": 806735,
+      "engajamento": 0.18,
       "plat": "Linkedin",
-      "share": 1,
+      "share": 5.2,
       "monthly": [
         {
           "mes": "jan/26",
@@ -774,6 +1063,14 @@
         {
           "mes": "set/26",
           "score": 51.6
+        },
+        {
+          "mes": "out/26",
+          "score": 37.4
+        },
+        {
+          "mes": "nov/26",
+          "score": 20.7
         }
       ]
     },
@@ -821,6 +1118,14 @@
         {
           "mes": "set/26",
           "score": 26.5
+        },
+        {
+          "mes": "out/26",
+          "score": null
+        },
+        {
+          "mes": "nov/26",
+          "score": null
         }
       ]
     },
@@ -831,7 +1136,7 @@
       "impressoes": 4110873,
       "engajamento": 0.16,
       "plat": "Meta",
-      "share": 4.2,
+      "share": 3.1,
       "monthly": [
         {
           "mes": "jan/26",
@@ -868,6 +1173,14 @@
         {
           "mes": "set/26",
           "score": null
+        },
+        {
+          "mes": "out/26",
+          "score": null
+        },
+        {
+          "mes": "nov/26",
+          "score": null
         }
       ]
     },
@@ -878,7 +1191,7 @@
       "impressoes": 7084173,
       "engajamento": 0.45,
       "plat": "Meta",
-      "share": 3.4,
+      "share": 2.5,
       "monthly": [
         {
           "mes": "jan/26",
@@ -915,6 +1228,14 @@
         {
           "mes": "set/26",
           "score": null
+        },
+        {
+          "mes": "out/26",
+          "score": null
+        },
+        {
+          "mes": "nov/26",
+          "score": null
         }
       ]
     },
@@ -925,7 +1246,7 @@
       "impressoes": 8340969,
       "engajamento": 0.1,
       "plat": "Meta",
-      "share": 3.6,
+      "share": 2.7,
       "monthly": [
         {
           "mes": "jan/26",
@@ -962,59 +1283,25 @@
         {
           "mes": "set/26",
           "score": null
+        },
+        {
+          "mes": "out/26",
+          "score": null
+        },
+        {
+          "mes": "nov/26",
+          "score": null
         }
       ]
     }
   ],
   "creatives": [
     {
-      "ad": "_766_video_case_brasal_nossoprocessoseletivo_v1_lplm-02_",
-      "code": "766",
-      "score": 100,
-      "investimento": 150,
-      "impressoes": 3910,
-      "plat": "Meta",
-      "video": true,
-      "nome": "Winners (Geral)",
-      "obj": "Engajamento",
-      "drive_file": "766_Corte Brasal 2_16x9.mp4",
-      "drive_file_id": "1tjF0mCz1XrspsYN40WQ1LzP_lq0-CrZw",
-      "ext": "mp4"
-    },
-    {
-      "ad": "_767_video_case_brasalmudarpragupy_v1_lplm-02_",
-      "code": "767",
-      "score": 100,
-      "investimento": 5548,
-      "impressoes": 98564,
-      "plat": "Meta",
-      "video": true,
-      "nome": "Winners (Geral)",
-      "obj": "Engajamento",
-      "drive_file": "767_Corte Brasal 1_16x9.mp4",
-      "drive_file_id": "1ohDUi5E34x3kM1HnFC7hEL89qI1qZCrJ",
-      "ext": "mp4"
-    },
-    {
-      "ad": "_768_video_case_altamogiana_quebrouparadigma_v1_lplm-02_",
-      "code": "768",
-      "score": 100,
-      "investimento": 462,
-      "impressoes": 5827,
-      "plat": "Meta",
-      "video": true,
-      "nome": "Winners (Geral)",
-      "obj": "Engajamento",
-      "drive_file": "768_Corte 1_AltaMogiana_9x16.mp4",
-      "drive_file_id": "1nqwIPDggUsnNEs9rvPeI-TMGXJIlry2m",
-      "ext": "mp4"
-    },
-    {
       "ad": "_745_video_video_51s_guidiaswhatsapp_v1_",
       "code": "745",
       "score": 100,
-      "investimento": 32785,
-      "impressoes": 741891,
+      "investimento": 43480,
+      "impressoes": 1047372,
       "plat": "Meta",
       "video": true,
       "nome": "Winners (Geral)",
@@ -1080,6 +1367,20 @@
       "ext": "mp4"
     },
     {
+      "ad": "_843_video_38s_candidatonowhats_refreshgui_v1_lplm-03_",
+      "code": "843",
+      "score": 99.9,
+      "investimento": 834,
+      "impressoes": 6397,
+      "plat": "Linkedin",
+      "video": true,
+      "nome": "_ta_linkedin_trafego_brandformance_social_winnerstopo_",
+      "obj": "Engajamento",
+      "drive_file": "",
+      "drive_file_id": "",
+      "ext": ""
+    },
+    {
       "ad": "_735_estatico_roitelecom_atendimentoruim_v1_lplm-05_",
       "code": "735",
       "score": 99.9,
@@ -1094,46 +1395,46 @@
       "ext": "png"
     },
     {
+      "ad": "_766_video_case_brasal_nossoprocessoseletivo_v1_lplm-02_",
+      "code": "766",
+      "score": 99.8,
+      "investimento": 4743,
+      "impressoes": 526759,
+      "plat": "Meta",
+      "video": true,
+      "nome": "Winners (Geral)",
+      "obj": "Engajamento",
+      "drive_file": "766_Corte Brasal 2_16x9.mp4",
+      "drive_file_id": "1tjF0mCz1XrspsYN40WQ1LzP_lq0-CrZw",
+      "ext": "mp4"
+    },
+    {
+      "ad": "_768_video_case_altamogiana_quebrouparadigma_v1_lplm-02_",
+      "code": "768",
+      "score": 99.7,
+      "investimento": 471,
+      "impressoes": 10801,
+      "plat": "Meta",
+      "video": true,
+      "nome": "Winners (Geral)",
+      "obj": "Engajamento",
+      "drive_file": "768_Corte 1_AltaMogiana_9x16.mp4",
+      "drive_file_id": "1nqwIPDggUsnNEs9rvPeI-TMGXJIlry2m",
+      "ext": "mp4"
+    },
+    {
       "ad": "_780_video_bignumbers_maisconversaonowhatsapp_v1_lplm-02_",
       "code": "780",
-      "score": 99.7,
-      "investimento": 4268,
-      "impressoes": 73344,
-      "plat": "Meta",
-      "video": true,
-      "nome": "Winners (Geral)",
-      "obj": "Engajamento",
-      "drive_file": "",
-      "drive_file_id": "",
-      "ext": ""
-    },
-    {
-      "ad": "_790_video_generico_mandaporemailenaopelowhatsapp_v1_",
-      "code": "790",
-      "score": 99.7,
-      "investimento": 959,
-      "impressoes": 7216,
-      "plat": "Meta",
-      "video": true,
-      "nome": "Winners (Geral)",
-      "obj": "Engajamento",
-      "drive_file": "",
-      "drive_file_id": "",
-      "ext": ""
-    },
-    {
-      "ad": "_769_video_case_altamogiana_umecossistema_v1_lplm-02_",
-      "code": "769",
       "score": 99.5,
-      "investimento": 367,
-      "impressoes": 5983,
-      "plat": "Meta",
+      "investimento": 12384,
+      "impressoes": 309589,
+      "plat": "Linkedin",
       "video": true,
-      "nome": "Winners (Geral)",
+      "nome": "_ta_linkedin_trafego_brandformance_social_winnerstopo_",
       "obj": "Engajamento",
-      "drive_file": "769_Corte 2_AltaMogiana_16x9.mp4",
-      "drive_file_id": "1OaJ3khqh9k05hxYK9m6Qopc3_oHQGflM",
-      "ext": "mp4"
+      "drive_file": "",
+      "drive_file_id": "",
+      "ext": ""
     },
     {
       "ad": "_TA_618_Estatico_CaseDecathlon_AntesDepois_v1_",
@@ -1148,6 +1449,20 @@
       "drive_file": "618.png",
       "drive_file_id": "1Lrw57010nYa8GvyU2L5FEsLWD3pbMf4V",
       "ext": "png"
+    },
+    {
+      "ad": "_781_video_generico_jornadacompletanowhatsapp_v1_lplm-02_",
+      "code": "781",
+      "score": 99.1,
+      "investimento": 8822,
+      "impressoes": 261272,
+      "plat": "Linkedin",
+      "video": true,
+      "nome": "_ta_linkedin_trafego_brandformance_social_winnerstopo_",
+      "obj": "Engajamento",
+      "drive_file": "",
+      "drive_file_id": "",
+      "ext": ""
     },
     {
       "ad": "_TA_626_Video_17s_CaseYpe_v1_",
@@ -1166,25 +1481,11 @@
     {
       "ad": "_TA_601_Estatico_Integracoes_JobBoards_v1_",
       "code": "601",
-      "score": 99,
-      "investimento": 4503,
-      "impressoes": 395632,
+      "score": 98.9,
+      "investimento": 4510,
+      "impressoes": 399205,
       "plat": "Meta",
       "video": false,
-      "nome": "Winners (Geral)",
-      "obj": "Engajamento",
-      "drive_file": "",
-      "drive_file_id": "",
-      "ext": ""
-    },
-    {
-      "ad": "_781_video_generico_jornadacompletanowhatsapp_v1_lplm-02_",
-      "code": "781",
-      "score": 98.6,
-      "investimento": 1354,
-      "impressoes": 28427,
-      "plat": "Meta",
-      "video": true,
       "nome": "Winners (Geral)",
       "obj": "Engajamento",
       "drive_file": "",
@@ -1206,6 +1507,20 @@
       "ext": "png"
     },
     {
+      "ad": "_769_video_case_altamogiana_umecossistema_v1_lplm-02_",
+      "code": "769",
+      "score": 98.1,
+      "investimento": 411,
+      "impressoes": 38557,
+      "plat": "Meta",
+      "video": true,
+      "nome": "Winners (Geral)",
+      "obj": "Engajamento",
+      "drive_file": "769_Corte 2_AltaMogiana_16x9.mp4",
+      "drive_file_id": "1OaJ3khqh9k05hxYK9m6Qopc3_oHQGflM",
+      "ext": "mp4"
+    },
+    {
       "ad": "_722_video_30s_advocacy_usandoagupy_v1_lplm-01_",
       "code": "722",
       "score": 98.1,
@@ -1217,6 +1532,34 @@
       "obj": "Engajamento",
       "drive_file": "722.mp4",
       "drive_file_id": "1rhOK769sero8S9Z17volodqGtMDt9fja",
+      "ext": "mp4"
+    },
+    {
+      "ad": "_790_video_generico_mandaporemailenaopelowhatsapp_v1_",
+      "code": "790",
+      "score": 97.2,
+      "investimento": 14019,
+      "impressoes": 1075182,
+      "plat": "Linkedin",
+      "video": true,
+      "nome": "_ta_linkedin_trafego_brandformance_social_winnerstopo_",
+      "obj": "Engajamento",
+      "drive_file": "",
+      "drive_file_id": "",
+      "ext": ""
+    },
+    {
+      "ad": "_767_video_case_brasalmudarpragupy_v1_lplm-02_",
+      "code": "767",
+      "score": 97.2,
+      "investimento": 12749,
+      "impressoes": 820196,
+      "plat": "Meta",
+      "video": true,
+      "nome": "Winners (Geral)",
+      "obj": "Engajamento",
+      "drive_file": "767_Corte Brasal 1_16x9.mp4",
+      "drive_file_id": "1ohDUi5E34x3kM1HnFC7hEL89qI1qZCrJ",
       "ext": "mp4"
     },
     {
@@ -1302,20 +1645,6 @@
       "drive_file": "624.png",
       "drive_file_id": "10YlMPNwN0hcI4_l3EFx-4zKSTy9eFhkD",
       "ext": "png"
-    },
-    {
-      "ad": "_783_video_laurajornadacompleta30s_v1_lplm-02_",
-      "code": "783",
-      "score": 94.5,
-      "investimento": 3416,
-      "impressoes": 25425,
-      "plat": "Linkedin",
-      "video": true,
-      "nome": "_exp_linkedin_alcance_brandformance_social_clientes_",
-      "obj": "Alcance",
-      "drive_file": "",
-      "drive_file_id": "",
-      "ext": ""
     },
     {
       "ad": "_TA_623_Video_13s_CaseMDias_v1_",
@@ -1418,9 +1747,9 @@
     {
       "ad": "_718_video_10s_olx_agupyouve_v1_lplm-01_",
       "code": "718",
-      "score": 90,
-      "investimento": 941,
-      "impressoes": 191023,
+      "score": 89.7,
+      "investimento": 1048,
+      "impressoes": 216914,
       "plat": "Meta",
       "video": true,
       "nome": "Winners (Geral)",
@@ -1428,20 +1757,6 @@
       "drive_file": "718.mp4",
       "drive_file_id": "1Mjfj0ZdekXEs75_d6VHBeammNxdqM0x9",
       "ext": "mp4"
-    },
-    {
-      "ad": "_784_estatico_herowhatsapp_feed",
-      "code": "784",
-      "score": 89.8,
-      "investimento": 1144,
-      "impressoes": 24048,
-      "plat": "Linkedin",
-      "video": false,
-      "nome": "_exp_linkedin_alcance_brandformance_social_clientes_",
-      "obj": "Alcance",
-      "drive_file": "",
-      "drive_file_id": "",
-      "ext": ""
     },
     {
       "ad": "_GUPY_473_Video_12s_CampanhaB2B_Depoimento_Decathlon_v1_",
@@ -1486,20 +1801,6 @@
       "ext": "mp4"
     },
     {
-      "ad": "_712_estatico_leomadeiras_depoimento_v1_lplm-01_",
-      "code": "712",
-      "score": 87.7,
-      "investimento": 13453,
-      "impressoes": 2624386,
-      "plat": "Meta",
-      "video": false,
-      "nome": "Winners (Geral)",
-      "obj": "Engajamento",
-      "drive_file": "712.png",
-      "drive_file_id": "1_7qDybLvefJgIiHl0oXGHm8CJCZFZ-CP",
-      "ext": "png"
-    },
-    {
       "ad": "_739_video_22s_treinamento_corte3_v1_lplm-05_",
       "code": "739",
       "score": 87.6,
@@ -1514,18 +1815,46 @@
       "ext": "png"
     },
     {
-      "ad": "_788_estatico_herotm_treinamento_v1_lplm-02_",
-      "code": "788",
-      "score": 87.4,
-      "investimento": 1042,
-      "impressoes": 20386,
-      "plat": "Linkedin",
+      "ad": "_712_estatico_leomadeiras_depoimento_v1_lplm-01_",
+      "code": "712",
+      "score": 87.3,
+      "investimento": 13542,
+      "impressoes": 2808694,
+      "plat": "Meta",
       "video": false,
-      "nome": "_exp_linkedin_alcance_brandformance_social_clientes_",
-      "obj": "Alcance",
-      "drive_file": "",
-      "drive_file_id": "",
-      "ext": ""
+      "nome": "Winners (Geral)",
+      "obj": "Engajamento",
+      "drive_file": "712.png",
+      "drive_file_id": "1_7qDybLvefJgIiHl0oXGHm8CJCZFZ-CP",
+      "ext": "png"
+    },
+    {
+      "ad": "_691_video_69s_estilopodcast_chro_v1_pglm-15_",
+      "code": "691",
+      "score": 86.4,
+      "investimento": 944,
+      "impressoes": 126590,
+      "plat": "Meta",
+      "video": true,
+      "nome": "Contra-ataque (Inhire)",
+      "obj": "Engajamento",
+      "drive_file": "691.mp4",
+      "drive_file_id": "1KmqSAqdmTDHY-DRC8JyQDuX5Fyy-n2DJ",
+      "ext": "mp4"
+    },
+    {
+      "ad": "_690_video_65s_estilopodcast_liderancata_v1_lplm-01_",
+      "code": "690",
+      "score": 86.3,
+      "investimento": 3582,
+      "impressoes": 246423,
+      "plat": "Meta",
+      "video": true,
+      "nome": "Contra-ataque (Inhire)",
+      "obj": "Engajamento",
+      "drive_file": "690.mp4",
+      "drive_file_id": "1ICEBHWfhNKgkcBfdxI8XcUcPOdPQG9gD",
+      "ext": "mp4"
     }
   ],
   "months": [
@@ -1537,6 +1866,8 @@
     "jun/26",
     "jul/26",
     "ago/26",
-    "set/26"
+    "set/26",
+    "out/26",
+    "nov/26"
   ]
 }
